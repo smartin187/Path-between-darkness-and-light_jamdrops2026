@@ -5,3 +5,7 @@ build/
 gradle/
 .gradle/
 modèles-3D/*/*.java
+.eclipse/
+.mcreator/generatorGradleCache
+
+.mcreator/localHistory/config

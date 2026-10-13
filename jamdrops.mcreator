@@ -7,6 +7,13 @@
   "language_map": {
     "en_us": {}
   },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
   "foldersRoot": {
     "name": "~",
     "children": []
