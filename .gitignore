@@ -1,0 +1,7 @@
+run/
+build/
+*.jar
+.mcreator/workspaceBackups
+gradle/
+.gradle/
+modèles-3D/*/*.java
