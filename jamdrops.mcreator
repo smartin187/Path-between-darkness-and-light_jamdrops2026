@@ -24,7 +24,7 @@
     "version": "1.0.0",
     "author": "MCreator, Drizzt478, gardienleviathan, smartin187",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
