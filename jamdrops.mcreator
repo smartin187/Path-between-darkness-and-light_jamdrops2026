@@ -22,7 +22,7 @@
     "modid": "jamdrops",
     "modName": "Jam-Drops",
     "version": "1.0.0",
-    "author": "MCreator",
+    "author": "MCreator, Drizzt478, gardienleviathan, smartin187",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
@@ -31,6 +31,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.jamdrops"
   },
   "mcreatorVersion": 202600233518
