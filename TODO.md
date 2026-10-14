@@ -12,4 +12,8 @@ La liste des tâches a faires pour le projet.
         - Changer le nom d'affichage en jeu (paramètres de l'espace de travaille)
         - Mettre l'id du mode (choisir le nom du mode) (paramètres de l'espace de travaille)
         - Dans le `README.md` mettre le nom du mode
-- Complété le `README.md` lorsque des fonctionalités sont ajoutés au mode.
+- Complété le `README.md` lorsque des fonctionalités sont ajoutés au mode:
+    - Mettre la description du mode
+    - Mettre le nom de l'équipe dans le REAMDE
+    - Mettre un logo dans le README
+    - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles.
