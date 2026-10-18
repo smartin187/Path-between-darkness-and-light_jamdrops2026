@@ -1,13 +1,26 @@
+# Compilation et exécution
 run/
 build/
-.mcreator/workspaceBackups
-modèles-3D/*/*.java
 .eclipse/
+
+# Export java de blockbenche
+modèles-3D/*/*.java
+
+
+# Cache de gradle
 .gradle/
 .mcreator/generatorGradleCache
 
+# Config locale par utilisateur
 .mcreator/userSettings
+
+# Backup de MCreator
+.mcreator/workspaceBackups
 .mcreator/localHistory/
 
-
+# Fichier de configuration de codium si on l'utilise
 .vscode/
+
+# Export du mod
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
