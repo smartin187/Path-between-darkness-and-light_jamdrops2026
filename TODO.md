@@ -2,6 +2,8 @@
 
 La liste des tâches a faires pour le projet.
 
+Lors qu'une tâche est assignée, le nom du contributeur doit être mise en début de ligne.
+
 ## Tâches
 
 - Dans les paramètres de l'espace de travaille (MCreator):
@@ -17,3 +19,14 @@ La liste des tâches a faires pour le projet.
     - Mettre le nom de l'équipe dans le REAMDE
     - Mettre un logo dans le README
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles.
+- Une jauge de lumière/obscurité
+- Bottes d'ombre / lumière
+- Dimension en deux parties, en bas les ténèbbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
+- Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
+- Epée:
+    - Epée de lumière (donne l'effet blindness) + effet de soin/résistance/pv supplémentaire
+    - Epée d'obscurité (donne l'effet vision nocturne + blindness) + effets style force/poison/faiblesse
+- Structures:
+    - Temple de la lumière (éventuellement un petit boss)
+    - Manoir / temple de l'ombre (éventuellement un petit boss)
+
