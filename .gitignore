@@ -2,8 +2,9 @@ run/
 build/
 .mcreator/workspaceBackups
 modèles-3D/*/*.java
-#.eclipse/
-#.mcreator/generatorGradleCache
+.eclipse/
+.gradle/
+.mcreator/generatorGradleCache
 
 .mcreator/userSettings
 .mcreator/localHistory/
