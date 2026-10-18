@@ -1,8 +1,6 @@
 run/
 build/
-#*.jar
 .mcreator/workspaceBackups
-#.gradle/
 modèles-3D/*/*.java
 .eclipse/
 .mcreator/generatorGradleCache
