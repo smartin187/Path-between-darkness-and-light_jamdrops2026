@@ -19,7 +19,10 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre le nom de l'équipe dans le REAMDE
     - Mettre un logo dans le README
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles.
-- Une jauge de lumière/obscurité
+- Une jauge de lumière/obscurité ->
+    - (actuelelement la jauge est en prototype).
+    - Faire les action qui augement / diminue la jauge
+        - Avec les mini-boss du temple de la lumière et du manoir de l'ombre ?
 - Bottes d'ombre / lumière
 - Dimension en deux parties, en bas les ténèbbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
@@ -29,4 +32,5 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Structures:
     - Temple de la lumière (éventuellement un petit boss)
     - Manoir / temple de l'ombre (éventuellement un petit boss)
+    - Pour les boss, il doivent ajouter / diminuer la jauge de lumière/obscurité.
 
