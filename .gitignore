@@ -7,3 +7,6 @@ modèles-3D/*/*.java
 
 .mcreator/userSettings
 .mcreator/localHistory/
+
+
+.vscode/
