@@ -24,7 +24,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.jamdrops.procedures.DiminuerLuminositeProcedure;
+import net.mcreator.jamdrops.procedures.AjouterLuminositeProcedure;
 import net.mcreator.jamdrops.init.JamdropsModEntities;
 
 public class BossSombreEntity extends Monster implements RangedAttackMob {
@@ -63,7 +63,7 @@ public class BossSombreEntity extends Monster implements RangedAttackMob {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		DiminuerLuminositeProcedure.execute(this.level());
+		AjouterLuminositeProcedure.execute(this.level());
 	}
 
 	@Override
