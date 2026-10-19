@@ -5,13 +5,13 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.jamdrops.entity.BosslumineuxEntity;
-import net.mcreator.jamdrops.client.model.Modelboss_lumineux;
+import net.mcreator.jamdrops.client.model.ModelBossLumiere;
 
-public class BosslumineuxRenderer extends MobRenderer<BosslumineuxEntity, Modelboss_lumineux<BosslumineuxEntity>> {
+public class BosslumineuxRenderer extends MobRenderer<BosslumineuxEntity, ModelBossLumiere<BosslumineuxEntity>> {
 	private final ResourceLocation entityTexture = ResourceLocation.parse("jamdrops:textures/entities/texture_boss_lumineu.png");
 
 	public BosslumineuxRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelboss_lumineux<BosslumineuxEntity>(context.bakeLayer(Modelboss_lumineux.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelBossLumiere<BosslumineuxEntity>(context.bakeLayer(ModelBossLumiere.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
