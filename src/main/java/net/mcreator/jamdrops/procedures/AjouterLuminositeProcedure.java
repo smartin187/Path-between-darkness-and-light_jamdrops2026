@@ -6,7 +6,7 @@ import net.mcreator.jamdrops.network.JamdropsModVariables;
 
 public class AjouterLuminositeProcedure {
 	public static void execute(LevelAccessor world) {
-		JamdropsModVariables.WorldVariables.get(world).luminosite = JamdropsModVariables.WorldVariables.get(world).luminosite - 1;
+		JamdropsModVariables.WorldVariables.get(world).luminosite = JamdropsModVariables.WorldVariables.get(world).luminosite + 1;
 		JamdropsModVariables.WorldVariables.get(world).markSyncDirty();
 	}
 }

@@ -86,6 +86,25 @@
         ]
       },
       "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "DiminuerLuminosite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diminuer_luminosite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/DiminuerLuminositeProcedure.java"
+        ]
+      },
+      "path": "~/Luminosite"
     }
   ],
   "variable_elements": [
