@@ -106,6 +106,21 @@
         ]
       },
       "path": "~/Luminosite"
+    },
+    {
+      "name": "TempleDeLumiere",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temple_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_lumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_lumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_lumiere.json"
+        ]
+      },
+      "path": "~/Structures/Temple de la lumiere"
     }
   ],
   "variable_elements": [
