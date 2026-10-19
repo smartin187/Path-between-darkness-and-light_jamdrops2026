@@ -23,7 +23,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.jamdrops.procedures.AjouterLuminositeProcedure;
+import net.mcreator.jamdrops.procedures.DiminuerLuminositeProcedure;
 import net.mcreator.jamdrops.init.JamdropsModEntities;
 
 public class BosslumineuxEntity extends Monster {
@@ -63,7 +63,7 @@ public class BosslumineuxEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		AjouterLuminositeProcedure.execute(this.level());
+		DiminuerLuminositeProcedure.execute(this.level());
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
