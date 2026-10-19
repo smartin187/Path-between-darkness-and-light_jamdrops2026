@@ -69,7 +69,7 @@
           "src/main/java/net/mcreator/jamdrops/procedures/AjouterLuminositeProcedure.java"
         ]
       },
-      "path": "~/Structures/Temple de la lumiere"
+      "path": "~/Luminosite"
     },
     {
       "name": "Bosslumineux",
@@ -129,6 +129,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Luminosite",
+        "children": []
       }
     ]
   },
