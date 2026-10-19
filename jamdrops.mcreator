@@ -69,7 +69,7 @@
           "src/main/java/net/mcreator/jamdrops/procedures/AjouterLuminositeProcedure.java"
         ]
       },
-      "path": "~/Structures/Temple de la lumiere"
+      "path": "~/Luminosite"
     },
     {
       "name": "Bosslumineux",
@@ -80,12 +80,79 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntity.java",
+          "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntityProjectile.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java",
           "src/main/resources/data/jamdrops/neoforge/biome_modifier/bosslumineux_biome_modifier.json",
           "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json"
         ]
       },
       "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "DiminuerLuminosite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diminuer_luminosite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/DiminuerLuminositeProcedure.java"
+        ]
+      },
+      "path": "~/Luminosite"
+    },
+    {
+      "name": "TempleDeLumiere",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temple_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_lumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_lumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_lumiere.json"
+        ]
+      },
+      "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "BossSombre",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_sombre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntityProjectile.java",
+          "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
+          "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java",
+          "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java",
+          "src/main/resources/data/jamdrops/neoforge/biome_modifier/boss_sombre_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Temple de lombre"
+    },
+    {
+      "name": "TempleDeLOmbre",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temple_de_l_ombre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_l_ombre.json",
+          "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_l_ombre.json",
+          "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_l_ombre.json"
+        ]
+      },
+      "path": "~/Structures/Temple de lombre"
     }
   ],
   "variable_elements": [
@@ -102,7 +169,9 @@
   "language_map": {
     "en_us": {
       "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",
-      "entity.jamdrops.bosslumineux": "Boss de la lumière"
+      "entity.jamdrops.bosslumineux": "Boss de la lumière",
+      "item.jamdrops.boss_sombre_spawn_egg": "Boss de l\u0027ombre Spawn Egg",
+      "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre"
     }
   },
   "metadata": {
@@ -127,8 +196,16 @@
           {
             "name": "Temple de la lumiere",
             "children": []
+          },
+          {
+            "name": "Temple de lombre",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "Luminosite",
+        "children": []
       }
     ]
   },

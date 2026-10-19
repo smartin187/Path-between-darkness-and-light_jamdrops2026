@@ -1,4 +1,6 @@
 {
   "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",
-  "entity.jamdrops.bosslumineux": "Boss de la lumière"
+  "entity.jamdrops.bosslumineux": "Boss de la lumière",
+  "item.jamdrops.boss_sombre_spawn_egg": "Boss de l'ombre Spawn Egg",
+  "entity.jamdrops.boss_sombre": "Boss de l'ombre"
 }
