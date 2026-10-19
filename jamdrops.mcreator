@@ -80,6 +80,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntity.java",
+          "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntityProjectile.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java",
           "src/main/resources/data/jamdrops/neoforge/biome_modifier/bosslumineux_biome_modifier.json",
           "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json"
