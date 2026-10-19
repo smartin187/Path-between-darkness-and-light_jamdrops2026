@@ -30,7 +30,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Epée:
     - Epée de lumière (donne l'effet blindness) + effet de soin/résistance/pv supplémentaire
     - Epée d'obscurité (donne l'effet vision nocturne + blindness) + effets style force/poison/faiblesse
-- Structures:
+- Structures -> construire les structures avec les boss dedans
     - Temple de la lumière (éventuellement un petit boss)
     - Manoir / temple de l'ombre (éventuellement un petit boss)
     - Pour les boss, il doivent ajouter / diminuer la jauge de lumière/obscurité + dropper un item de lumière / ombte quand il meurent.
