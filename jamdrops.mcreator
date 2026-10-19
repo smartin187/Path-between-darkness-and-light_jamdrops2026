@@ -47,6 +47,41 @@
           "src/main/java/net/mcreator/jamdrops/procedures/MaxMinLuminositeProcedure.java"
         ]
       }
+    },
+    {
+      "name": "AjouterLuminosite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ajouter_luminosite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/AjouterLuminositeProcedure.java"
+        ]
+      },
+      "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "Bosslumineux",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bosslumineux",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntity.java",
+          "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java",
+          "src/main/resources/data/jamdrops/neoforge/biome_modifier/bosslumineux_biome_modifier.json",
+          "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json"
+        ]
+      },
+      "path": "~/Structures/Temple de la lumiere"
     }
   ],
   "variable_elements": [
@@ -61,19 +96,37 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",
+      "entity.jamdrops.bosslumineux": "Boss de la lumière"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
+      "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java"
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Structures",
+        "children": [
+          {
+            "name": "Temple de la lumiere",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "jamdrops",

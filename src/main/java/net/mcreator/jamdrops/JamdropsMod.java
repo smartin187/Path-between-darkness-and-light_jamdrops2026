@@ -19,6 +19,9 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.jamdrops.network.JamdropsModVariables;
+import net.mcreator.jamdrops.init.JamdropsModTabs;
+import net.mcreator.jamdrops.init.JamdropsModItems;
+import net.mcreator.jamdrops.init.JamdropsModEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
@@ -40,6 +43,9 @@ public class JamdropsMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		JamdropsModItems.REGISTRY.register(modEventBus);
+		JamdropsModEntities.REGISTRY.register(modEventBus);
+		JamdropsModTabs.REGISTRY.register(modEventBus);
 		JamdropsModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init

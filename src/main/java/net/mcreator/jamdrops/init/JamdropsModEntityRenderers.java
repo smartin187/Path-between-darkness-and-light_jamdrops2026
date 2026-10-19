@@ -1,0 +1,19 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.jamdrops.init;
+
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
+
+import net.mcreator.jamdrops.client.renderer.BosslumineuxRenderer;
+
+@EventBusSubscriber(Dist.CLIENT)
+public class JamdropsModEntityRenderers {
+	@SubscribeEvent
+	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+		event.registerEntityRenderer(JamdropsModEntities.BOSSLUMINEUX.get(), BosslumineuxRenderer::new);
+	}
+}
