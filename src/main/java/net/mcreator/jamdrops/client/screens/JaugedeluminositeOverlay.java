@@ -44,7 +44,7 @@ public class JaugedeluminositeOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (true) {
-			int luminosity = (int)entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite;
+			int luminosity = (int)JamdropsModVariables.WorldVariables.get(entity.level()).luminosite;
 			event.getGuiGraphics().blit(IMAGE_0, w / 2 + -63, h - 88, 0, 0, 128, 64, 128, 64);
 			event.getGuiGraphics().blit(IMAGE_1, w / 2 + -63 + luminosity, h - 88, 0, 0, 128, 64, 128, 64);
 		}

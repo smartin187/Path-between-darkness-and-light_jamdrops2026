@@ -5,7 +5,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
-import net.minecraft.world.entity.Entity;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.util.Mth;
 
 import net.mcreator.jamdrops.network.JamdropsModVariables;
@@ -16,20 +16,15 @@ import javax.annotation.Nullable;
 public class MaxMinLuminositeProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(PlayerTickEvent.Post event) {
-		execute(event, event.getEntity());
+		execute(event, event.getEntity().level());
 	}
 
-	public static void execute(Entity entity) {
-		execute(null, entity);
+	public static void execute(LevelAccessor world) {
+		execute(null, world);
 	}
 
-	private static void execute(@Nullable Event event, Entity entity) {
-		if (entity == null)
-			return;
-		{
-			JamdropsModVariables.PlayerVariables _vars = entity.getData(JamdropsModVariables.PLAYER_VARIABLES);
-			_vars.luminosite = Mth.clamp(entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite, -63, 63);
-			_vars.markSyncDirty();
-		}
+	private static void execute(@Nullable Event event, LevelAccessor world) {
+		JamdropsModVariables.WorldVariables.get(world).luminosite = Mth.clamp(JamdropsModVariables.WorldVariables.get(world).luminosite, -63, 63);
+		JamdropsModVariables.WorldVariables.get(world).markSyncDirty();
 	}
 }

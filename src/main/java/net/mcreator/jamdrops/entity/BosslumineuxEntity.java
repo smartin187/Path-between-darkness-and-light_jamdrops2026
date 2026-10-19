@@ -63,13 +63,7 @@ public class BosslumineuxEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		AjouterLuminositeProcedure.execute(this);
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		AjouterLuminositeProcedure.execute(this);
+		AjouterLuminositeProcedure.execute(this.level());
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
