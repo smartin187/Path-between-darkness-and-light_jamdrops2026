@@ -34,6 +34,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Temple de la lumière (éventuellement un petit boss)
     - Manoir / temple de l'ombre (éventuellement un petit boss)
     - Pour les boss, il doivent ajouter / diminuer la jauge de lumière/obscurité + dropper un item de lumière / ombte quand il meurent.
+    - Pour les boss, faire le modèle 3D
     - Pour les structures, utiliser les block de lumière et d'obscurité...
 - Block:
     - Block de lumière

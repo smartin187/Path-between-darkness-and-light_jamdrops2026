@@ -121,6 +121,23 @@
         ]
       },
       "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "BossSombre",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_sombre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntityProjectile.java",
+          "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
+          "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java",
+          "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java",
+          "src/main/resources/data/jamdrops/neoforge/biome_modifier/boss_sombre_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Temple de lombre"
     }
   ],
   "variable_elements": [
@@ -137,7 +154,9 @@
   "language_map": {
     "en_us": {
       "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",
-      "entity.jamdrops.bosslumineux": "Boss de la lumière"
+      "entity.jamdrops.bosslumineux": "Boss de la lumière",
+      "item.jamdrops.boss_sombre_spawn_egg": "Boss de l\u0027ombre Spawn Egg",
+      "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre"
     }
   },
   "metadata": {
@@ -161,6 +180,10 @@
         "children": [
           {
             "name": "Temple de la lumiere",
+            "children": []
+          },
+          {
+            "name": "Temple de lombre",
             "children": []
           }
         ]

@@ -22,6 +22,7 @@ public class JamdropsModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get());
+			tabData.accept(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
 		}
 	}
 }
