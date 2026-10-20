@@ -31,10 +31,12 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Epée de lumière (donne l'effet blindness) + effet de soin/résistance/pv supplémentaire
     - Epée d'obscurité (donne l'effet vision nocturne + blindness) + effets style force/poison/faiblesse
 - Structures -> construire les structures avec les boss dedans
-    - Temple de la lumière (éventuellement un petit boss) -> une tour
-    - Manoir / temple de l'ombre (éventuellement un petit boss) -> une tour aussi ?
+    - Temple de la lumière avec un le boss de la lumière -> une tour
+    - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les boss, faire le modèle 3D
     - Pour les structures, utiliser les block de lumière et d'obscurité...
+    - Pour les boss, désactiver le spawn automatique
+    - Mettre la taille de la boite de colision a la bonne taille pour les boss
 - Block:
     - Block de lumière
     - Block d'obscurité
