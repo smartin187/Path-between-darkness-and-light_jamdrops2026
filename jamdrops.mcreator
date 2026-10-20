@@ -24,10 +24,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
@@ -45,8 +41,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ],
         "files": [
@@ -64,8 +60,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ],
         "files": [
@@ -100,8 +96,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ],
         "files": [
@@ -193,10 +189,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
@@ -230,10 +222,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
@@ -247,7 +235,7 @@
     {
       "name": "luminosite",
       "type": "number",
-      "scope": "world",
+      "scope": "player_lifetime",
       "value": "100.0"
     }
   ],
