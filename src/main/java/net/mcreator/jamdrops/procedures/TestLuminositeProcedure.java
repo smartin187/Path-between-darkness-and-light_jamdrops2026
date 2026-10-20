@@ -9,7 +9,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 import net.neoforged.api.distmarker.Dist;
 
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.resources.ResourceLocation;
@@ -32,7 +31,7 @@ public class TestLuminositeProcedure {
 		if (event.getHand() != InteractionHand.MAIN_HAND)
 			return;
 		PacketDistributor.sendToServer(new TestLuminositeMessage());
-		execute(event.getLevel(), event.getEntity());
+		execute(event.getEntity());
 	}
 
 	@EventBusSubscriber
@@ -51,7 +50,7 @@ public class TestLuminositeProcedure {
 				context.enqueueWork(() -> {
 					if (!context.player().level().getChunkSource().hasChunk(SectionPos.blockToSectionCoord(context.player().getX()), SectionPos.blockToSectionCoord(context.player().getZ())))
 						return;
-					execute(context.player().level(), context.player());
+					execute(context.player());
 				}).exceptionally(e -> {
 					context.connection().disconnect(Component.literal(e.getMessage()));
 					return null;
@@ -65,19 +64,25 @@ public class TestLuminositeProcedure {
 		}
 	}
 
-	public static void execute(LevelAccessor world, Entity entity) {
-		execute(null, world, entity);
+	public static void execute(Entity entity) {
+		execute(null, entity);
 	}
 
-	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
+	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
 		if (entity.isShiftKeyDown()) {
-			JamdropsModVariables.WorldVariables.get(world).luminosite = JamdropsModVariables.WorldVariables.get(world).luminosite - 1;
-			JamdropsModVariables.WorldVariables.get(world).markSyncDirty();
+			{
+				JamdropsModVariables.PlayerVariables _vars = entity.getData(JamdropsModVariables.PLAYER_VARIABLES);
+				_vars.luminosite = entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite - 1;
+				_vars.markSyncDirty();
+			}
 		} else {
-			JamdropsModVariables.WorldVariables.get(world).luminosite = JamdropsModVariables.WorldVariables.get(world).luminosite + 1;
-			JamdropsModVariables.WorldVariables.get(world).markSyncDirty();
+			{
+				JamdropsModVariables.PlayerVariables _vars = entity.getData(JamdropsModVariables.PLAYER_VARIABLES);
+				_vars.luminosite = entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite + 1;
+				_vars.markSyncDirty();
+			}
 		}
 	}
 }
