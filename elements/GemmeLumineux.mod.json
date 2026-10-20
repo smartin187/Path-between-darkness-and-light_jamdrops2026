@@ -11,12 +11,14 @@
     "animations": [],
     "name": "Gemme Lumineux",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      "CUSTOM:Menu"
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 0,
+    "damageCount": 1,
     "recipeRemainder": "",
     "destroyAnyBlock": false,
     "immuneToFire": false,

@@ -167,6 +167,17 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Menu",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -178,7 +189,11 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~GemmeLumineux@CUSTOM:GemmeLumineux"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -187,7 +202,8 @@
       "item.jamdrops.boss_sombre_spawn_egg": "Boss de l\u0027ombre Spawn Egg",
       "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre",
       "item.jamdrops.gemme_lumineux": "Gemme Lumineux",
-      "item.jamdrops.gemme_lumineux.description_0": "Une gemme de lumière a l\u0027état pur !"
+      "item.jamdrops.gemme_lumineux.description_0": "Une gemme de lumière a l\u0027état pur !",
+      "item_group.jamdrops.menu": "Lumière et ombre"
     }
   },
   "metadata": {
