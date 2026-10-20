@@ -41,7 +41,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Block de lumière
     - Block d'obscurité
 - Item:
-    - Item de lumière
-    - Item d'ombre
-    - Mettre en lien les item avec les block de lumière et obscurité
+    - Faire la textures finale des items de lumière et d'ombre
+    - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
     - Faire que ces item soit dropper par les boss quand il meurent
+- Traduction : certaines partie du mod sont déjà en français, mais il faut mettre une traduction pour les oeuf.

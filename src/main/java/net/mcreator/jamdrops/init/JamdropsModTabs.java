@@ -4,12 +4,15 @@
 package net.mcreator.jamdrops.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.jamdrops.JamdropsMod;
@@ -17,6 +20,11 @@ import net.mcreator.jamdrops.JamdropsMod;
 @EventBusSubscriber
 public class JamdropsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JamdropsMod.MODID);
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MENU = REGISTRY.register("menu",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jamdrops.menu")).icon(() -> new ItemStack(JamdropsModItems.GEMME_LUMINEUX.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(JamdropsModItems.GEMME_LUMINEUX.get());
+				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

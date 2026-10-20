@@ -153,6 +153,91 @@
         ]
       },
       "path": "~/Structures/Temple de lombre"
+    },
+    {
+      "name": "GemmeLumineux",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemme_lumineux",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java",
+          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Menu",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Menu onglet creatif"
+    },
+    {
+      "name": "GemmeLumineuxProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemme_lumineux_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/GemmeLumineuxProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GemmeSombre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemme_sombre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json",
+          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GemmeSombreProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemme_sombre_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/GemmeSombreProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -164,14 +249,24 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~GemmeSombre@CUSTOM:GemmeSombre",
+      "~GemmeLumineux@CUSTOM:GemmeLumineux"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",
       "entity.jamdrops.bosslumineux": "Boss de la lumière",
       "item.jamdrops.boss_sombre_spawn_egg": "Boss de l\u0027ombre Spawn Egg",
-      "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre"
+      "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre",
+      "item.jamdrops.gemme_lumineux": "Gemme Lumineux",
+      "item.jamdrops.gemme_lumineux.description_0": "Une gemme de lumière a l\u0027état pur !",
+      "item_group.jamdrops.menu": "Lumière et ombre",
+      "item.jamdrops.gemme_sombre": "Gemme Sombre",
+      "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !"
     }
   },
   "metadata": {
@@ -205,6 +300,14 @@
       },
       {
         "name": "Luminosite",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Menu onglet creatif",
         "children": []
       }
     ]

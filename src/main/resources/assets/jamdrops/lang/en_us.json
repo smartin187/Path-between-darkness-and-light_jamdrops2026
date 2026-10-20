@@ -2,5 +2,10 @@
   "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",
   "entity.jamdrops.bosslumineux": "Boss de la lumière",
   "item.jamdrops.boss_sombre_spawn_egg": "Boss de l'ombre Spawn Egg",
-  "entity.jamdrops.boss_sombre": "Boss de l'ombre"
+  "entity.jamdrops.boss_sombre": "Boss de l'ombre",
+  "item.jamdrops.gemme_lumineux": "Gemme Lumineux",
+  "item.jamdrops.gemme_lumineux.description_0": "Une gemme de lumière a l'état pur !",
+  "item_group.jamdrops.menu": "Lumière et ombre",
+  "item.jamdrops.gemme_sombre": "Gemme Sombre",
+  "item.jamdrops.gemme_sombre.description_0": "Une gemme d'ombre à l'état pur !"
 }
