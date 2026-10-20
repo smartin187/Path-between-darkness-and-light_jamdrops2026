@@ -26,7 +26,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.jamdrops.procedures.AjouterLuminositeProcedure;
 import net.mcreator.jamdrops.init.JamdropsModItems;
 import net.mcreator.jamdrops.init.JamdropsModEntities;
 
@@ -66,12 +65,6 @@ public class BossSombreEntity extends Monster implements RangedAttackMob {
 	@Override
 	public SoundEvent getDeathSound() {
 		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.generic.death"));
-	}
-
-	@Override
-	public void die(DamageSource source) {
-		super.die(source);
-		AjouterLuminositeProcedure.execute(this.level());
 	}
 
 	@Override
