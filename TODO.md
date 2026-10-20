@@ -23,8 +23,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - (actuelelement la jauge est en prototype).
     - Faire une jauge individuelle -> changer la porté de la variable, et utiliser une procédure appeller par le joueur plustot qu'un déclancheur de l'entité.
     - Faire les action qui augement / diminue la jauge
-        - Avec les mini-boss du temple de la lumière et du manoir de l'ombre -> faire un refactor avec ce code pour la nouvelle porté de la variable
-        - Avec des item de lumière / ombre
+        - Avec des item de lumière / ombre -> il faut faire le refactor pour la porté de la variable.
 - Bottes d'ombre / lumière
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
@@ -32,9 +31,8 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Epée de lumière (donne l'effet blindness) + effet de soin/résistance/pv supplémentaire
     - Epée d'obscurité (donne l'effet vision nocturne + blindness) + effets style force/poison/faiblesse
 - Structures -> construire les structures avec les boss dedans
-    - Temple de la lumière (éventuellement un petit boss)
-    - Manoir / temple de l'ombre (éventuellement un petit boss)
-    - Pour les boss, il doivent dropper un item de lumière / ombte quand il meurent.
+    - Temple de la lumière (éventuellement un petit boss) -> une tour
+    - Manoir / temple de l'ombre (éventuellement un petit boss) -> une tour aussi ?
     - Pour les boss, faire le modèle 3D
     - Pour les structures, utiliser les block de lumière et d'obscurité...
 - Block:
@@ -43,5 +41,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Item:
     - Faire la textures finale des items de lumière et d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
-    - Faire que ces item soit dropper par les boss quand il meurent
 - Traduction : certaines partie du mod sont déjà en français, mais il faut mettre une traduction pour les oeuf.
