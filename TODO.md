@@ -45,3 +45,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Item d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité
     - Faire que ces item soit dropper par les boss quand il meurent
+- Traduction : certaines partie du mod sont déjà en français, mais il faut mettre une traduction pour les oeuf.
