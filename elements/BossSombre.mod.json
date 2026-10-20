@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Boss de l'ombre",
     "mobLabel": "Boss de l'ombre",
-    "mobModelName": "Modelbosssombre",
+    "mobModelName": "ModelBoss_sombre",
     "mobModelTexture": "boss_sombre.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -106,8 +106,8 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,

@@ -24,3 +24,6 @@ modèles-3D/*/*.java
 # Export du mod
 *.jar
 !gradle/wrapper/gradle-wrapper.jar
+
+# Miniatures
+.mcreator/modElementThumbnails/

@@ -81,7 +81,6 @@
           "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntity.java",
           "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntityProjectile.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java",
-          "src/main/resources/data/jamdrops/neoforge/biome_modifier/bosslumineux_biome_modifier.json",
           "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json"
         ]
       },
@@ -132,8 +131,7 @@
           "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntityProjectile.java",
           "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java",
-          "src/main/resources/data/jamdrops/neoforge/biome_modifier/boss_sombre_biome_modifier.json"
+          "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java"
         ]
       },
       "path": "~/Structures/Temple de lombre"
@@ -242,8 +240,8 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:enchantable/durability": [
-      "~GemmeSombre@CUSTOM:GemmeSombre",
-      "~GemmeLumineux@CUSTOM:GemmeLumineux"
+      "~GemmeLumineux@CUSTOM:GemmeLumineux",
+      "~GemmeSombre@CUSTOM:GemmeSombre"
     ]
   },
   "tab_element_order": {},
