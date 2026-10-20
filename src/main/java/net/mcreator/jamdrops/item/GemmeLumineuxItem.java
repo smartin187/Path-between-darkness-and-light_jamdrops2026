@@ -12,7 +12,7 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.jamdrops.procedures.AjouterLuminositeProcedure;
+import net.mcreator.jamdrops.procedures.GemmeLumineuxProcedureProcedure;
 
 import java.util.List;
 
@@ -37,7 +37,7 @@ public class GemmeLumineuxItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		AjouterLuminositeProcedure.execute(world);
+		GemmeLumineuxProcedureProcedure.execute(world, entity);
 		return ar;
 	}
 }
