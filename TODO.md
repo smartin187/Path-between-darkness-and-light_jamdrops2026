@@ -32,7 +32,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
-    - Pour les boss, faire le modèle 3D
+    - Pour les boss, faire le modèle 3D -> faire les textures
     - Pour les structures, utiliser les block de lumière et d'obscurité...
     - Pour les boss, désactiver le spawn automatique
     - Mettre la taille de la boite de colision a la bonne taille pour les boss
