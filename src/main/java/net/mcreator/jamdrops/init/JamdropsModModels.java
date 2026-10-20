@@ -8,7 +8,6 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.mcreator.jamdrops.client.model.Modelbosssombre;
 import net.mcreator.jamdrops.client.model.ModelBoss_sombre;
 import net.mcreator.jamdrops.client.model.ModelBossLumiere;
 
@@ -16,7 +15,6 @@ import net.mcreator.jamdrops.client.model.ModelBossLumiere;
 public class JamdropsModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-		event.registerLayerDefinition(Modelbosssombre.LAYER_LOCATION, Modelbosssombre::createBodyLayer);
 		event.registerLayerDefinition(ModelBoss_sombre.LAYER_LOCATION, ModelBoss_sombre::createBodyLayer);
 		event.registerLayerDefinition(ModelBossLumiere.LAYER_LOCATION, ModelBossLumiere::createBodyLayer);
 	}
