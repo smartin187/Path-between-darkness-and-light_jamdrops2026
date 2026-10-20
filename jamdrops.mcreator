@@ -165,7 +165,7 @@
           "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Gemme lumineux"
     },
     {
       "name": "Menu",
@@ -195,7 +195,7 @@
           "src/main/java/net/mcreator/jamdrops/procedures/GemmeLumineuxProcedureProcedure.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Gemme lumineux"
     },
     {
       "name": "GemmeSombre",
@@ -209,7 +209,7 @@
           "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Gemme sombre"
     },
     {
       "name": "GemmeSombreProcedure",
@@ -228,7 +228,7 @@
           "src/main/java/net/mcreator/jamdrops/procedures/GemmeSombreProcedureProcedure.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Gemme sombre"
     }
   ],
   "variable_elements": [
@@ -291,7 +291,16 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Gemme lumineux",
+            "children": []
+          },
+          {
+            "name": "Gemme sombre",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Menu onglet creatif",
