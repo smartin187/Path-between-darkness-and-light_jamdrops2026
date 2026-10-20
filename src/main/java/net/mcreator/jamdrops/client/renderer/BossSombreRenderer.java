@@ -5,13 +5,13 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.jamdrops.entity.BossSombreEntity;
-import net.mcreator.jamdrops.client.model.Modelbosssombre;
+import net.mcreator.jamdrops.client.model.ModelBoss_sombre;
 
-public class BossSombreRenderer extends MobRenderer<BossSombreEntity, Modelbosssombre<BossSombreEntity>> {
+public class BossSombreRenderer extends MobRenderer<BossSombreEntity, ModelBoss_sombre<BossSombreEntity>> {
 	private final ResourceLocation entityTexture = ResourceLocation.parse("jamdrops:textures/entities/boss_sombre.png");
 
 	public BossSombreRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelbosssombre<BossSombreEntity>(context.bakeLayer(Modelbosssombre.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelBoss_sombre<BossSombreEntity>(context.bakeLayer(ModelBoss_sombre.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

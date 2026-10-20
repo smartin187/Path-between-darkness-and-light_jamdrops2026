@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Boss de l'ombre",
     "mobLabel": "Boss de l'ombre",
-    "mobModelName": "Modelbosssombre",
+    "mobModelName": "ModelBoss_sombre",
     "mobModelTexture": "boss_sombre.png",
     "transparentModelCondition": {
       "fixedValue": false
