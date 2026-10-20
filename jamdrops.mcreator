@@ -153,6 +153,20 @@
         ]
       },
       "path": "~/Structures/Temple de lombre"
+    },
+    {
+      "name": "GemmeLumineux",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemme_lumineux",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java",
+          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -171,7 +185,9 @@
       "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",
       "entity.jamdrops.bosslumineux": "Boss de la lumière",
       "item.jamdrops.boss_sombre_spawn_egg": "Boss de l\u0027ombre Spawn Egg",
-      "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre"
+      "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre",
+      "item.jamdrops.gemme_lumineux": "Gemme Lumineux",
+      "item.jamdrops.gemme_lumineux.description_0": "Une gemme de lumière a l\u0027état pur !"
     }
   },
   "metadata": {
@@ -205,6 +221,10 @@
       },
       {
         "name": "Luminosite",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       }
     ]
