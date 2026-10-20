@@ -19,6 +19,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre le nom du mod dans le REAMDE
     - Mettre un logo dans le README
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles.
+    - Mettre quelque images (screenshots)
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
     - Faire d'autre action qui augement / diminue la jauge ?
