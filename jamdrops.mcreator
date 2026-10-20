@@ -242,8 +242,8 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:enchantable/durability": [
-      "~GemmeSombre@CUSTOM:GemmeSombre",
-      "~GemmeLumineux@CUSTOM:GemmeLumineux"
+      "~GemmeLumineux@CUSTOM:GemmeLumineux",
+      "~GemmeSombre@CUSTOM:GemmeSombre"
     ]
   },
   "tab_element_order": {},
