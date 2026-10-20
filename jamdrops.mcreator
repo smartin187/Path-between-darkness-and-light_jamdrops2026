@@ -177,7 +177,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Items"
+      "path": "~/Menu onglet creatif"
     }
   ],
   "variable_elements": [
@@ -241,6 +241,10 @@
       },
       {
         "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Menu onglet creatif",
         "children": []
       }
     ]
