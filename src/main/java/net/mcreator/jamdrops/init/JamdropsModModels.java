@@ -9,13 +9,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.jamdrops.client.model.Modelbosssombre;
-import net.mcreator.jamdrops.client.model.Modelboss_lumineux;
+import net.mcreator.jamdrops.client.model.ModelBossLumiere;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class JamdropsModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-		event.registerLayerDefinition(Modelboss_lumineux.LAYER_LOCATION, Modelboss_lumineux::createBodyLayer);
 		event.registerLayerDefinition(Modelbosssombre.LAYER_LOCATION, Modelbosssombre::createBodyLayer);
+		event.registerLayerDefinition(ModelBossLumiere.LAYER_LOCATION, ModelBossLumiere::createBodyLayer);
 	}
 }

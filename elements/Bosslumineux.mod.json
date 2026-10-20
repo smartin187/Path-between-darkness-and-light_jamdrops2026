@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Boss de la lumière",
     "mobLabel": "Boss de la lumière",
-    "mobModelName": "Modelboss_lumineux",
+    "mobModelName": "ModelBossLumiere",
     "mobModelTexture": "texture_boss_lumineu.png",
     "transparentModelCondition": {
       "fixedValue": false
