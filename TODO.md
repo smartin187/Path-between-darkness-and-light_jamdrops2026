@@ -21,11 +21,12 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles.
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
-    - Faire un jauge partager entre les joueurs ou individuelle ? -> changer la porté de la variable celon le choix.
+    - Faire une jauge individuelle -> changer la porté de la variable, et utiliser une procédure appeller par le joueur plustot qu'un déclancheur de l'entité.
     - Faire les action qui augement / diminue la jauge
-        - Avec les mini-boss du temple de la lumière et du manoir de l'ombre ?
+        - Avec les mini-boss du temple de la lumière et du manoir de l'ombre -> faire un refactor avec ce code pour la nouvelle porté de la variable
+        - Avec des item de lumière / ombre
 - Bottes d'ombre / lumière
-- Dimension en deux parties, en bas les ténèbbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
+- Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
     - Epée de lumière (donne l'effet blindness) + effet de soin/résistance/pv supplémentaire
@@ -33,7 +34,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière (éventuellement un petit boss)
     - Manoir / temple de l'ombre (éventuellement un petit boss)
-    - Pour les boss, il doivent ajouter / diminuer la jauge de lumière/obscurité + dropper un item de lumière / ombte quand il meurent.
+    - Pour les boss, il doivent dropper un item de lumière / ombte quand il meurent.
     - Pour les boss, faire le modèle 3D
     - Pour les structures, utiliser les block de lumière et d'obscurité...
 - Block:
