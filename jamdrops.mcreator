@@ -201,6 +201,43 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "GemmeSombre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemme_sombre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json",
+          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GemmeSombreProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemme_sombre_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/GemmeSombreProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -214,6 +251,7 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:enchantable/durability": [
+      "~GemmeSombre@CUSTOM:GemmeSombre",
       "~GemmeLumineux@CUSTOM:GemmeLumineux"
     ]
   },
@@ -226,7 +264,9 @@
       "entity.jamdrops.boss_sombre": "Boss de l\u0027ombre",
       "item.jamdrops.gemme_lumineux": "Gemme Lumineux",
       "item.jamdrops.gemme_lumineux.description_0": "Une gemme de lumière a l\u0027état pur !",
-      "item_group.jamdrops.menu": "Lumière et ombre"
+      "item_group.jamdrops.menu": "Lumière et ombre",
+      "item.jamdrops.gemme_sombre": "Gemme Sombre",
+      "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !"
     }
   },
   "metadata": {

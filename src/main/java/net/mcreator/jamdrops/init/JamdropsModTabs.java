@@ -23,6 +23,7 @@ public class JamdropsModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MENU = REGISTRY.register("menu",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jamdrops.menu")).icon(() -> new ItemStack(JamdropsModItems.GEMME_LUMINEUX.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(JamdropsModItems.GEMME_LUMINEUX.get());
+				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

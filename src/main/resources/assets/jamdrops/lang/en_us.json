@@ -5,5 +5,7 @@
   "entity.jamdrops.boss_sombre": "Boss de l'ombre",
   "item.jamdrops.gemme_lumineux": "Gemme Lumineux",
   "item.jamdrops.gemme_lumineux.description_0": "Une gemme de lumière a l'état pur !",
-  "item_group.jamdrops.menu": "Lumière et ombre"
+  "item_group.jamdrops.menu": "Lumière et ombre",
+  "item.jamdrops.gemme_sombre": "Gemme Sombre",
+  "item.jamdrops.gemme_sombre.description_0": "Une gemme d'ombre à l'état pur !"
 }

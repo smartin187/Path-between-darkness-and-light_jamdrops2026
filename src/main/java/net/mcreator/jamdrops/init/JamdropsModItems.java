@@ -9,6 +9,7 @@ import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.jamdrops.item.GemmeSombreItem;
 import net.mcreator.jamdrops.item.GemmeLumineuxItem;
 import net.mcreator.jamdrops.JamdropsMod;
 
@@ -17,10 +18,12 @@ public class JamdropsModItems {
 	public static final DeferredItem<Item> BOSSLUMINEUX_SPAWN_EGG;
 	public static final DeferredItem<Item> BOSS_SOMBRE_SPAWN_EGG;
 	public static final DeferredItem<Item> GEMME_LUMINEUX;
+	public static final DeferredItem<Item> GEMME_SOMBRE;
 	static {
 		BOSSLUMINEUX_SPAWN_EGG = REGISTRY.register("bosslumineux_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSSLUMINEUX, -1, -1, new Item.Properties()));
 		BOSS_SOMBRE_SPAWN_EGG = REGISTRY.register("boss_sombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSS_SOMBRE, -13421773, -13421773, new Item.Properties()));
 		GEMME_LUMINEUX = REGISTRY.register("gemme_lumineux", GemmeLumineuxItem::new);
+		GEMME_SOMBRE = REGISTRY.register("gemme_sombre", GemmeSombreItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items
