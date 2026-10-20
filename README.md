@@ -40,7 +40,7 @@ Ce boss est l'oposé du boss de lumière. Il vie dans un temple d'obscurité. En
 
 ## Télécharger
 
-Diriger vous vers les reales GitHub :
+Diriger vous vers les releases GitHub :
 
 **[Releases](https://github.com/smartin187/mod-Jam-Drops/releases)**
 
