@@ -19,11 +19,10 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre le nom du mod dans le REAMDE
     - Mettre un logo dans le README
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles.
+    - Mettre quelque images (screenshots)
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
-    - Faire une jauge individuelle -> changer la porté de la variable, et utiliser une procédure appeller par le joueur plustot qu'un déclancheur de l'entité.
-    - Faire les action qui augement / diminue la jauge
-        - Avec des item de lumière / ombre -> il faut faire le refactor pour la porté de la variable.
+    - Faire d'autre action qui augement / diminue la jauge ?
 - Bottes d'ombre / lumière
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
