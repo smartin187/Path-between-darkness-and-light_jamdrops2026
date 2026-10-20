@@ -34,7 +34,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les boss, faire le modèle 3D -> faire les textures
     - Pour les structures, utiliser les block de lumière et d'obscurité...
-    - Pour les boss, désactiver le spawn automatique
     - Mettre la taille de la boite de colision a la bonne taille pour les boss
     - Pour le boss, voir pour la manière d'attaquer le joueur : actuellement en tirant des flèches + faire que le boss se déplace quand il n'y a pas le joueur (actuellement il reste immobile sans joueur en mode survie)
 - Block:
