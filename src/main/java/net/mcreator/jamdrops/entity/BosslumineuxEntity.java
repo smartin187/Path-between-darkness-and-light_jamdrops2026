@@ -9,6 +9,8 @@ import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.Mob;
@@ -42,7 +44,9 @@ public class BosslumineuxEntity extends Monster implements RangedAttackMob {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 8, 10f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();
@@ -104,11 +108,12 @@ public class BosslumineuxEntity extends Monster implements RangedAttackMob {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
+		builder = builder.add(Attributes.MAX_HEALTH, 25);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.STEP_HEIGHT, 0.6);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 30);
 		return builder;
 	}
 }
