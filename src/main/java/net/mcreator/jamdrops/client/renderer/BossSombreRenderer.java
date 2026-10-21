@@ -11,7 +11,7 @@ public class BossSombreRenderer extends MobRenderer<BossSombreEntity, ModelBoss_
 	private final ResourceLocation entityTexture = ResourceLocation.parse("jamdrops:textures/entities/boss_sombre.png");
 
 	public BossSombreRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelBoss_sombre<BossSombreEntity>(context.bakeLayer(ModelBoss_sombre.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelBoss_sombre<BossSombreEntity>(context.bakeLayer(ModelBoss_sombre.LAYER_LOCATION)), 2f);
 	}
 
 	@Override

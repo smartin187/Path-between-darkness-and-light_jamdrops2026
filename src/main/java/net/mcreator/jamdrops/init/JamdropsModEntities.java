@@ -33,7 +33,7 @@ public class JamdropsModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<BossSombreEntity>> BOSS_SOMBRE = register("boss_sombre",
 			EntityType.Builder.<BossSombreEntity>of(BossSombreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 1.8f));
+					.sized(3f, 4f));
 	public static final DeferredHolder<EntityType<?>, EntityType<BossSombreEntityProjectile>> BOSS_SOMBRE_PROJECTILE = register("projectile_boss_sombre",
 			EntityType.Builder.<BossSombreEntityProjectile>of(BossSombreEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
