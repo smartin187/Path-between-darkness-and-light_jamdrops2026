@@ -15,11 +15,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.jamdrops.entity.PretreLumineuxEntity;
-import net.mcreator.jamdrops.entity.BosslumineuxEntityProjectile;
-import net.mcreator.jamdrops.entity.BosslumineuxEntity;
-import net.mcreator.jamdrops.entity.BossSombreEntityProjectile;
-import net.mcreator.jamdrops.entity.BossSombreEntity;
+import net.mcreator.jamdrops.entity.*;
 import net.mcreator.jamdrops.JamdropsMod;
 
 @EventBusSubscriber
@@ -41,6 +37,8 @@ public class JamdropsModEntities {
 			EntityType.Builder.<PretreLumineuxEntity>of(PretreLumineuxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<FoudreEntity>> FOUDRE = register("foudre",
+			EntityType.Builder.<FoudreEntity>of(FoudreEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

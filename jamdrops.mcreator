@@ -242,6 +242,64 @@
         ]
       },
       "path": "~/Pretre"
+    },
+    {
+      "name": "Foudreitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foudreitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/item/FoudreitemItem.java",
+          "src/main/resources/assets/jamdrops/models/item/foudreitem.json"
+        ]
+      },
+      "path": "~/Items/Projectile foudre"
+    },
+    {
+      "name": "FoudreProjectileHits",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foudre_projectile_hits",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/FoudreProjectileHitsProcedure.java"
+        ]
+      },
+      "path": "~/Items/Projectile foudre"
+    },
+    {
+      "name": "Foudre",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foudre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/FoudreEntity.java"
+        ]
+      },
+      "path": "~/Items/Projectile foudre"
     }
   ],
   "variable_elements": [
@@ -272,7 +330,8 @@
       "item.jamdrops.gemme_sombre": "Gemme Sombre",
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
-      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg"
+      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+      "item.jamdrops.foudreitem": "Foudreitem"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -285,7 +344,8 @@
       "item.jamdrops.gemme_sombre": "Gemme Sombre",
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
-      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg"
+      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+      "item.jamdrops.foudreitem": "Foudreitem"
     }
   },
   "metadata": {
@@ -294,11 +354,11 @@
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
-      "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java"
     ]
   },
   "foldersRoot": {
@@ -326,6 +386,10 @@
           },
           {
             "name": "Gemme sombre",
+            "children": []
+          },
+          {
+            "name": "Projectile foudre",
             "children": []
           }
         ]

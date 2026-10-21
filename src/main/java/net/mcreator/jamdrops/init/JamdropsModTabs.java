@@ -24,6 +24,7 @@ public class JamdropsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jamdrops.menu")).icon(() -> new ItemStack(JamdropsModItems.GEMME_LUMINEUX.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(JamdropsModItems.GEMME_LUMINEUX.get());
 				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
+				tabData.accept(JamdropsModItems.FOUDREITEM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
