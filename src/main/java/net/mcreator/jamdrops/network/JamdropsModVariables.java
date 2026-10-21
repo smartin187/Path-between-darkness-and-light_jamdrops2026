@@ -74,7 +74,7 @@ public class JamdropsModVariables {
 
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		boolean _syncDirty = false;
-		public double luminosite = 100.0;
+		public double luminosite = 0.0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {

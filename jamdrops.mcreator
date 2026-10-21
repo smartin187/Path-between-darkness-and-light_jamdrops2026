@@ -234,7 +234,7 @@
       "name": "luminosite",
       "type": "number",
       "scope": "player_lifetime",
-      "value": "100.0"
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
