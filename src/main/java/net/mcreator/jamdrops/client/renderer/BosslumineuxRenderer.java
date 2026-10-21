@@ -18,7 +18,7 @@ public class BosslumineuxRenderer extends MobRenderer<BosslumineuxEntity, ModelB
 	private final ResourceLocation entityTexture = ResourceLocation.parse("jamdrops:textures/entities/texture_boss_lumineu.png");
 
 	public BosslumineuxRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelBossLumiere<BosslumineuxEntity>(context.bakeLayer(ModelBossLumiere.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelBossLumiere<BosslumineuxEntity>(context.bakeLayer(ModelBossLumiere.LAYER_LOCATION)), 2f);
 		this.addLayer(new RenderLayer<BosslumineuxEntity, ModelBossLumiere<BosslumineuxEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("jamdrops:textures/entities/texture_boss_lumineu.png");
 
