@@ -43,7 +43,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Block de lumière
     - Block d'obscurité
 - Item:
-    - Faire la textures finale des items de lumière et d'ombre
+    - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
 - Prêtre de lumière:
     - A utiliser dans les structures
