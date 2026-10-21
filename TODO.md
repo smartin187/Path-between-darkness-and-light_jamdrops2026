@@ -20,6 +20,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre un logo dans le README
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles -> faire la première realease
     - Mettre quelque images (screenshots)
+    - Vérifier l'ortographe
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
     - Faire d'autre action qui augement / diminue la jauge ?
@@ -50,6 +51,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
     - Mettre a jour le modèle 3D
+    - Mettre un items qu'il dropera ?
 - Voir pour les oeuf d'apparition:
     - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
