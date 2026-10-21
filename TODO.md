@@ -28,6 +28,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
+    - [Drizzt478] Faire les images des deux épée
     - Epée de lumière (donne l'effet blindness + vision nocturne) + effet de soin/résistance/pv supplémentaire
     - Epée d'obscurité (donne l'effet blindness) + effets style force/poison/faiblesse
 - Structures -> construire les structures avec les boss dedans
@@ -35,10 +36,10 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les boss, faire le modèle 3D -> faire les textures
     - Pour les structures, utiliser les block de lumière et d'obscurité...
-    - Pour le boss, voir pour la manière d'attaquer le joueur : actuellement en tirant des flèches:
-        - Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches... + que le projectile crée un éclaire quand il est tirré.
+    - [killer24-Git] Pour le boss, voir pour la manière d'attaquer le joueur : actuellement en tirant des flèches:
+        - [killer24-Git] Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches... + que le projectile crée un éclaire quand il est tirré.
     - Pour le boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
-- Block:
+- [smartin187] Block:
     - Block de lumière
     - Block d'obscurité
 - Item:
@@ -46,5 +47,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
 - Prêtre de lumière:
     - A utiliser dans les structures
-    - Envoie des orbes de lumière
-    - Faire en sorte que le sceptre puisse être drop
+    - [killer24-Git] Envoie des orbes de lumière
+    - [killer24-Git] Faire en sorte que le sceptre puisse être drop
+    - Mettre a jour le modèle 3D

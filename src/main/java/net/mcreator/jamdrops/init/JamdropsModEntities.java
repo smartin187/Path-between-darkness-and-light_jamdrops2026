@@ -15,6 +15,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.jamdrops.entity.PretreLumineuxEntity;
 import net.mcreator.jamdrops.entity.BosslumineuxEntityProjectile;
 import net.mcreator.jamdrops.entity.BosslumineuxEntity;
 import net.mcreator.jamdrops.entity.BossSombreEntityProjectile;
@@ -36,6 +37,10 @@ public class JamdropsModEntities {
 					.sized(3f, 4f));
 	public static final DeferredHolder<EntityType<?>, EntityType<BossSombreEntityProjectile>> BOSS_SOMBRE_PROJECTILE = register("projectile_boss_sombre",
 			EntityType.Builder.<BossSombreEntityProjectile>of(BossSombreEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<PretreLumineuxEntity>> PRETRE_LUMINEUX = register("pretre_lumineux",
+			EntityType.Builder.<PretreLumineuxEntity>of(PretreLumineuxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -47,11 +52,13 @@ public class JamdropsModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		BosslumineuxEntity.init(event);
 		BossSombreEntity.init(event);
+		PretreLumineuxEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(BOSSLUMINEUX.get(), BosslumineuxEntity.createAttributes().build());
 		event.put(BOSS_SOMBRE.get(), BossSombreEntity.createAttributes().build());
+		event.put(PRETRE_LUMINEUX.get(), PretreLumineuxEntity.createAttributes().build());
 	}
 }

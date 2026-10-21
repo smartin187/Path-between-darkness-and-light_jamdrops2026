@@ -31,6 +31,7 @@ public class JamdropsModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get());
 			tabData.accept(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
+			tabData.accept(JamdropsModItems.PRETRE_LUMINEUX_SPAWN_EGG.get());
 		}
 	}
 }
