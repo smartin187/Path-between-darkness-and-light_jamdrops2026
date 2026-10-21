@@ -242,6 +242,20 @@
         ]
       },
       "path": "~/Pretre"
+    },
+    {
+      "name": "EpeeLumiere",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epee_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/item/EpeeLumiereItem.java",
+          "src/main/resources/assets/jamdrops/models/item/epee_lumiere.json"
+        ]
+      },
+      "path": "~/Epee"
     }
   ],
   "variable_elements": [
@@ -257,6 +271,9 @@
     "ITEMS:minecraft:enchantable/durability": [
       "~GemmeLumineux@CUSTOM:GemmeLumineux",
       "~GemmeSombre@CUSTOM:GemmeSombre"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~EpeeLumiere@CUSTOM:EpeeLumiere"
     ]
   },
   "tab_element_order": {},
@@ -272,7 +289,8 @@
       "item.jamdrops.gemme_sombre": "Gemme Sombre",
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
-      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg"
+      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+      "item.jamdrops.epee_lumiere": "Épée de lumiere"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -285,7 +303,8 @@
       "item.jamdrops.gemme_sombre": "Gemme Sombre",
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
-      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg"
+      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+      "item.jamdrops.epee_lumiere": "Épée de lumiere"
     }
   },
   "metadata": {
@@ -345,6 +364,10 @@
       },
       {
         "name": "Pretre",
+        "children": []
+      },
+      {
+        "name": "Epee",
         "children": []
       }
     ]

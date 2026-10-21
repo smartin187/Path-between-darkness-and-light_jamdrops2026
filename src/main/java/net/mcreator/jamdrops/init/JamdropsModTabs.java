@@ -24,6 +24,7 @@ public class JamdropsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jamdrops.menu")).icon(() -> new ItemStack(JamdropsModItems.GEMME_LUMINEUX.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(JamdropsModItems.GEMME_LUMINEUX.get());
 				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
+				tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -32,6 +33,8 @@ public class JamdropsModTabs {
 			tabData.accept(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get());
 			tabData.accept(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
 			tabData.accept(JamdropsModItems.PRETRE_LUMINEUX_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
 		}
 	}
 }
