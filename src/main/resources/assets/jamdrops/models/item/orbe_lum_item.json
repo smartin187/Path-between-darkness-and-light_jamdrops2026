@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "jamdrops:item/boule_de_lumiere"
+  }
+}

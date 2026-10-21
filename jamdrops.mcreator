@@ -202,8 +202,8 @@
       "registry_name": "gemme_sombre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json",
-          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java"
+          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java",
+          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json"
         ]
       },
       "path": "~/Items/Gemme sombre"
@@ -235,9 +235,9 @@
       "registry_name": "pretre_lumineux",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreLumineuxRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java"
+          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json"
         ]
       },
       "path": "~/Pretre"
@@ -319,6 +319,33 @@
         ]
       },
       "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "OrbeLumItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbe_lum_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/orbe_lum_item.json",
+          "src/main/java/net/mcreator/jamdrops/item/OrbeLumItemItem.java"
+        ]
+      },
+      "path": "~/Items/Boule de lumiere"
+    },
+    {
+      "name": "OrbeDeLumiere",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbe_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/OrbeDeLumiereEntity.java"
+        ]
+      },
+      "path": "~/Items/Boule de lumiere"
     }
   ],
   "variable_elements": [
@@ -332,8 +359,8 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:enchantable/durability": [
-      "~GemmeLumineux@CUSTOM:GemmeLumineux",
-      "~GemmeSombre@CUSTOM:GemmeSombre"
+      "~GemmeSombre@CUSTOM:GemmeSombre",
+      "~GemmeLumineux@CUSTOM:GemmeLumineux"
     ]
   },
   "tab_element_order": {},
@@ -350,7 +377,8 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-      "item.jamdrops.foudreitem": "Foudreitem"
+      "item.jamdrops.foudreitem": "Foudreitem",
+      "item.jamdrops.orbe_lum_item": "Orbe Lum Item"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -364,7 +392,8 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-      "item.jamdrops.foudreitem": "Foudreitem"
+      "item.jamdrops.foudreitem": "Foudreitem",
+      "item.jamdrops.orbe_lum_item": "Orbe Lum Item"
     }
   },
   "metadata": {
@@ -409,6 +438,10 @@
           },
           {
             "name": "Projectile foudre",
+            "children": []
+          },
+          {
+            "name": "Boule de lumiere",
             "children": []
           }
         ]

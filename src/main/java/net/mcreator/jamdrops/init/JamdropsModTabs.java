@@ -25,6 +25,7 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModItems.GEMME_LUMINEUX.get());
 				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
 				tabData.accept(JamdropsModItems.FOUDREITEM.get());
+				tabData.accept(JamdropsModItems.ORBE_LUM_ITEM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

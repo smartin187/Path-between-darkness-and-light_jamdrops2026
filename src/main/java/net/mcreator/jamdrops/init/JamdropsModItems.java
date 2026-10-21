@@ -9,6 +9,7 @@ import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.jamdrops.item.OrbeLumItemItem;
 import net.mcreator.jamdrops.item.GemmeSombreItem;
 import net.mcreator.jamdrops.item.GemmeLumineuxItem;
 import net.mcreator.jamdrops.item.FoudreitemItem;
@@ -22,6 +23,7 @@ public class JamdropsModItems {
 	public static final DeferredItem<Item> GEMME_SOMBRE;
 	public static final DeferredItem<Item> PRETRE_LUMINEUX_SPAWN_EGG;
 	public static final DeferredItem<Item> FOUDREITEM;
+	public static final DeferredItem<Item> ORBE_LUM_ITEM;
 	static {
 		BOSSLUMINEUX_SPAWN_EGG = REGISTRY.register("bosslumineux_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSSLUMINEUX, -1, -1, new Item.Properties()));
 		BOSS_SOMBRE_SPAWN_EGG = REGISTRY.register("boss_sombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSS_SOMBRE, -13421773, -13421773, new Item.Properties()));
@@ -29,6 +31,7 @@ public class JamdropsModItems {
 		GEMME_SOMBRE = REGISTRY.register("gemme_sombre", GemmeSombreItem::new);
 		PRETRE_LUMINEUX_SPAWN_EGG = REGISTRY.register("pretre_lumineux_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_LUMINEUX, -10066330, -1, new Item.Properties()));
 		FOUDREITEM = REGISTRY.register("foudreitem", FoudreitemItem::new);
+		ORBE_LUM_ITEM = REGISTRY.register("orbe_lum_item", OrbeLumItemItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items
