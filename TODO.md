@@ -23,6 +23,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
     - Faire d'autre action qui augement / diminue la jauge ?
+    - Faire une nouvelle texture pour la jauge ???
 - Bottes d'ombre / lumière
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
