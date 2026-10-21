@@ -48,3 +48,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - A utiliser dans les structures
     - Envoie des orbes de lumière
     - Faire en sorte que le sceptre puisse être drop
+    - Mettre a jour le modèle 3D
