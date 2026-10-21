@@ -8,13 +8,12 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 
 - Dans les paramètres de l'espace de travaille (MCreator):
     - Ajouter un logo du mod
-    - Faire la courte description du mode
     - Vérifier que tout les contributeur soit dans la liste
     - Mettre le nom du mod:
         - Changer le nom d'affichage en jeu (paramètres de l'espace de travaille)
         - Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille)
         - Dans le `README.md` mettre le nom du mod
-    - Pour l'url du mod, mettre le lien vers GitHub ou vers le 
+    - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
     - Mettre le nom du mod dans le REAMDE
@@ -46,4 +45,3 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Item:
     - Faire la textures finale des items de lumière et d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
-- Traduction : certaines partie du mod sont déjà en français, mais il faut mettre une traduction pour les oeuf.
