@@ -113,6 +113,7 @@ public class BosslumineuxEntity extends Monster implements RangedAttackMob {
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.STEP_HEIGHT, 0.6);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 30);
 		return builder;
 	}
 }

@@ -38,7 +38,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Pour le boss, voir pour la manière d'attaquer le joueur : actuellement en tirant des flèches:
         - Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches... + que le projectile crée un éclaire quand il est tirré.
     - Pour le boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
-    - Faire que le boss ne recule pas / peut quand il est frapper
 - Block:
     - Block de lumière
     - Block d'obscurité
