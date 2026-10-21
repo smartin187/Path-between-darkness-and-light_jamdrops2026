@@ -32,6 +32,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [Drizzt478] Faire les images des deux épée
     - Epée de lumière (donne l'effet blindness + vision nocturne) + effet de soin/résistance/pv supplémentaire
     - Epée d'obscurité (donne l'effet blindness) + effets style force/poison/faiblesse
+    - [smartin187] Faire les recettes pour craft les épées
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
@@ -50,7 +51,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - A utiliser dans les structures
     - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
-    - Mettre a jour le modèle 3D
     - Mettre un items qu'il dropera ?
 - Voir pour les oeuf d'apparition:
     - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
