@@ -3,10 +3,10 @@
   "_type": "projectile",
   "definition": {
     "projectileItem": "CUSTOM:Foudreitem",
-    "showParticles": false,
+    "showParticles": true,
     "actionSound": "entity.endermen.teleport",
     "igniteFire": false,
-    "disableGravity": true,
+    "disableGravity": false,
     "disableDiscarding": false,
     "power": 1.0,
     "damage": 5.0,

@@ -40,7 +40,7 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
-    "enableRanged": true,
+    "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
     "projectile": "CUSTOM:Foudre",

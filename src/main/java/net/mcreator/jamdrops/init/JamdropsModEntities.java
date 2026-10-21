@@ -15,7 +15,11 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.jamdrops.entity.*;
+import net.mcreator.jamdrops.entity.PretreLumineuxEntity;
+import net.mcreator.jamdrops.entity.FoudreEntity;
+import net.mcreator.jamdrops.entity.BosslumineuxEntity;
+import net.mcreator.jamdrops.entity.BossSombreEntityProjectile;
+import net.mcreator.jamdrops.entity.BossSombreEntity;
 import net.mcreator.jamdrops.JamdropsMod;
 
 @EventBusSubscriber
@@ -25,8 +29,6 @@ public class JamdropsModEntities {
 			EntityType.Builder.<BosslumineuxEntity>of(BosslumineuxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(3f, 4f));
-	public static final DeferredHolder<EntityType<?>, EntityType<BosslumineuxEntityProjectile>> BOSSLUMINEUX_PROJECTILE = register("projectile_bosslumineux",
-			EntityType.Builder.<BosslumineuxEntityProjectile>of(BosslumineuxEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<BossSombreEntity>> BOSS_SOMBRE = register("boss_sombre",
 			EntityType.Builder.<BossSombreEntity>of(BossSombreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
