@@ -29,8 +29,8 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
     - [Drizzt478] Faire les images des deux épée
-    - Epée de lumière (donne l'effet blindness) + effet de soin/résistance/pv supplémentaire
-    - Epée d'obscurité (donne l'effet vision nocturne + blindness) + effets style force/poison/faiblesse
+    - Epée de lumière (donne l'effet blindness + vision nocturne) + effet de soin/résistance/pv supplémentaire
+    - Epée d'obscurité (donne l'effet blindness) + effets style force/poison/faiblesse
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
