@@ -1,6 +1,7 @@
 package net.mcreator.jamdrops.client.model;
 
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
@@ -142,10 +143,6 @@ public class ModelBossLumiere<T extends Entity> extends EntityModel<T> {
 	}
 
 	@Override
-	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-	}
-
-	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, int rgb) {
 		JambeDroite.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
 		JambeGauche.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
@@ -157,5 +154,12 @@ public class ModelBossLumiere<T extends Entity> extends EntityModel<T> {
 		Capuche.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
 		Ailes.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
 		bb_main.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
+	}
+
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+		this.JambeDroite.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
+		this.JambeGauche.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
+		this.BrasDroit.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.BrasGauche.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
 	}
 }
