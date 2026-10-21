@@ -20,6 +20,8 @@ Il existe deux gemmes : gemme de lumière et gemme d'obscurité.
 
 Ces gemmes peuvent être utiliser pour diminuer ou augementer la jauge de lumière. Lorsque le joueur fait un click droit sur la gemme de lumière, la jauge augement, a l'inverse, lorsque le joueur fait un click droit sur la gemme d'obscurité, la jauge diminue. Ces gemmes sont obtenues en battant les [boss de lumière et d'obscurité](#les-boss).
 
+> Les gemmes peuvent aussi servire de monnaie d'échange entre les joueurs. Notament, si un joueur est interesser par la lumière, il pourrait échanger des gemmes d'obscurité contre des gemmes de lumière avec un autre joueur.
+
 ### Les boss
 
 Il y a deux boss dans ce mod : le boss de lumière et le boss d'obscurité.
