@@ -36,7 +36,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Pour les boss, faire le modèle 3D -> faire les textures
     - Pour les structures, utiliser les block de lumière et d'obscurité...
     - Pour le boss, voir pour la manière d'attaquer le joueur : actuellement en tirant des flèches:
-        - Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches...
+        - Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches... + que le projectile crée un éclaire quand il est tirré.
     - Pour le boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
     - Faire que le boss ne recule pas / peut quand il est frapper
 - Block:
@@ -45,3 +45,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Item:
     - Faire la textures finale des items de lumière et d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
+- Prêtre de lumière:
+    - A utiliser dans les structures
+    - Envoie des orbes de lumière
+    - Faire en sorte que le sceptre puisse être drop
