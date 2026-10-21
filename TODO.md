@@ -50,3 +50,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
     - Mettre a jour le modèle 3D
+- Voir pour les oeuf d'apparition:
+    - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
+    - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
