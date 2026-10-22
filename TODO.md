@@ -7,17 +7,12 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 ## Tâches
 
 - Dans les paramètres de l'espace de travaille (MCreator):
-    - Ajouter un logo du mod
     - Vérifier que tout les contributeur soit dans la liste
     - Mettre le nom du mod:
-        - Changer le nom d'affichage en jeu (paramètres de l'espace de travaille)
-        - Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
-        - Dans le `README.md` mettre le nom du mod
+        - [smartin187] Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
     - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
-    - Mettre le nom du mod dans le REAMDE
-    - Mettre un logo dans le README
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles -> faire la première realease
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
