@@ -22,6 +22,7 @@ import net.mcreator.jamdrops.network.JamdropsModVariables;
 import net.mcreator.jamdrops.init.JamdropsModTabs;
 import net.mcreator.jamdrops.init.JamdropsModItems;
 import net.mcreator.jamdrops.init.JamdropsModEntities;
+import net.mcreator.jamdrops.init.JamdropsModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
@@ -43,6 +44,7 @@ public class JamdropsMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		JamdropsModBlocks.REGISTRY.register(modEventBus);
 		JamdropsModItems.REGISTRY.register(modEventBus);
 		JamdropsModEntities.REGISTRY.register(modEventBus);
 		JamdropsModTabs.REGISTRY.register(modEventBus);

@@ -256,6 +256,81 @@
         ]
       },
       "path": "~/Epee"
+    },
+    {
+      "name": "BlockDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/block/BlockDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/item/block_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/blockstates/block_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/block_de_lumiere.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/block_de_lumiere.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "DaleDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dale_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere.json",
+          "src/main/java/net/mcreator/jamdrops/block/DaleDeLumiereBlock.java",
+          "src/main/resources/data/jamdrops/loot_table/blocks/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_top.json",
+          "src/main/resources/assets/jamdrops/blockstates/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_full.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "EscalierDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_inner.json",
+          "src/main/java/net/mcreator/jamdrops/block/EscalierDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/item/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/blockstates/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_outer.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "MurretDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/loot_table/blocks/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_post.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_inventory.json",
+          "src/main/java/net/mcreator/jamdrops/block/MurretDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/item/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_side_tall.json",
+          "src/main/resources/assets/jamdrops/blockstates/murret_de_lumiere.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
     }
   ],
   "variable_elements": [
@@ -274,6 +349,15 @@
     ],
     "ITEMS:minecraft:swords": [
       "~EpeeLumiere@CUSTOM:EpeeLumiere"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~EscalierDeLumiere@CUSTOM:EscalierDeLumiere"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ]
   },
   "tab_element_order": {},
@@ -290,7 +374,15 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-      "item.jamdrops.epee_lumiere": "Épée de lumiere"
+      "item.jamdrops.epee_lumiere": "Épée de lumiere",
+      "block.jamdrops.block_de_lumiere": "Block de Lumiere",
+      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
+      "block.jamdrops.dale_de_lumiere": "Dalle de Lumiere",
+      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
+      "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
+      "block.jamdrops.murret_de_lumiere": "Murret de Lumiere",
+      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -304,11 +396,20 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-      "item.jamdrops.epee_lumiere": "Épée de lumiere"
+      "item.jamdrops.epee_lumiere": "Épée de lumière",
+      "block.jamdrops.block_de_lumiere": "Block De Lumière",
+      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
+      "block.jamdrops.dale_de_lumiere": "Dalle de Lumière",
+      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
+      "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
+      "block.jamdrops.murret_de_lumiere": "Murret de Lumière",
+      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModBlocks.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
@@ -369,6 +470,15 @@
       {
         "name": "Epee",
         "children": []
+      },
+      {
+        "name": "Block",
+        "children": [
+          {
+            "name": "Block de lumiere",
+            "children": []
+          }
+        ]
       }
     ]
   },

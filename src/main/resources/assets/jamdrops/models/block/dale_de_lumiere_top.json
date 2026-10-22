@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "jamdrops:block/texture_block_lumiere",
+    "bottom": "jamdrops:block/texture_block_lumiere",
+    "top": "jamdrops:block/texture_block_lumiere",
+    "side": "jamdrops:block/texture_block_lumiere"
+  },
+  "render_type": "solid"
+}

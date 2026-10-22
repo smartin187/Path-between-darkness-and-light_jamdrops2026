@@ -10,5 +10,13 @@
   "item.jamdrops.gemme_sombre.description_0": "Une gemme d'ombre à l'état pur !",
   "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
   "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-  "item.jamdrops.epee_lumiere": "Épée de lumiere"
+  "item.jamdrops.epee_lumiere": "Épée de lumiere",
+  "block.jamdrops.block_de_lumiere": "Block de Lumiere",
+  "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
+  "block.jamdrops.dale_de_lumiere": "Dalle de Lumiere",
+  "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
+  "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
+  "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
+  "block.jamdrops.murret_de_lumiere": "Murret de Lumiere",
+  "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !"
 }
