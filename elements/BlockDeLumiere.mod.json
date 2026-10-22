@@ -40,7 +40,9 @@
     "customProperties": [],
     "name": "Block De Lumiere",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Un bloc de lumière pur !"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,
