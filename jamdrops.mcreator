@@ -292,6 +292,25 @@
         ]
       },
       "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "EscalierDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_inner.json",
+          "src/main/java/net/mcreator/jamdrops/block/EscalierDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/item/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/blockstates/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_outer.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
     }
   ],
   "variable_elements": [
@@ -313,6 +332,9 @@
     ],
     "BLOCKS:minecraft:slabs": [
       "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~EscalierDeLumiere@CUSTOM:EscalierDeLumiere"
     ]
   },
   "tab_element_order": {},
@@ -333,7 +355,9 @@
       "block.jamdrops.block_de_lumiere": "Block de Lumiere",
       "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
       "block.jamdrops.dale_de_lumiere": "Dalle de Lumiere",
-      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !"
+      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
+      "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -347,11 +371,13 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-      "item.jamdrops.epee_lumiere": "Épée de lumiere",
-      "block.jamdrops.block_de_lumiere": "Block De Lumiere",
+      "item.jamdrops.epee_lumiere": "Épée de lumière",
+      "block.jamdrops.block_de_lumiere": "Block De Lumière",
       "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
-      "block.jamdrops.dale_de_lumiere": "Dalle de Lumiere",
-      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !"
+      "block.jamdrops.dale_de_lumiere": "Dalle de Lumière",
+      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
+      "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !"
     }
   },
   "metadata": {
