@@ -25,7 +25,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
     - [Drizzt478] Faire les images des deux épée -> reste l'épée d'obscurité
-    - Epée de lumière (donne l'effet blindness + vision nocturne) + effet de soin/résistance/pv supplémentaire
+    - Epée de lumière:
+        - [smartin187] donne l'effet blindness + vision nocturne -> utiliser les déclancheur dans MCreator
+        - [smartin187] effet de soin/résistance/pv supplémentaire
     - Epée d'obscurité (donne l'effet blindness) + effets style force/poison/faiblesse
     - [smartin187] Faire les recettes pour craft les épées
 - Structures -> construire les structures avec les boss dedans
@@ -51,4 +53,5 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Voir pour les oeuf d'apparition:
     - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
+    - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique
