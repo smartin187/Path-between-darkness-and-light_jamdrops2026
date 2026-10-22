@@ -589,12 +589,13 @@
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about ; Utilisation du générateur de texte pour le logo https://fr.textstudio.com/",
     "modElementsPackage": "net.mcreator.jamdrops"
   },
   "mcreatorVersion": 202600233518
