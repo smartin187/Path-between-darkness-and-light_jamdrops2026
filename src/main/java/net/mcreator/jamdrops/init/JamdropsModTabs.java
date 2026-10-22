@@ -33,6 +33,7 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModBlocks.DALLE_D_OBSCURITE.get().asItem());
 				tabData.accept(JamdropsModBlocks.ESCALIER_D_OBSCURITE.get().asItem());
 				tabData.accept(JamdropsModBlocks.MURRET_D_OBSCURITE.get().asItem());
+				tabData.accept(JamdropsModItems.EPEE_OBSCURITE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -43,6 +44,7 @@ public class JamdropsModTabs {
 			tabData.accept(JamdropsModItems.PRETRE_LUMINEUX_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
+			tabData.accept(JamdropsModItems.EPEE_OBSCURITE.get());
 		}
 	}
 }
