@@ -11,7 +11,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Vérifier que tout les contributeur soit dans la liste
     - Mettre le nom du mod:
         - Changer le nom d'affichage en jeu (paramètres de l'espace de travaille)
-        - Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille)
+        - Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
         - Dans le `README.md` mettre le nom du mod
     - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
