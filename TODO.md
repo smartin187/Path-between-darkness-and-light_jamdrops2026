@@ -42,9 +42,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
         - [killer24-Git] Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches... + que le projectile crée un éclaire quand il est tirré.
     - Pour le boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
 - [smartin187] Block:
-    - [smartin187] Block d'obscurité
     - Faire de nouvelles textures ?
     - Ajouter au readme les block
+    - Bloc de lumière émmet de la redstone ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)

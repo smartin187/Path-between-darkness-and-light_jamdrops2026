@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "jamdrops:block/texture_bloc_sombre",
+    "particle": "jamdrops:block/texture_bloc_sombre"
+  },
+  "render_type": "solid"
+}

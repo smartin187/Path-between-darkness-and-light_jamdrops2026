@@ -29,6 +29,10 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModBlocks.DALE_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.ESCALIER_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.MURRET_DE_LUMIERE.get().asItem());
+				tabData.accept(JamdropsModBlocks.BLOC_D_OBSCURITE.get().asItem());
+				tabData.accept(JamdropsModBlocks.DALLE_D_OBSCURITE.get().asItem());
+				tabData.accept(JamdropsModBlocks.ESCALIER_D_OBSCURITE.get().asItem());
+				tabData.accept(JamdropsModBlocks.MURRET_D_OBSCURITE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jamdrops:block/texture_bloc_sombre",
+    "up": "jamdrops:block/texture_bloc_sombre",
+    "north": "jamdrops:block/texture_bloc_sombre",
+    "east": "jamdrops:block/texture_bloc_sombre",
+    "south": "jamdrops:block/texture_bloc_sombre",
+    "west": "jamdrops:block/texture_bloc_sombre",
+    "particle": "jamdrops:block/texture_bloc_sombre"
+  },
+  "render_type": "solid"
+}

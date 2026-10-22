@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "jamdrops:escalier_de_lumiere"
+    "jamdrops:escalier_de_lumiere",
+    "jamdrops:escalier_d_obscurite"
   ]
 }
