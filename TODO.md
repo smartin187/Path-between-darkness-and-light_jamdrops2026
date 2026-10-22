@@ -56,3 +56,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Voir pour les oeuf d'apparition:
     - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
+- [smartin187] Voir pour ajouter au GitHub action un script de build automatique
