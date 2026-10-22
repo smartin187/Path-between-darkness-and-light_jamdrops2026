@@ -406,6 +406,20 @@
         ]
       },
       "path": "~/Block/Block d obscurite"
+    },
+    {
+      "name": "EpeeObscurite",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epee_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/epee_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/item/EpeeObscuriteItem.java"
+        ]
+      },
+      "path": "~/Epee"
     }
   ],
   "variable_elements": [
@@ -435,7 +449,8 @@
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ],
     "ITEMS:minecraft:swords": [
-      "~EpeeLumiere@CUSTOM:EpeeLumiere"
+      "~EpeeLumiere@CUSTOM:EpeeLumiere",
+      "~EpeeObscurite@CUSTOM:EpeeObscurite"
     ]
   },
   "tab_element_order": {},
@@ -468,7 +483,10 @@
       "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d\u0027obscurité pur !",
       "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité",
       "block.jamdrops.murret_d_obscurite.description_0": "Un murret d\u0027obscurité pur !",
-      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité"
+      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité",
+      "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
+      "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
+      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -498,7 +516,10 @@
       "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d\u0027obscurité pur !",
       "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité",
       "block.jamdrops.murret_d_obscurite.description_0": "Un murret d\u0027obscurité pur !",
-      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité"
+      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité",
+      "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
+      "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
+      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !"
     }
   },
   "metadata": {

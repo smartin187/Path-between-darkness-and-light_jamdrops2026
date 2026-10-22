@@ -12,7 +12,9 @@
     "name": "Épée de lumiere",
     "rarity": "COMMON",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Une épée claire et lumineuse !"
+      ]
     },
     "creativeTabs": [
       "TOOLS",

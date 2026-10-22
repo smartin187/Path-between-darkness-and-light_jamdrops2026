@@ -26,5 +26,8 @@
   "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d'obscurité pur !",
   "block.jamdrops.escalier_d_obscurite": "Escalier d'obscurité",
   "block.jamdrops.murret_d_obscurite.description_0": "Un murret d'obscurité pur !",
-  "block.jamdrops.murret_d_obscurite": "Murret d'obscurité"
+  "block.jamdrops.murret_d_obscurite": "Murret d'obscurité",
+  "item.jamdrops.epee_obscurite": "Épée d'obscurité",
+  "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
+  "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !"
 }

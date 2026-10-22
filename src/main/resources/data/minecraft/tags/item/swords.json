@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "jamdrops:epee_lumiere"
+    "jamdrops:epee_lumiere",
+    "jamdrops:epee_obscurite"
   ]
 }
