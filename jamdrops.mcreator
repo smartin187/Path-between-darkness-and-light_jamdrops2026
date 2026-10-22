@@ -347,9 +347,6 @@
       "~GemmeLumineux@CUSTOM:GemmeLumineux",
       "~GemmeSombre@CUSTOM:GemmeSombre"
     ],
-    "ITEMS:minecraft:swords": [
-      "~EpeeLumiere@CUSTOM:EpeeLumiere"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
     ],
@@ -358,6 +355,9 @@
     ],
     "BLOCKS:minecraft:walls": [
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~EpeeLumiere@CUSTOM:EpeeLumiere"
     ]
   },
   "tab_element_order": {},
