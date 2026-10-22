@@ -386,6 +386,26 @@
         ]
       },
       "path": "~/Block/Block d obscurite"
+    },
+    {
+      "name": "MurretDObscurite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_d_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_inventory.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_side_tall.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_post.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/murret_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/item/murret_d_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/block/MurretDObscuriteBlock.java",
+          "src/main/resources/assets/jamdrops/blockstates/murret_d_obscurite.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite"
     }
   ],
   "variable_elements": [
@@ -411,6 +431,7 @@
       "~EscalierDeLumiere@CUSTOM:EscalierDeLumiere"
     ],
     "BLOCKS:minecraft:walls": [
+      "~MurretDObscurite@CUSTOM:MurretDObscurite",
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ],
     "ITEMS:minecraft:swords": [
@@ -445,7 +466,9 @@
       "block.jamdrops.dalle_d_obscurite": "Dalle d\u0027obscurité",
       "block.jamdrops.dalle_d_obscurite.description_0": "Une dalle d\u0027obscurité pur !",
       "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d\u0027obscurité pur !",
-      "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité"
+      "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité",
+      "block.jamdrops.murret_d_obscurite.description_0": "Un murret d\u0027obscurité pur !",
+      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -473,7 +496,9 @@
       "block.jamdrops.dalle_d_obscurite": "Dalle d\u0027obscurité",
       "block.jamdrops.dalle_d_obscurite.description_0": "Une dalle d\u0027obscurité pur !",
       "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d\u0027obscurité pur !",
-      "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité"
+      "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité",
+      "block.jamdrops.murret_d_obscurite.description_0": "Un murret d\u0027obscurité pur !",
+      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité"
     }
   },
   "metadata": {

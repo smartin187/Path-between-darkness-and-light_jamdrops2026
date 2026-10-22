@@ -20,6 +20,7 @@ public class JamdropsModBlocks {
 	public static final DeferredBlock<Block> BLOC_D_OBSCURITE;
 	public static final DeferredBlock<Block> DALLE_D_OBSCURITE;
 	public static final DeferredBlock<Block> ESCALIER_D_OBSCURITE;
+	public static final DeferredBlock<Block> MURRET_D_OBSCURITE;
 	static {
 		BLOCK_DE_LUMIERE = REGISTRY.register("block_de_lumiere", BlockDeLumiereBlock::new);
 		DALE_DE_LUMIERE = REGISTRY.register("dale_de_lumiere", DaleDeLumiereBlock::new);
@@ -28,6 +29,7 @@ public class JamdropsModBlocks {
 		BLOC_D_OBSCURITE = REGISTRY.register("bloc_d_obscurite", BlocDObscuriteBlock::new);
 		DALLE_D_OBSCURITE = REGISTRY.register("dalle_d_obscurite", DalleDObscuriteBlock::new);
 		ESCALIER_D_OBSCURITE = REGISTRY.register("escalier_d_obscurite", EscalierDObscuriteBlock::new);
+		MURRET_D_OBSCURITE = REGISTRY.register("murret_d_obscurite", MurretDObscuriteBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
