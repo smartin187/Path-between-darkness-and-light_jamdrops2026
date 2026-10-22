@@ -28,6 +28,7 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModBlocks.BLOCK_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.DALE_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.ESCALIER_DE_LUMIERE.get().asItem());
+				tabData.accept(JamdropsModBlocks.MURRET_DE_LUMIERE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

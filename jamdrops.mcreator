@@ -311,6 +311,26 @@
         ]
       },
       "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "MurretDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/loot_table/blocks/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_post.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_inventory.json",
+          "src/main/java/net/mcreator/jamdrops/block/MurretDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/item/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_side_tall.json",
+          "src/main/resources/assets/jamdrops/blockstates/murret_de_lumiere.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
     }
   ],
   "variable_elements": [
@@ -335,6 +355,9 @@
     ],
     "BLOCKS:minecraft:stairs": [
       "~EscalierDeLumiere@CUSTOM:EscalierDeLumiere"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ]
   },
   "tab_element_order": {},
@@ -357,7 +380,9 @@
       "block.jamdrops.dale_de_lumiere": "Dalle de Lumiere",
       "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
       "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
-      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !"
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
+      "block.jamdrops.murret_de_lumiere": "Murret de Lumiere",
+      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -377,7 +402,9 @@
       "block.jamdrops.dale_de_lumiere": "Dalle de Lumière",
       "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
       "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
-      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !"
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
+      "block.jamdrops.murret_de_lumiere": "Murret de Lumière",
+      "block.jamdrops.murret_de_lumiere.description_0": "Un bloc de lumière pur !"
     }
   },
   "metadata": {
