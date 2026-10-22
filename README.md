@@ -1,8 +1,14 @@
-#
+# Path between darkness and light
+
+![logo](./src/main/resources/logo.png)
+
+---
 
 ![Jam Drops 2026](https://jamdrops.lairhisson.fr/public/logo/logo-jam-drops-new.png) ![Bloom and Gloom](https://jamdrops.lairhisson.fr/public/logo/bloom%20and%20gloom%20logo.png)
 
-Ce mod a était crée par l'équipe ..., en utilisant MCreator, pour le concours [Jam Drops 2026](https://jamdrops.lairhisson.fr/), _Bloom and Gloom_.
+---
+
+Ce mod a était crée par l'équipe _Path between darkness and light_, en utilisant MCreator, pour le concours [Jam Drops 2026](https://jamdrops.lairhisson.fr/), _Bloom and Gloom_.
 
 ## Description
 

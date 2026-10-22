@@ -582,19 +582,20 @@
   },
   "workspaceSettings": {
     "modid": "jamdrops",
-    "modName": "Jam-Drops",
+    "modName": "Path between darkness and light",
     "version": "1.0.0",
     "description": "Mod pour le concours Jam Drops 2026 sur le thème Bloom and Gloom - l\u0027ombre et la lumière (crée avec MCreator)",
     "author": "MCreator, Drizzt478, gardienleviathan, smartin187, killer24-Git",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about ; Utilisation du générateur de texte pour le logo https://fr.textstudio.com/",
     "modElementsPackage": "net.mcreator.jamdrops"
   },
   "mcreatorVersion": 202600233518
