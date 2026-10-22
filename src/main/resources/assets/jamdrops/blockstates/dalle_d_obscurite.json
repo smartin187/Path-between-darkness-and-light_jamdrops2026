@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jamdrops:block/dalle_d_obscurite"
+    },
+    "type=top": {
+      "model": "jamdrops:block/dalle_d_obscurite_top"
+    },
+    "type=double": {
+      "model": "jamdrops:block/dalle_d_obscurite_full"
+    }
+  }
+}

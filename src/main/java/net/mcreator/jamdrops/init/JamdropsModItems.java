@@ -30,6 +30,7 @@ public class JamdropsModItems {
 	public static final DeferredItem<Item> ESCALIER_DE_LUMIERE;
 	public static final DeferredItem<Item> MURRET_DE_LUMIERE;
 	public static final DeferredItem<Item> BLOC_D_OBSCURITE;
+	public static final DeferredItem<Item> DALLE_D_OBSCURITE;
 	static {
 		BOSSLUMINEUX_SPAWN_EGG = REGISTRY.register("bosslumineux_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSSLUMINEUX, -1, -1, new Item.Properties()));
 		BOSS_SOMBRE_SPAWN_EGG = REGISTRY.register("boss_sombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSS_SOMBRE, -13421773, -13421773, new Item.Properties()));
@@ -42,6 +43,7 @@ public class JamdropsModItems {
 		ESCALIER_DE_LUMIERE = block(JamdropsModBlocks.ESCALIER_DE_LUMIERE);
 		MURRET_DE_LUMIERE = block(JamdropsModBlocks.MURRET_DE_LUMIERE);
 		BLOC_D_OBSCURITE = block(JamdropsModBlocks.BLOC_D_OBSCURITE);
+		DALLE_D_OBSCURITE = block(JamdropsModBlocks.DALLE_D_OBSCURITE);
 	}
 
 	// Start of user code block custom items
