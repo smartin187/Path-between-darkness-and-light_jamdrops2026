@@ -331,6 +331,23 @@
         ]
       },
       "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "BlocDObscurite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_d_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/blockstates/bloc_d_obscurite.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/bloc_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/item/bloc_d_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/block/BlocDObscuriteBlock.java",
+          "src/main/resources/assets/jamdrops/models/block/bloc_d_obscurite.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite"
     }
   ],
   "variable_elements": [
@@ -382,7 +399,9 @@
       "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
       "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
       "block.jamdrops.murret_de_lumiere": "Murret de Lumiere",
-      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !"
+      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !",
+      "block.jamdrops.bloc_d_obscurite": "Bloc d\u0027obscurite",
+      "block.jamdrops.bloc_d_obscurite.description_0": "Un bloc d\u0027obscurité pur !"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -404,7 +423,9 @@
       "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
       "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
       "block.jamdrops.murret_de_lumiere": "Murret de Lumière",
-      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !"
+      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !",
+      "block.jamdrops.bloc_d_obscurite": "Bloc d\u0027obscurite",
+      "block.jamdrops.bloc_d_obscurite.description_0": "Un bloc d\u0027obscurité pur !"
     }
   },
   "metadata": {
@@ -476,6 +497,10 @@
         "children": [
           {
             "name": "Block de lumiere",
+            "children": []
+          },
+          {
+            "name": "Block d obscurite",
             "children": []
           }
         ]

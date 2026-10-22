@@ -12,6 +12,7 @@ import net.mcreator.jamdrops.block.MurretDeLumiereBlock;
 import net.mcreator.jamdrops.block.EscalierDeLumiereBlock;
 import net.mcreator.jamdrops.block.DaleDeLumiereBlock;
 import net.mcreator.jamdrops.block.BlockDeLumiereBlock;
+import net.mcreator.jamdrops.block.BlocDObscuriteBlock;
 import net.mcreator.jamdrops.JamdropsMod;
 
 public class JamdropsModBlocks {
@@ -20,11 +21,13 @@ public class JamdropsModBlocks {
 	public static final DeferredBlock<Block> DALE_DE_LUMIERE;
 	public static final DeferredBlock<Block> ESCALIER_DE_LUMIERE;
 	public static final DeferredBlock<Block> MURRET_DE_LUMIERE;
+	public static final DeferredBlock<Block> BLOC_D_OBSCURITE;
 	static {
 		BLOCK_DE_LUMIERE = REGISTRY.register("block_de_lumiere", BlockDeLumiereBlock::new);
 		DALE_DE_LUMIERE = REGISTRY.register("dale_de_lumiere", DaleDeLumiereBlock::new);
 		ESCALIER_DE_LUMIERE = REGISTRY.register("escalier_de_lumiere", EscalierDeLumiereBlock::new);
 		MURRET_DE_LUMIERE = REGISTRY.register("murret_de_lumiere", MurretDeLumiereBlock::new);
+		BLOC_D_OBSCURITE = REGISTRY.register("bloc_d_obscurite", BlocDObscuriteBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
