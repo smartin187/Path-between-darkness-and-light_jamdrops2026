@@ -273,6 +273,25 @@
         ]
       },
       "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "DaleDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dale_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere.json",
+          "src/main/java/net/mcreator/jamdrops/block/DaleDeLumiereBlock.java",
+          "src/main/resources/data/jamdrops/loot_table/blocks/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_top.json",
+          "src/main/resources/assets/jamdrops/blockstates/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_full.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
     }
   ],
   "variable_elements": [
@@ -291,6 +310,9 @@
     ],
     "ITEMS:minecraft:swords": [
       "~EpeeLumiere@CUSTOM:EpeeLumiere"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
     ]
   },
   "tab_element_order": {},
@@ -308,8 +330,10 @@
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
       "item.jamdrops.epee_lumiere": "Épée de lumiere",
-      "block.jamdrops.block_de_lumiere": "Block De Lumiere",
-      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !"
+      "block.jamdrops.block_de_lumiere": "Block de Lumiere",
+      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
+      "block.jamdrops.dale_de_lumiere": "Dalle de Lumiere",
+      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -325,7 +349,9 @@
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
       "item.jamdrops.epee_lumiere": "Épée de lumiere",
       "block.jamdrops.block_de_lumiere": "Block De Lumiere",
-      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !"
+      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
+      "block.jamdrops.dale_de_lumiere": "Block De Lumiere",
+      "block.jamdrops.dale_de_lumiere.description_0": "Un bloc de lumière pur !"
     }
   },
   "metadata": {

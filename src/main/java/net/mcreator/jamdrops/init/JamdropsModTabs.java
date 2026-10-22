@@ -26,6 +26,7 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
 				tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
 				tabData.accept(JamdropsModBlocks.BLOCK_DE_LUMIERE.get().asItem());
+				tabData.accept(JamdropsModBlocks.DALE_DE_LUMIERE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
