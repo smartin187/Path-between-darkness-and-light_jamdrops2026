@@ -18,7 +18,7 @@ import java.util.List;
 
 public class BlockDeLumiereBlock extends Block {
 	public BlockDeLumiereBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).lightLevel(blockstate -> 15).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
