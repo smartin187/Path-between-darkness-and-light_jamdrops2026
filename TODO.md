@@ -44,6 +44,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - [smartin187] Block:
     - [smartin187] Block d'obscurité
     - Faire de nouvelles textures ?
+    - Ajouter au readme les block
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
