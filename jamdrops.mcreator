@@ -256,6 +256,23 @@
         ]
       },
       "path": "~/Epee"
+    },
+    {
+      "name": "BlockDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/block/BlockDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/item/block_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/blockstates/block_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/block_de_lumiere.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/block_de_lumiere.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
     }
   ],
   "variable_elements": [
@@ -290,7 +307,8 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-      "item.jamdrops.epee_lumiere": "Épée de lumiere"
+      "item.jamdrops.epee_lumiere": "Épée de lumiere",
+      "block.jamdrops.block_de_lumiere": "Block De Lumiere"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -304,11 +322,13 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
-      "item.jamdrops.epee_lumiere": "Épée de lumiere"
+      "item.jamdrops.epee_lumiere": "Épée de lumiere",
+      "block.jamdrops.block_de_lumiere": "Block De Lumiere"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModBlocks.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
@@ -369,6 +389,15 @@
       {
         "name": "Epee",
         "children": []
+      },
+      {
+        "name": "Block",
+        "children": [
+          {
+            "name": "Block de lumiere",
+            "children": []
+          }
+        ]
       }
     ]
   },
