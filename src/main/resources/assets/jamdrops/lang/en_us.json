@@ -22,5 +22,7 @@
   "block.jamdrops.bloc_d_obscurite": "Bloc d'obscurité",
   "block.jamdrops.bloc_d_obscurite.description_0": "Un bloc d'obscurité pur !",
   "block.jamdrops.dalle_d_obscurite": "Dalle d'obscurité",
-  "block.jamdrops.dalle_d_obscurite.description_0": "Une dalle d'obscurité pur !"
+  "block.jamdrops.dalle_d_obscurite.description_0": "Une dalle d'obscurité pur !",
+  "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d'obscurité pur !",
+  "block.jamdrops.escalier_d_obscurite": "Escalier d'obscurité"
 }
