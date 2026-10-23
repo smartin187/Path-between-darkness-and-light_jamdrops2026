@@ -7,7 +7,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 ## Tâches
 
 - Dans les paramètres de l'espace de travaille (MCreator):
-    - Vérifier que tout les contributeur soit dans la liste
+    - [smartin187] Vérifier que tout les contributeur soit dans la liste
     - Mettre le nom du mod:
         - [smartin187] Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
     - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
@@ -62,5 +62,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
     - Crée une realease sur GitHub a la fin du pipeline.
-    - Voir pour lancer le pipeline uniquement dans les PR utile (lors que le fichier mcreator est modifier), ou alors désactiver le pipeline automatique
 - Faire netoyage sur les branches Git
