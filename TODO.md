@@ -24,7 +24,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
-    - [Drizzt478] Faire les images des deux épée -> reste l'épée d'obscurité
     - Epée de lumière:
         - [smartin187] donne l'effet blindness + vision nocturne -> utiliser les déclancheur dans MCreator
         - [smartin187] effet de soin/résistance/pv supplémentaire
