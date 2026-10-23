@@ -449,8 +449,8 @@
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ],
     "ITEMS:minecraft:swords": [
-      "~EpeeLumiere@CUSTOM:EpeeLumiere",
-      "~EpeeObscurite@CUSTOM:EpeeObscurite"
+      "~EpeeObscurite@CUSTOM:EpeeObscurite",
+      "~EpeeLumiere@CUSTOM:EpeeLumiere"
     ]
   },
   "tab_element_order": {},
