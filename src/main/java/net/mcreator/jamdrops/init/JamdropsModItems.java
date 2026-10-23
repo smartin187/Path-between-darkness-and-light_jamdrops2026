@@ -12,12 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.jamdrops.item.OrbeLumItemItem;
-import net.mcreator.jamdrops.item.GemmeSombreItem;
-import net.mcreator.jamdrops.item.GemmeLumineuxItem;
-import net.mcreator.jamdrops.item.FoudreitemItem;
-import net.mcreator.jamdrops.item.EpeeObscuriteItem;
-import net.mcreator.jamdrops.item.EpeeLumiereItem;
+import net.mcreator.jamdrops.item.*;
 import net.mcreator.jamdrops.JamdropsMod;
 
 public class JamdropsModItems {
