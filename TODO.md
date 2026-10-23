@@ -34,31 +34,33 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
-    - Pour les boss, faire le modèle 3D -> faire les textures
+    - Pour les boss:
+        - terminer le modèle 3D du boss de l'ombre (l'agrandire car elle est trop petite)
+        - faire les textures pour les boss
     - Pour les structures, utiliser les block de lumière et d'obscurité...
-    - [killer24-Git] Pour le boss, voir pour la manière d'attaquer le joueur : actuellement en tirant des flèches:
-        - [killer24-Git] Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches... + que le projectile crée un éclaire quand il est tirré.
-    - Pour le boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
+    - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale ?
+    - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
 - [smartin187] Block:
     - Faire de nouvelles textures ?
     - Ajouter au readme les block
     - Bloc de lumière émmet de la redstone ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
-    - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
+    - [smartin187] Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
 - Prêtre de lumière:
     - A utiliser dans les structures
     - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
     - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ?
-    - Variante du prêtre de lumière :
+    - [smartin187] Variante du prêtre de lumière :
         - Attaque corp a corp
         - Nouveau modèle 3D et texture de @Drizzt478
-- Voir pour les oeuf d'apparition:
+- [smartin187] Voir pour les oeuf d'apparition:
     - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
     - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
     - Crée une realease sur GitHub a la fin du pipeline.
+    - Voir pour lancer le pipeline uniquement dans les PR utile (lors que le fichier mcreator est modifier), ou alors désactiver le pipeline automatique
 - Faire netoyage sur les branches Git
