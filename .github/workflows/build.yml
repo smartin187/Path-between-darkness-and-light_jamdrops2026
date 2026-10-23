@@ -24,7 +24,6 @@ jobs:
 
       - name: Build
         run: |
-          chmod +x gradlew
           ./gradlew build --no-daemon
 
       - name: Upload jar
