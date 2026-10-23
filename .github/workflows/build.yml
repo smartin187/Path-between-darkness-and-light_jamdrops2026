@@ -1,4 +1,4 @@
-name: Build
+name: Export jar
 
 on:
   workflow_dispatch:
