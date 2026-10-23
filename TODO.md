@@ -50,6 +50,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - A utiliser dans les structures
     - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
+    - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ?
     - Variante du prêtre de lumière :
         - Attaque corp a corp
@@ -60,4 +61,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
     - Utiliser Debian
-    - Changer le nom du build et changer le nom du jar
+- Faire netoyage sur les branches Git

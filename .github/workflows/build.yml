@@ -1,4 +1,4 @@
-name: Build
+name: Export jar
 
 on:
   workflow_dispatch:
@@ -29,6 +29,6 @@ jobs:
       - name: Upload jar
         uses: actions/upload-artifact@v4
         with:
-          name: modid-jar
+          name: path-between-darkness-and-light_NeoForge1.21.1
           path: build/libs/*.jar
           if-no-files-found: error
