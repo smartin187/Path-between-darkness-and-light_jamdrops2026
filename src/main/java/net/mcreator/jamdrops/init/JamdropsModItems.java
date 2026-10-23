@@ -12,10 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.jamdrops.item.GemmeSombreItem;
-import net.mcreator.jamdrops.item.GemmeLumineuxItem;
-import net.mcreator.jamdrops.item.EpeeObscuriteItem;
-import net.mcreator.jamdrops.item.EpeeLumiereItem;
+import net.mcreator.jamdrops.item.*;
 import net.mcreator.jamdrops.JamdropsMod;
 
 public class JamdropsModItems {
@@ -25,6 +22,8 @@ public class JamdropsModItems {
 	public static final DeferredItem<Item> GEMME_LUMINEUX;
 	public static final DeferredItem<Item> GEMME_SOMBRE;
 	public static final DeferredItem<Item> PRETRE_LUMINEUX_SPAWN_EGG;
+	public static final DeferredItem<Item> FOUDREITEM;
+	public static final DeferredItem<Item> ORBE_LUM_ITEM;
 	public static final DeferredItem<Item> EPEE_LUMIERE;
 	public static final DeferredItem<Item> BLOCK_DE_LUMIERE;
 	public static final DeferredItem<Item> DALE_DE_LUMIERE;
@@ -41,6 +40,8 @@ public class JamdropsModItems {
 		GEMME_LUMINEUX = REGISTRY.register("gemme_lumineux", GemmeLumineuxItem::new);
 		GEMME_SOMBRE = REGISTRY.register("gemme_sombre", GemmeSombreItem::new);
 		PRETRE_LUMINEUX_SPAWN_EGG = REGISTRY.register("pretre_lumineux_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_LUMINEUX, -10066330, -1, new Item.Properties()));
+		FOUDREITEM = REGISTRY.register("foudreitem", FoudreitemItem::new);
+		ORBE_LUM_ITEM = REGISTRY.register("orbe_lum_item", OrbeLumItemItem::new);
 		EPEE_LUMIERE = REGISTRY.register("epee_lumiere", EpeeLumiereItem::new);
 		BLOCK_DE_LUMIERE = block(JamdropsModBlocks.BLOCK_DE_LUMIERE);
 		DALE_DE_LUMIERE = block(JamdropsModBlocks.DALE_DE_LUMIERE);

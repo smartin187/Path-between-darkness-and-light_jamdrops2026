@@ -78,10 +78,9 @@
       "registry_name": "bosslumineux",
       "metadata": {
         "files": [
+          "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntity.java",
-          "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntityProjectile.java",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json"
+          "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java"
         ]
       },
       "path": "~/Structures/Temple de la lumiere"
@@ -203,8 +202,8 @@
       "registry_name": "gemme_sombre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json",
-          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java"
+          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java",
+          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json"
         ]
       },
       "path": "~/Items/Gemme sombre"
@@ -236,12 +235,117 @@
       "registry_name": "pretre_lumineux",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreLumineuxRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java"
+          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json"
         ]
       },
       "path": "~/Pretre"
+    },
+    {
+      "name": "Foudreitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foudreitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/item/FoudreitemItem.java",
+          "src/main/resources/assets/jamdrops/models/item/foudreitem.json"
+        ]
+      },
+      "path": "~/Items/Projectile foudre"
+    },
+    {
+      "name": "FoudreProjectileHits",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foudre_projectile_hits",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/FoudreProjectileHitsProcedure.java"
+        ]
+      },
+      "path": "~/Items/Projectile foudre"
+    },
+    {
+      "name": "Foudre",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foudre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/FoudreEntity.java"
+        ]
+      },
+      "path": "~/Items/Projectile foudre"
+    },
+    {
+      "name": "BosslumineuxEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bosslumineux_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/BosslumineuxEntityIsHurtProcedure.java"
+        ]
+      },
+      "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "OrbeLumItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbe_lum_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/orbe_lum_item.json",
+          "src/main/java/net/mcreator/jamdrops/item/OrbeLumItemItem.java"
+        ]
+      },
+      "path": "~/Items/Boule de lumiere"
+    },
+    {
+      "name": "OrbeDeLumiere",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbe_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/OrbeDeLumiereEntity.java"
+        ]
+      },
+      "path": "~/Items/Boule de lumiere"
     },
     {
       "name": "EpeeLumiere",
@@ -467,6 +571,8 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+      "item.jamdrops.foudreitem": "Foudreitem",
+      "item.jamdrops.orbe_lum_item": "Orbe Lum Item",
       "item.jamdrops.epee_lumiere": "Épée de lumiere",
       "block.jamdrops.block_de_lumiere": "Block de Lumiere",
       "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
@@ -500,6 +606,8 @@
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+      "item.jamdrops.foudreitem": "Foudreitem",
+      "item.jamdrops.orbe_lum_item": "Orbe Lum Item",
       "item.jamdrops.epee_lumiere": "Épée de lumière",
       "block.jamdrops.block_de_lumiere": "Block De Lumière",
       "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
@@ -561,6 +669,14 @@
           },
           {
             "name": "Gemme sombre",
+            "children": []
+          },
+          {
+            "name": "Projectile foudre",
+            "children": []
+          },
+          {
+            "name": "Boule de lumiere",
             "children": []
           }
         ]

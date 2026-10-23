@@ -19,9 +19,10 @@ public class JamdropsModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(JamdropsModEntities.BOSSLUMINEUX.get(), BosslumineuxRenderer::new);
-		event.registerEntityRenderer(JamdropsModEntities.BOSSLUMINEUX_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.BOSS_SOMBRE.get(), BossSombreRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.BOSS_SOMBRE_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.PRETRE_LUMINEUX.get(), PretreLumineuxRenderer::new);
+		event.registerEntityRenderer(JamdropsModEntities.FOUDRE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(JamdropsModEntities.ORBE_DE_LUMIERE.get(), ThrownItemRenderer::new);
 	}
 }

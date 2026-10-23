@@ -18,6 +18,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
@@ -27,8 +28,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.jamdrops.procedures.BosslumineuxEntityIsHurtProcedure;
 import net.mcreator.jamdrops.init.JamdropsModItems;
-import net.mcreator.jamdrops.init.JamdropsModEntities;
 
 public class BosslumineuxEntity extends Monster implements RangedAttackMob {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
@@ -55,7 +56,7 @@ public class BosslumineuxEntity extends Monster implements RangedAttackMob {
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
 		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 8, 10f) {
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 40, 10f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();
@@ -84,13 +85,22 @@ public class BosslumineuxEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
+	public boolean hurt(DamageSource damagesource, float amount) {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		Entity sourceentity = damagesource.getEntity();
+		Entity immediatesourceentity = damagesource.getDirectEntity();
+		if (!BosslumineuxEntityIsHurtProcedure.execute(damagesource))
+			return false;
+		return super.hurt(damagesource, amount);
+	}
+
+	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		BosslumineuxEntityProjectile entityarrow = new BosslumineuxEntityProjectile(JamdropsModEntities.BOSSLUMINEUX_PROJECTILE.get(), this, this.level());
-		double d0 = target.getY() + target.getEyeHeight() - 1.1;
-		double d1 = target.getX() - this.getX();
-		double d3 = target.getZ() - this.getZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
-		this.level().addFreshEntity(entityarrow);
+		FoudreEntity.shoot(this, target);
 	}
 
 	@Override
