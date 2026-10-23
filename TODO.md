@@ -61,5 +61,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
     - Utiliser Debian
-    - Changer le nom du build et changer le nom du jar
 - Faire netoyage sur les branches Git
