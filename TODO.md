@@ -62,4 +62,5 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
     - Crée une realease sur GitHub a la fin du pipeline.
+    - Voir pour lancer le pipeline uniquement dans les PR utile (lors que le fichier mcreator est modifier), ou alors désactiver le pipeline automatique
 - Faire netoyage sur les branches Git
