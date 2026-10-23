@@ -27,7 +27,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Epée de lumière:
         - [smartin187] donne l'effet blindness + vision nocturne -> utiliser les déclancheur dans MCreator
         - [smartin187] effet de soin/résistance/pv supplémentaire
-    - Epée d'obscurité (donne l'effet blindness) + effets style force/poison/faiblesse
+    - Epée d'obscurité:
+        - (donne l'effet blindness)
+        - effets style force/poison/faiblesse
     - [smartin187] Faire les recettes pour craft les épées
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
