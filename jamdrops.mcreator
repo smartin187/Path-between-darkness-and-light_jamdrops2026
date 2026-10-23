@@ -524,6 +524,25 @@
         ]
       },
       "path": "~/Epee"
+    },
+    {
+      "name": "EffetEpeeLumiere",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effet_epee_lumiere",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/EffetEpeeLumiereProcedure.java"
+        ]
+      },
+      "path": "~/Epee"
     }
   ],
   "variable_elements": [
@@ -553,8 +572,8 @@
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ],
     "ITEMS:minecraft:swords": [
-      "~EpeeObscurite@CUSTOM:EpeeObscurite",
-      "~EpeeLumiere@CUSTOM:EpeeLumiere"
+      "~EpeeLumiere@CUSTOM:EpeeLumiere",
+      "~EpeeObscurite@CUSTOM:EpeeObscurite"
     ]
   },
   "tab_element_order": {},
