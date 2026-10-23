@@ -26,7 +26,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Epée:
     - Epée de lumière:
         - [smartin187] donne l'effet blindness + vision nocturne -> utiliser les déclancheur dans MCreator
-        - [smartin187] effet de soin/résistance/pv supplémentaire
+        - [smartin187] effet de soin/résistance
     - Epée d'obscurité:
         - (donne l'effet blindness)
         - effets style force/poison/faiblesse

@@ -11,5 +11,7 @@ public class EffetEpeeLumiereProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 1, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 60, 1, false, false));
 	}
 }
