@@ -7,17 +7,12 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 ## Tâches
 
 - Dans les paramètres de l'espace de travaille (MCreator):
-    - Ajouter un logo du mod
     - Vérifier que tout les contributeur soit dans la liste
     - Mettre le nom du mod:
-        - Changer le nom d'affichage en jeu (paramètres de l'espace de travaille)
-        - Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille)
-        - Dans le `README.md` mettre le nom du mod
+        - [smartin187] Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
     - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
-    - Mettre le nom du mod dans le REAMDE
-    - Mettre un logo dans le README
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles -> faire la première realease
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
@@ -29,9 +24,13 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
-    - [Drizzt478] Faire les images des deux épée
-    - Epée de lumière (donne l'effet blindness + vision nocturne) + effet de soin/résistance/pv supplémentaire
-    - Epée d'obscurité (donne l'effet blindness) + effets style force/poison/faiblesse
+    - Epée de lumière:
+        - [smartin187] donne l'effet blindness + vision nocturne -> utiliser les déclancheur dans MCreator
+        - [smartin187] effet de soin/résistance/pv supplémentaire
+    - Epée d'obscurité:
+        - (donne l'effet blindness)
+        - effets style force/poison/faiblesse
+    - [smartin187] Faire les recettes pour craft les épées
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
@@ -41,8 +40,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
         - [killer24-Git] Le boss pourrait tirer des éclaire / "lumière pur" / "ombre pur" -> crée nos propre projectile, et les utiliser a la place des flèches... + que le projectile crée un éclaire quand il est tirré.
     - Pour le boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
 - [smartin187] Block:
-    - Block de lumière
-    - Block d'obscurité
+    - Faire de nouvelles textures ?
+    - Ajouter au readme les block
+    - Bloc de lumière émmet de la redstone ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
     - Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
@@ -50,8 +50,14 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - A utiliser dans les structures
     - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
-    - Mettre a jour le modèle 3D
     - Mettre un items qu'il dropera ?
+    - Variante du prêtre de lumière :
+        - Attaque corp a corp
+        - Nouveau modèle 3D et texture de @Drizzt478
 - Voir pour les oeuf d'apparition:
     - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
+    - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
+- [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
+    - Utiliser Debian
+    - Changer le nom du build et changer le nom du jar

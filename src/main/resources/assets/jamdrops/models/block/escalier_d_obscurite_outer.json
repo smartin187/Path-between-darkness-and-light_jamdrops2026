@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "jamdrops:block/texture_bloc_sombre",
+    "bottom": "jamdrops:block/texture_bloc_sombre",
+    "top": "jamdrops:block/texture_bloc_sombre",
+    "side": "jamdrops:block/texture_bloc_sombre"
+  },
+  "render_type": "solid"
+}

@@ -346,6 +346,184 @@
         ]
       },
       "path": "~/Items/Boule de lumiere"
+    },
+    {
+      "name": "EpeeLumiere",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epee_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/item/EpeeLumiereItem.java",
+          "src/main/resources/assets/jamdrops/models/item/epee_lumiere.json"
+        ]
+      },
+      "path": "~/Epee"
+    },
+    {
+      "name": "BlockDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/block/BlockDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/item/block_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/blockstates/block_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/block_de_lumiere.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/block_de_lumiere.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "DaleDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dale_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere.json",
+          "src/main/java/net/mcreator/jamdrops/block/DaleDeLumiereBlock.java",
+          "src/main/resources/data/jamdrops/loot_table/blocks/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_top.json",
+          "src/main/resources/assets/jamdrops/blockstates/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_full.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "EscalierDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_inner.json",
+          "src/main/java/net/mcreator/jamdrops/block/EscalierDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/item/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/blockstates/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_outer.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "MurretDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/loot_table/blocks/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_post.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_inventory.json",
+          "src/main/java/net/mcreator/jamdrops/block/MurretDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/models/item/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_side_tall.json",
+          "src/main/resources/assets/jamdrops/blockstates/murret_de_lumiere.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere"
+    },
+    {
+      "name": "BlocDObscurite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_d_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/blockstates/bloc_d_obscurite.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/bloc_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/item/bloc_d_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/block/BlocDObscuriteBlock.java",
+          "src/main/resources/assets/jamdrops/models/block/bloc_d_obscurite.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite"
+    },
+    {
+      "name": "DalleDObscurite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalle_d_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite_full.json",
+          "src/main/resources/assets/jamdrops/models/item/dalle_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/blockstates/dalle_d_obscurite.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/dalle_d_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/block/DalleDObscuriteBlock.java",
+          "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite_top.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite"
+    },
+    {
+      "name": "EscalierDObscurite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_d_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/escalier_d_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/block/EscalierDObscuriteBlock.java",
+          "src/main/resources/assets/jamdrops/blockstates/escalier_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/escalier_d_obscurite_outer.json",
+          "src/main/resources/assets/jamdrops/models/block/escalier_d_obscurite_inner.json",
+          "src/main/resources/assets/jamdrops/models/block/escalier_d_obscurite.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/escalier_d_obscurite.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite"
+    },
+    {
+      "name": "MurretDObscurite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_d_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_inventory.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_side_tall.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_post.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/murret_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/item/murret_d_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/block/MurretDObscuriteBlock.java",
+          "src/main/resources/assets/jamdrops/blockstates/murret_d_obscurite.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite"
+    },
+    {
+      "name": "EpeeObscurite",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epee_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamdrops/models/item/epee_obscurite.json",
+          "src/main/java/net/mcreator/jamdrops/item/EpeeObscuriteItem.java"
+        ]
+      },
+      "path": "~/Epee"
     }
   ],
   "variable_elements": [
@@ -359,8 +537,24 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:enchantable/durability": [
-      "~GemmeSombre@CUSTOM:GemmeSombre",
-      "~GemmeLumineux@CUSTOM:GemmeLumineux"
+      "~GemmeLumineux@CUSTOM:GemmeLumineux",
+      "~GemmeSombre@CUSTOM:GemmeSombre"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~DalleDObscurite@CUSTOM:DalleDObscurite",
+      "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~EscalierDObscurite@CUSTOM:EscalierDObscurite",
+      "~EscalierDeLumiere@CUSTOM:EscalierDeLumiere"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~MurretDObscurite@CUSTOM:MurretDObscurite",
+      "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~EpeeObscurite@CUSTOM:EpeeObscurite",
+      "~EpeeLumiere@CUSTOM:EpeeLumiere"
     ]
   },
   "tab_element_order": {},
@@ -378,7 +572,27 @@
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
       "item.jamdrops.foudreitem": "Foudreitem",
-      "item.jamdrops.orbe_lum_item": "Orbe Lum Item"
+      "item.jamdrops.orbe_lum_item": "Orbe Lum Item",
+      "item.jamdrops.epee_lumiere": "Épée de lumiere",
+      "block.jamdrops.block_de_lumiere": "Block de Lumiere",
+      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
+      "block.jamdrops.dale_de_lumiere": "Dalle de Lumiere",
+      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
+      "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
+      "block.jamdrops.murret_de_lumiere": "Murret de Lumiere",
+      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !",
+      "block.jamdrops.bloc_d_obscurite": "Bloc d\u0027obscurité",
+      "block.jamdrops.bloc_d_obscurite.description_0": "Un bloc d\u0027obscurité pur !",
+      "block.jamdrops.dalle_d_obscurite": "Dalle d\u0027obscurité",
+      "block.jamdrops.dalle_d_obscurite.description_0": "Une dalle d\u0027obscurité pur !",
+      "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d\u0027obscurité pur !",
+      "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité",
+      "block.jamdrops.murret_d_obscurite.description_0": "Un murret d\u0027obscurité pur !",
+      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité",
+      "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
+      "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
+      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -393,11 +607,32 @@
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
       "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
       "item.jamdrops.foudreitem": "Foudreitem",
-      "item.jamdrops.orbe_lum_item": "Orbe Lum Item"
+      "item.jamdrops.orbe_lum_item": "Orbe Lum Item",
+      "item.jamdrops.epee_lumiere": "Épée de lumière",
+      "block.jamdrops.block_de_lumiere": "Block De Lumière",
+      "block.jamdrops.block_de_lumiere.description_0": "Un bloc de lumière pur !",
+      "block.jamdrops.dale_de_lumiere": "Dalle de Lumière",
+      "block.jamdrops.dale_de_lumiere.description_0": "Une dalle de lumière pur !",
+      "block.jamdrops.escalier_de_lumiere": "Escalier de Lumière",
+      "block.jamdrops.escalier_de_lumiere.description_0": "Un escalier de lumière pur !",
+      "block.jamdrops.murret_de_lumiere": "Murret de Lumière",
+      "block.jamdrops.murret_de_lumiere.description_0": "Un murret de lumière pur !",
+      "block.jamdrops.bloc_d_obscurite": "Bloc d\u0027obscurité",
+      "block.jamdrops.bloc_d_obscurite.description_0": "Un bloc d\u0027obscurité pur !",
+      "block.jamdrops.dalle_d_obscurite": "Dalle d\u0027obscurité",
+      "block.jamdrops.dalle_d_obscurite.description_0": "Une dalle d\u0027obscurité pur !",
+      "block.jamdrops.escalier_d_obscurite.description_0": "Un escalier d\u0027obscurité pur !",
+      "block.jamdrops.escalier_d_obscurite": "Escalier d\u0027obscurité",
+      "block.jamdrops.murret_d_obscurite.description_0": "Un murret d\u0027obscurité pur !",
+      "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité",
+      "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
+      "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
+      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModBlocks.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
@@ -462,24 +697,42 @@
       {
         "name": "Pretre",
         "children": []
+      },
+      {
+        "name": "Epee",
+        "children": []
+      },
+      {
+        "name": "Block",
+        "children": [
+          {
+            "name": "Block de lumiere",
+            "children": []
+          },
+          {
+            "name": "Block d obscurite",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "jamdrops",
-    "modName": "Jam-Drops",
+    "modName": "Path between darkness and light",
     "version": "1.0.0",
     "description": "Mod pour le concours Jam Drops 2026 sur le thème Bloom and Gloom - l\u0027ombre et la lumière (crée avec MCreator)",
     "author": "MCreator, Drizzt478, gardienleviathan, smartin187, killer24-Git",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about ; Utilisation du générateur de texte pour le logo https://fr.textstudio.com/",
     "modElementsPackage": "net.mcreator.jamdrops"
   },
   "mcreatorVersion": 202600233518

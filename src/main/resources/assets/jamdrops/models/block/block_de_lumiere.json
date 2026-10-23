@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jamdrops:block/texture_block_lumiere",
+    "up": "jamdrops:block/texture_block_lumiere",
+    "north": "jamdrops:block/texture_block_lumiere",
+    "east": "jamdrops:block/texture_block_lumiere",
+    "south": "jamdrops:block/texture_block_lumiere",
+    "west": "jamdrops:block/texture_block_lumiere",
+    "particle": "jamdrops:block/texture_block_lumiere"
+  },
+  "render_type": "solid"
+}

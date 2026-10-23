@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jamdrops:block/dale_de_lumiere"
+    },
+    "type=top": {
+      "model": "jamdrops:block/dale_de_lumiere_top"
+    },
+    "type=double": {
+      "model": "jamdrops:block/dale_de_lumiere_full"
+    }
+  }
+}

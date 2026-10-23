@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "jamdrops:block/texture_block_lumiere",
+    "particle": "jamdrops:block/texture_block_lumiere"
+  },
+  "render_type": "solid"
+}
