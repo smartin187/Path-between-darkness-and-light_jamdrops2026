@@ -51,8 +51,13 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
     - Mettre un items qu'il dropera ?
+    - Variante du prêtre de lumière :
+        - Attaque corp a corp
+        - Nouveau modèle 3D et texture de @Drizzt478
 - Voir pour les oeuf d'apparition:
     - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
     - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
-- [smartin187] Voir pour ajouter au GitHub action un script de build automatique
+- [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
+    - Utiliser Debian
+    - Changer le nom du build et changer le nom du jar
