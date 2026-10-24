@@ -11,6 +11,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.jamdrops.client.renderer.PretreLumineuxRenderer;
+import net.mcreator.jamdrops.client.renderer.PretreCaCRenderer;
 import net.mcreator.jamdrops.client.renderer.BosslumineuxRenderer;
 import net.mcreator.jamdrops.client.renderer.BossSombreRenderer;
 
@@ -24,5 +25,6 @@ public class JamdropsModEntityRenderers {
 		event.registerEntityRenderer(JamdropsModEntities.PRETRE_LUMINEUX.get(), PretreLumineuxRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.FOUDRE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.ORBE_DE_LUMIERE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(JamdropsModEntities.PRETRE_CA_C.get(), PretreCaCRenderer::new);
 	}
 }

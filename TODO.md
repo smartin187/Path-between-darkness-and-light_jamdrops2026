@@ -49,8 +49,8 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Que doit dropper le prêtre ?
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
-    - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
-    - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
+    - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...` + pour le prêtre de lumière, laisser `CaC` ?
+    - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
     - [smartin187] Mettre les oeuf d'apparition dans le menu créatif du mod
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
     - Crée une realease sur GitHub a la fin du pipeline.
