@@ -24,26 +24,25 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
-    - Epée de lumière:
-        - [smartin187] donne l'effet blindness + vision nocturne -> utiliser les déclancheur dans MCreator
-        - [smartin187] effet de soin/résistance/pv supplémentaire
+    - [smartin187] Epée de lumière: donne l'effet blindness -> esce que l'on garde cette effet ?
     - Epée d'obscurité:
-        - (donne l'effet blindness)
+        - donne l'effet blindness (esce que l'on garde cette effet ?)
         - effets style force/poison/faiblesse
     - [smartin187] Faire les recettes pour craft les épées
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les boss:
-        - terminer le modèle 3D du boss de l'ombre (l'agrandire car elle est trop petite)
+        - terminer le modèle 3D du boss de l'ombre
+        - [smartin187] agrandire celle du boss de l'ombre car elle est trop petite
         - faire les textures pour les boss
     - Pour les structures, utiliser les block de lumière et d'obscurité...
-    - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale ?
+    - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale -> supprimer les block en dessous du joueur
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
 - [smartin187] Block:
     - Faire de nouvelles textures ?
     - Ajouter au readme les block
-    - Bloc de lumière émmet de la redstone ?
+    - [smartin187] Bloc de lumière émmet de la redstone ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
     - [smartin187] Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
@@ -56,10 +55,10 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [smartin187] Variante du prêtre de lumière :
         - Attaque corp a corp
         - Nouveau modèle 3D et texture de @Drizzt478
-- [smartin187] Voir pour les oeuf d'apparition:
-    - Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
-    - Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
-    - Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
+- Voir pour les oeuf d'apparition:
+    - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
+    - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
+    - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
     - Crée une realease sur GitHub a la fin du pipeline.
 - Faire netoyage sur les branches Git
