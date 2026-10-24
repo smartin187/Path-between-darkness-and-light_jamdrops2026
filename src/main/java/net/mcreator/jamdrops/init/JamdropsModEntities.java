@@ -39,6 +39,10 @@ public class JamdropsModEntities {
 			EntityType.Builder.<FoudreEntity>of(FoudreEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<OrbeDeLumiereEntity>> ORBE_DE_LUMIERE = register("orbe_de_lumiere",
 			EntityType.Builder.<OrbeDeLumiereEntity>of(OrbeDeLumiereEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<PretreCaCEntity>> PRETRE_CA_C = register("pretre_ca_c",
+			EntityType.Builder.<PretreCaCEntity>of(PretreCaCEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -51,6 +55,7 @@ public class JamdropsModEntities {
 		BosslumineuxEntity.init(event);
 		BossSombreEntity.init(event);
 		PretreLumineuxEntity.init(event);
+		PretreCaCEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -58,5 +63,6 @@ public class JamdropsModEntities {
 		event.put(BOSSLUMINEUX.get(), BosslumineuxEntity.createAttributes().build());
 		event.put(BOSS_SOMBRE.get(), BossSombreEntity.createAttributes().build());
 		event.put(PRETRE_LUMINEUX.get(), PretreLumineuxEntity.createAttributes().build());
+		event.put(PRETRE_CA_C.get(), PretreCaCEntity.createAttributes().build());
 	}
 }

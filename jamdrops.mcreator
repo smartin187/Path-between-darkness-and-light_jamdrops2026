@@ -588,6 +588,21 @@
         ]
       },
       "path": "~/Epee/Epee d obscurite"
+    },
+    {
+      "name": "PretreCaC",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pretre_ca_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/PretreCaCEntity.java",
+          "src/main/resources/assets/jamdrops/models/item/pretre_ca_c_spawn_egg.json",
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreCaCRenderer.java"
+        ]
+      },
+      "path": "~/Pretre"
     }
   ],
   "variable_elements": [
@@ -656,7 +671,9 @@
       "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité",
       "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
       "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
-      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !"
+      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
+      "item.jamdrops.pretre_ca_c_spawn_egg": "Pretre de lumière Spawn Egg",
+      "entity.jamdrops.pretre_ca_c": "Pretre de lumière"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -691,7 +708,9 @@
       "block.jamdrops.murret_d_obscurite": "Murret d\u0027obscurité",
       "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
       "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
-      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !"
+      "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
+      "item.jamdrops.pretre_ca_c_spawn_egg": "Oeuf d\u0027apparition d\u0027un pretre de lumière CaC",
+      "entity.jamdrops.pretre_ca_c": "Pretre de lumière CaC"
     }
   },
   "metadata": {
