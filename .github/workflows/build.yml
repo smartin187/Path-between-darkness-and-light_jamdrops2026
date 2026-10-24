@@ -3,13 +3,11 @@ name: Export jar
 on:
   workflow_dispatch:
   push:
-    branches:
-      - master
-    paths:
-      - 'jamdrops.mcreator'
+    tags:
+      - '*'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -37,3 +35,9 @@ jobs:
           name: path-between-darkness-and-light_NeoForge1.21.1-jar
           path: build/libs/*.jar
           if-no-files-found: error
+      
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/libs/*.jar
+          generate_release_notes: true
