@@ -54,8 +54,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...` + pour le prêtre de lumière, laisser `CaC` ?
     - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
     - [smartin187] Mettre les oeuf d'apparition dans le menu créatif du mod
-- [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
-    - Supprimer l'artifact
 - Faire netoyage sur les branches Git
 - [smartin187] Pour les mob de lumière/d'ombre (boss, prêtre), faire que ceux de la lumière se battent avec ceux de l'ombre.
 - **Pour toutes les entité qui seront dans les temple, bien décaucher le paramètre "disparaitre quand inactif" dans MCreator.**
