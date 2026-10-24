@@ -3,10 +3,8 @@ name: Export jar
 on:
   workflow_dispatch:
   push:
-    branches:
-      - master
-    paths:
-      - 'jamdrops.mcreator'
+    tags:
+      - '*'
 
 permissions:
   contents: read
