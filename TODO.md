@@ -7,7 +7,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 ## Tâches
 
 - Dans les paramètres de l'espace de travaille (MCreator):
-    - [smartin187] Vérifier que tout les contributeur soit dans la liste
     - Mettre le nom du mod:
         - [smartin187] Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
     - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
@@ -24,9 +23,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
-    - [smartin187] Epée de lumière: donne l'effet blindness -> esce que l'on garde cette effet ?
     - Epée d'obscurité:
-        - donne l'effet blindness (esce que l'on garde cette effet ?)
         - effets style force/poison/faiblesse
     - [smartin187] Faire les recettes pour craft les épées
 - Structures -> construire les structures avec les boss dedans
@@ -48,7 +45,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [smartin187] Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
 - Prêtre de lumière:
     - A utiliser dans les structures
-    - [killer24-Git] Envoie des orbes de lumière
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
     - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ?
