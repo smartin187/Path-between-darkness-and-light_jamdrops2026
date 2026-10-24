@@ -575,6 +575,19 @@
         ]
       },
       "path": "~/Epee/Epee de lumiere"
+    },
+    {
+      "name": "CraftEpeeOmbre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_epee_ombre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_epee_ombre.json"
+        ]
+      },
+      "path": "~/Epee/Epee d obscurite"
     }
   ],
   "variable_elements": [
