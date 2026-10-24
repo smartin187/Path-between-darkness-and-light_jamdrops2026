@@ -12,9 +12,11 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
+    - Mettre les recette de craft des items
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles -> faire la première realease
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
+    - Mettre les item projectil de foudre et boule de lumièère ? -> a voir si elle sont accésible en jeu ou si elle sont juste pour les boss/prêtre
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
     - Faire d'autre action qui augement / diminue la jauge ?
@@ -53,6 +55,8 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
     - [smartin187] Mettre les oeuf d'apparition dans le menu créatif du mod
 - [smartin187] Voir pour ajouter au GitHub action un script de build automatique:
-    - Crée une realease sur GitHub a la fin du pipeline.
+    - Supprimer l'artifact
 - Faire netoyage sur les branches Git
+- [smartin187] Pour les mob de lumière/d'ombre (boss, prêtre), faire que ceux de la lumière se battent avec ceux de l'ombre.
 - **Pour toutes les entité qui seront dans les temple, bien décaucher le paramètre "disparaitre quand inactif" dans MCreator.**
+- **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
