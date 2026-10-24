@@ -31,7 +31,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les boss:
         - terminer le modèle 3D du boss de l'ombre
-        - [smartin187] agrandire celle du boss de l'ombre car elle est trop petite
         - faire les textures pour les boss
     - Pour les structures, utiliser les block de lumière et d'obscurité...
     - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale -> supprimer les block en dessous du joueur
