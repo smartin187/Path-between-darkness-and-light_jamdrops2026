@@ -24,7 +24,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
     - Epée d'obscurité:
-        - effets style force/poison/faiblesse
+        - effets style force
     - [smartin187] Faire les recettes pour craft les épées
 - Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
@@ -38,7 +38,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - [smartin187] Block:
     - Faire de nouvelles textures ?
     - Ajouter au readme les block
-    - [smartin187] Bloc de lumière émmet de la redstone ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
     - [smartin187] Mettre en lien les item avec les block de lumière et obscurité (avec recettes)

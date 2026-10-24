@@ -359,7 +359,7 @@
           "src/main/resources/assets/jamdrops/models/item/epee_lumiere.json"
         ]
       },
-      "path": "~/Epee"
+      "path": "~/Epee/Epee de lumiere"
     },
     {
       "name": "BlockDeLumiere",
@@ -542,7 +542,7 @@
           "src/main/java/net/mcreator/jamdrops/procedures/EffetEpeeLumiereProcedure.java"
         ]
       },
-      "path": "~/Epee"
+      "path": "~/Epee/Epee de lumiere"
     }
   ],
   "variable_elements": [
@@ -719,7 +719,12 @@
       },
       {
         "name": "Epee",
-        "children": []
+        "children": [
+          {
+            "name": "Epee de lumiere",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Block",
