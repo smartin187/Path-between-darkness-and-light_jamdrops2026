@@ -14,6 +14,8 @@ Ce mod a était crée par l'équipe _Path between darkness and light_, en utilis
 
 Ce mod ajoute plusieurs fonctionnalitées interressante sur le thème de la lumière et de l'obscurité.
 
+Le thème principale du mod : une jauge indiquant au joueur sont niveau de lumière. Cette jauge peut être augementer ou diminuer en fonction d'action du joueur.
+
 ### La jauge de lumière/obscurité
 
 Une jauge affichant a l'utilisateur a quelle point il est dans la lumière ou dans l'obscurité.
@@ -44,9 +46,37 @@ Ce boss est l'oposé du boss de lumière. Il vie dans un temple d'obscurité. En
 
 > Note: en survie, les boss se trouve uniquement dans les temples. En créatif, vous pouvez les faire apparaitre via les oeufs d'apparition...
 
+### Les mobs
+
+En plus des deux boss, ce mod ajoute des mobs.
+
+#### Prêtre de lumière
+
+Ce mob est l'asocié au boss de lumière. Il l'aide a répendre la lumière dans le monde, mais surtout a combattre le joueur !
+
+Il existe deux variantes du prêtre de lumière : il peut soit combattre en tirant une orbe de lumière, soit en combat corps a corps.
+
 ### Le temple de lumière et le temple d'obscurité
 
+### Les items
 
+Ce mod ajoute beaucoup de nouveaux items. Il y a les [gemmes](#les-gemmes), les items de lumière et d'obscurité, mais d'autre items:
+
+#### L'épée d'obscurité
+
+> Cette épée est sombre et mistérieuse !
+
+Avec elle, vous gagner un effet de force du moment que l'épée est dans votre main.
+
+#### L'épée de lumière
+
+> Cette épée est lumineuse et éclatante !
+
+Avec elle, vous gagner plusieurs effets, du moment que l'épée est dans votre main :
+- Vision nocturne
+- PV supplémentaire
+- Regénération
+- Resistance
 
 ## Télécharger
 
