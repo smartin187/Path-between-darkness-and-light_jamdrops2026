@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lumiere",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:gemme_lumineux"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "jamdrops:epee_lumiere",
+    "count": 1
+  }
+}
