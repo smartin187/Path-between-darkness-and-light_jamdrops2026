@@ -25,7 +25,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée:
     - Epée de lumière:
-        - [smartin187] donne l'effet blindness + vision nocturne -> utiliser les déclancheur dans MCreator
+        - [smartin187] donne l'effet blindness -> utiliser les déclancheur dans MCreator
         - [smartin187] effet de soin/résistance
     - Epée d'obscurité:
         - (donne l'effet blindness)

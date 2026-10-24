@@ -235,9 +235,9 @@
       "registry_name": "pretre_lumineux",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreLumineuxRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json"
+          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json",
+          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java"
         ]
       },
       "path": "~/Pretre"
