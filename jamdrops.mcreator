@@ -523,7 +523,7 @@
           "src/main/java/net/mcreator/jamdrops/item/EpeeObscuriteItem.java"
         ]
       },
-      "path": "~/Epee"
+      "path": "~/Epee/Epee d obscurite"
     },
     {
       "name": "EffetEpeeLumiere",
@@ -543,6 +543,25 @@
         ]
       },
       "path": "~/Epee/Epee de lumiere"
+    },
+    {
+      "name": "EffetEpeeObscurite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effet_epee_obscurite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/EffetEpeeObscuriteProcedure.java"
+        ]
+      },
+      "path": "~/Epee/Epee d obscurite"
     }
   ],
   "variable_elements": [
@@ -572,8 +591,8 @@
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ],
     "ITEMS:minecraft:swords": [
-      "~EpeeLumiere@CUSTOM:EpeeLumiere",
-      "~EpeeObscurite@CUSTOM:EpeeObscurite"
+      "~EpeeObscurite@CUSTOM:EpeeObscurite",
+      "~EpeeLumiere@CUSTOM:EpeeLumiere"
     ]
   },
   "tab_element_order": {},
@@ -722,6 +741,10 @@
         "children": [
           {
             "name": "Epee de lumiere",
+            "children": []
+          },
+          {
+            "name": "Epee d obscurite",
             "children": []
           }
         ]
