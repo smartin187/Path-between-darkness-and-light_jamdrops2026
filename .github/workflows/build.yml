@@ -28,16 +28,10 @@ jobs:
       - name: Build
         run: |
           ./gradlew build --no-daemon
-
-      - name: Upload jar
-        uses: actions/upload-artifact@v4
-        with:
-          name: path-between-darkness-and-light_NeoForge1.21.1-jar
-          path: build/libs/*.jar
-          if-no-files-found: error
       
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           files: build/libs/*.jar
+          fail_on_unmatched_files: true
           generate_release_notes: true
