@@ -36,9 +36,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Pour les structures, utiliser les block de lumière et d'obscurité...
     - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale -> supprimer les block en dessous du joueur
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
-- [smartin187] Block:
-    - Faire de nouvelles textures ?
-    - Ajouter au readme les block
+- Block: Faire de nouvelles textures ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
     - [smartin187] Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
