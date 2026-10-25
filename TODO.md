@@ -46,9 +46,8 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ?
     - [smartin187] Variante du prêtre de lumière :
-        - Attaque corp a corp
         - Nouveau modèle 3D et texture de @Drizzt478
-    - Que doit dropper le prêtre ?
+    - Que doit dropper le prêtre / prêtre CaC ?
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...` + pour le prêtre de lumière, laisser `CaC` ?
