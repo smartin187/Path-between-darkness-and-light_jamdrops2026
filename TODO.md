@@ -46,15 +46,13 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ?
     - [smartin187] Variante du prêtre de lumière :
-        - Attaque corp a corp
         - Nouveau modèle 3D et texture de @Drizzt478
-    - Que doit dropper le prêtre ?
+    - Que doit dropper le prêtre / prêtre CaC ?
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...` + pour le prêtre de lumière, laisser `CaC` ?
     - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
     - [smartin187] Mettre les oeuf d'apparition dans le menu créatif du mod
 - Faire netoyage sur les branches Git
-- [smartin187] Pour les mob de lumière/d'ombre (boss, prêtre), faire que ceux de la lumière se battent avec ceux de l'ombre.
 - **Pour toutes les entité qui seront dans les temple, bien décaucher le paramètre "disparaitre quand inactif" dans MCreator.**
 - **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
