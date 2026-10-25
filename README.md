@@ -56,7 +56,27 @@ Ce mob est l'asocié au boss de lumière. Il l'aide a répendre la lumière dans
 
 Il existe deux variantes du prêtre de lumière : il peut soit combattre en tirant une orbe de lumière, soit en combat corps a corps.
 
+#### Mob de lumière vs mob d'obscurité
+
+Les mobs de lumière et d'obscurité se détestent bien évidement ! Il ne supportent pas d'être a moins d'une vaintaine blocs l'un de l'autre. Si cela se produit, ils se batteront (a mort !).
+
+Tout les mobs de lumière (boss, prêtre...) et tout les mobs d'obscurité feront le combat.
+
+> Vous pouvez bien sur utiliser cette stratégie pour les combattre plus facilement !
+
 ### Le temple de lumière et le temple d'obscurité
+
+### Les blocs
+
+Ce mod ajoute de nouveau bloc (et escalier, dalle, murret).
+
+Il existe les bloc, dalle, escalier et murret de lumière et d'obscurité.
+
+> Bien évidement, les bloc de lumière sont lumineux, et produisent beaucoup de lumière.
+
+_En créatif, vous retrouverait ces bloc dans le menu créatif du mod..._
+
+#### Crafting
 
 ### Les items
 
