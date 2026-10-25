@@ -9,7 +9,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Dans les paramètres de l'espace de travaille (MCreator):
     - Mettre le nom du mod:
         - [smartin187] Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
-    - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
+    - Pour l'url du mod :
+        - [Drizzt478] il faut que le lien soit mise a jour (avec le bon nom du mod) et que le mod soit bien en public
+        - [smartin187] Mettre a jour le lien dans le readme et dans les paramètres de l'espace de travaille MCreator
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
     - Mettre les recette de craft des items
