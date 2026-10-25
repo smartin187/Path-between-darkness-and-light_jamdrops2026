@@ -80,7 +80,11 @@ Avec elle, vous gagner plusieurs effets, du moment que l'épée est dans votre m
 
 ## Télécharger
 
-Diriger vous vers les releases GitHub :
+Le mod est disponible sur Modrinth :
+
+**[Page Modrinth](https://modrinth.com/project/jamdrops)**
+
+Nous metton aussi a disposition les releases sur GitHub, pour les version beta et en teste :
 
 **[Releases](https://github.com/smartin187/mod-Jam-Drops/releases)**
 

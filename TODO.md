@@ -7,16 +7,18 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 ## Tâches
 
 - Dans les paramètres de l'espace de travaille (MCreator):
-    - Mettre le nom du mod:
-        - [smartin187] Mettre l'id du mod (choisir le nom du mod) (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
-    - Pour l'url du mod, mettre le lien vers GitHub ou vers le modrinth
+    - [smartin187] Mettre l'id du mod en rapport avec le nom (paramètres de l'espace de travaille) -> néssécite un remaniment de l'espace de travaille, il ne faut pas de branche en cours
+    - Pour l'url du mod :
+        - [Drizzt478] il faut que le lien soit mise a jour (avec le bon nom du mod) et que le mod soit bien en public
+        - [smartin187] Mettre a jour le lien dans le readme et dans les paramètres de l'espace de travaille MCreator
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
     - Mettre les recette de craft des items
     - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles -> faire la première realease
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
-    - Mettre les item projectil de foudre et boule de lumièère ? -> a voir si elle sont accésible en jeu ou si elle sont juste pour les boss/prêtre
+    - Mettre les item projectil de foudre et boule de lumière ? -> a voir si elle sont accésible en jeu ou si elle sont juste pour les boss/prêtre
+- [smartin187] Mettre le repos GitHub en public, pour le formulaire de participation au concours, ajouter le lien vers le repos + vers le readme.
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
     - Faire d'autre action qui augement / diminue la jauge ?
@@ -48,6 +50,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [smartin187] Variante du prêtre de lumière :
         - Nouveau modèle 3D et texture de @Drizzt478
     - Que doit dropper le prêtre / prêtre CaC ?
+    - Renommer le prêtre CaC (ex: soldat de lumière, gardien de lumière...)
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...` + pour le prêtre de lumière, laisser `CaC` ?
