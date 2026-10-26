@@ -57,3 +57,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Faire netoyage sur les branches Git
 - **Pour toutes les entité qui seront dans les temple, bien décaucher le paramètre "disparaitre quand inactif" dans MCreator.**
 - **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
+- Crée une vidéo / diapositive / autre pour la présentation du mod
