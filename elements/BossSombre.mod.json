@@ -38,7 +38,8 @@
     },
     "spawnEggTexture": "",
     "creativeTabs": [
-      "MISC"
+      "MISC",
+      "CUSTOM:Menu"
     ],
     "isBoss": true,
     "bossBarColor": "PURPLE",

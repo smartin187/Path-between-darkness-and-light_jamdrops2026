@@ -636,7 +636,28 @@
       "~EpeeLumiere@CUSTOM:EpeeLumiere"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:Menu": [
+      "GemmeLumineux",
+      "GemmeSombre",
+      "Foudreitem",
+      "OrbeLumItem",
+      "BlockDeLumiere",
+      "DaleDeLumiere",
+      "EscalierDeLumiere",
+      "MurretDeLumiere",
+      "BlocDObscurite",
+      "DalleDObscurite",
+      "EscalierDObscurite",
+      "MurretDObscurite",
+      "EpeeLumiere",
+      "EpeeObscurite",
+      "Bosslumineux",
+      "BossSombre",
+      "PretreLumineux",
+      "PretreCaC"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.jamdrops.bosslumineux_spawn_egg": "Boss de la lumière Spawn Egg",

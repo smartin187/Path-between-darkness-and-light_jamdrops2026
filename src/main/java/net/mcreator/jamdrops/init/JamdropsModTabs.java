@@ -26,7 +26,6 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
 				tabData.accept(JamdropsModItems.FOUDREITEM.get());
 				tabData.accept(JamdropsModItems.ORBE_LUM_ITEM.get());
-				tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
 				tabData.accept(JamdropsModBlocks.BLOCK_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.DALE_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.ESCALIER_DE_LUMIERE.get().asItem());
@@ -35,7 +34,12 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModBlocks.DALLE_D_OBSCURITE.get().asItem());
 				tabData.accept(JamdropsModBlocks.ESCALIER_D_OBSCURITE.get().asItem());
 				tabData.accept(JamdropsModBlocks.MURRET_D_OBSCURITE.get().asItem());
+				tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
 				tabData.accept(JamdropsModItems.EPEE_OBSCURITE.get());
+				tabData.accept(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get());
+				tabData.accept(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
+				tabData.accept(JamdropsModItems.PRETRE_LUMINEUX_SPAWN_EGG.get());
+				tabData.accept(JamdropsModItems.PRETRE_CA_C_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
