@@ -24,18 +24,19 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Faire d'autre action qui augement / diminue la jauge ?
     - Faire une nouvelle texture pour la jauge ???
 - Bottes d'ombre / lumière
-- Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
-- Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
+- _A faire si on a le temps_ Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ? + Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée: Epée d'obscurité: d'autre effet ?
-- Structures -> construire les structures avec les boss dedans
+- [Drizzt478 & killer24-Git] Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
-    - Pour les boss:
-        - terminer le modèle 3D du boss de l'ombre
-        - faire les textures pour les boss
     - Pour les structures, utiliser les block de lumière et d'obscurité...
+- Pour les boss:
+    - terminer le modèle 3D du boss de l'ombre
+    - faire les textures pour les boss
     - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale -> supprimer les block en dessous du joueur
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
+    - Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
+- Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
 - Block: Faire de nouvelles textures ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
@@ -45,13 +46,11 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
     - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
-    - Renommer le prêtre CaC : gardien de lumière
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
-    - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...` + pour le prêtre de lumière, laisser `CaC` ?
+    - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
     - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
     - [smartin187] Mettre les oeuf d'apparition dans le menu créatif du mod
 - Faire netoyage sur les branches Git
-- **Pour toutes les entité qui seront dans les temple, bien décaucher le paramètre "disparaitre quand inactif" dans MCreator.**
 - **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
 - Crée une vidéo / diapositive / autre pour la présentation du mod

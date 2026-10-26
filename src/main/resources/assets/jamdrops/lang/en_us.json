@@ -32,6 +32,6 @@
   "item.jamdrops.epee_obscurite": "Épée d'obscurité",
   "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
   "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
-  "item.jamdrops.pretre_ca_c_spawn_egg": "Pretre de lumière Spawn Egg",
-  "entity.jamdrops.pretre_ca_c": "Pretre de lumière"
+  "item.jamdrops.pretre_ca_c_spawn_egg": "Gardien de lumière Spawn Egg",
+  "entity.jamdrops.pretre_ca_c": "Gardien de lumière"
 }

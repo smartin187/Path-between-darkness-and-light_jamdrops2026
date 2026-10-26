@@ -27,6 +27,7 @@ public class PretreLumineuxEntity extends Monster implements RangedAttackMob {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -49,6 +50,11 @@ public class PretreLumineuxEntity extends Monster implements RangedAttackMob {
 				return this.canUse();
 			}
 		});
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

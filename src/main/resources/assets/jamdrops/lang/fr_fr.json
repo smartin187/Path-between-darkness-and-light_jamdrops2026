@@ -9,7 +9,7 @@
   "item.jamdrops.gemme_sombre": "Gemme Sombre",
   "item.jamdrops.gemme_sombre.description_0": "Une gemme d'ombre à l'état pur !",
   "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
-  "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+  "item.jamdrops.pretre_lumineux_spawn_egg": "Œuf d'apparition d'un Prêtre de lumière",
   "item.jamdrops.foudreitem": "Foudreitem",
   "item.jamdrops.orbe_lum_item": "Orbe Lum Item",
   "item.jamdrops.epee_lumiere": "Épée de lumière",
@@ -32,6 +32,6 @@
   "item.jamdrops.epee_obscurite": "Épée d'obscurité",
   "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
   "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
-  "item.jamdrops.pretre_ca_c_spawn_egg": "Oeuf d'apparition d'un pretre de lumière CaC",
-  "entity.jamdrops.pretre_ca_c": "Pretre de lumière CaC"
+  "item.jamdrops.pretre_ca_c_spawn_egg": "Œuf d'apparition d'un Gardien de lumière",
+  "entity.jamdrops.pretre_ca_c": "Gardien de lumière"
 }

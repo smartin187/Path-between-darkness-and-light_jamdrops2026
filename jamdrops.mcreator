@@ -672,8 +672,8 @@
       "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
       "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
       "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
-      "item.jamdrops.pretre_ca_c_spawn_egg": "Pretre de lumière Spawn Egg",
-      "entity.jamdrops.pretre_ca_c": "Pretre de lumière"
+      "item.jamdrops.pretre_ca_c_spawn_egg": "Gardien de lumière Spawn Egg",
+      "entity.jamdrops.pretre_ca_c": "Gardien de lumière"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -686,7 +686,7 @@
       "item.jamdrops.gemme_sombre": "Gemme Sombre",
       "item.jamdrops.gemme_sombre.description_0": "Une gemme d\u0027ombre à l\u0027état pur !",
       "entity.jamdrops.pretre_lumineux": "Pretre de lumière",
-      "item.jamdrops.pretre_lumineux_spawn_egg": "Pretre de lumière Spawn Egg",
+      "item.jamdrops.pretre_lumineux_spawn_egg": "Œuf d\u0027apparition d\u0027un Prêtre de lumière",
       "item.jamdrops.foudreitem": "Foudreitem",
       "item.jamdrops.orbe_lum_item": "Orbe Lum Item",
       "item.jamdrops.epee_lumiere": "Épée de lumière",
@@ -709,8 +709,8 @@
       "item.jamdrops.epee_obscurite": "Épée d\u0027obscurité",
       "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
       "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
-      "item.jamdrops.pretre_ca_c_spawn_egg": "Oeuf d\u0027apparition d\u0027un pretre de lumière CaC",
-      "entity.jamdrops.pretre_ca_c": "Pretre de lumière CaC"
+      "item.jamdrops.pretre_ca_c_spawn_egg": "Œuf d\u0027apparition d\u0027un Gardien de lumière",
+      "entity.jamdrops.pretre_ca_c": "Gardien de lumière"
     }
   },
   "metadata": {
