@@ -127,7 +127,6 @@
       "registry_name": "boss_sombre",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntityProjectile.java",
           "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java"
@@ -603,6 +602,50 @@
         ]
       },
       "path": "~/Pretre"
+    },
+    {
+      "name": "ProjectilOmbre",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectil_ombre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/ProjectilOmbreEntity.java"
+        ]
+      },
+      "path": "~/Items/Projectil boss sombre"
+    },
+    {
+      "name": "ActionProjetilOmbre",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "action_projetil_ombre",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/ActionProjetilOmbreProcedure.java"
+        ]
+      },
+      "path": "~/Items/Projectil boss sombre"
     }
   ],
   "variable_elements": [
@@ -781,6 +824,10 @@
           },
           {
             "name": "Boule de lumiere",
+            "children": []
+          },
+          {
+            "name": "Projectil boss sombre",
             "children": []
           }
         ]

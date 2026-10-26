@@ -38,9 +38,21 @@ Il y a deux boss dans ce mod : le boss de lumière et le boss d'obscurité.
 
 Ce boss vie dans un temple de lumière. Le joueur doit donc trouver un temple pour le combatre. En mourant, le boss de lumière laisse tomber une [gemme de lumière](#les-gemmes), que le joueur peut utiliser pour augementer sa jauge de lumière.
 
+##### Attaque
+
+Le boss de lumière utilise une attaque a distance. Lors que le projectile tirer par le boss vous touche, un éclaire tombe du ciel sur vous ! Heureusement, le boss n'atteint pas toujours sa cible, et il est possible d'esquiver l'attaque si vous êtes rapide et que vous bouter tout le temps.
+
 #### Le boss d'obscurité
 
 Ce boss est l'oposé du boss de lumière. Il vie dans un temple d'obscurité. En mourant, le boss d'obscurité laisse tomber une [gemme d'obscurité](#les-gemmes), que le joueur peut utiliser pour diminuer sa jauge de lumière.
+
+##### Attaque
+
+Ce boss tire aussi un projectile, mais celui ci crée un troup sous vos pied !
+
+Le boss de d'obscurité veux vous envoyer dans les ténèbres. Son rêve : vous faire traversser la couche de la bed rock pour vous envoyer dans le vide ! Heureusement, le troup n'est pas asser profond pour vous faire traverser la bed rock, mais suffisant pour vous tuer !
+
+> Le trou a une largeur et profondeur variable.
 
 #### Apparition en créatif
 

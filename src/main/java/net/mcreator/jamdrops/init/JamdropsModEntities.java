@@ -29,8 +29,6 @@ public class JamdropsModEntities {
 			EntityType.Builder.<BossSombreEntity>of(BossSombreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(3f, 4f));
-	public static final DeferredHolder<EntityType<?>, EntityType<BossSombreEntityProjectile>> BOSS_SOMBRE_PROJECTILE = register("projectile_boss_sombre",
-			EntityType.Builder.<BossSombreEntityProjectile>of(BossSombreEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PretreLumineuxEntity>> PRETRE_LUMINEUX = register("pretre_lumineux",
 			EntityType.Builder.<PretreLumineuxEntity>of(PretreLumineuxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -43,6 +41,8 @@ public class JamdropsModEntities {
 			EntityType.Builder.<PretreCaCEntity>of(PretreCaCEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ProjectilOmbreEntity>> PROJECTIL_OMBRE = register("projectil_ombre",
+			EntityType.Builder.<ProjectilOmbreEntity>of(ProjectilOmbreEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
