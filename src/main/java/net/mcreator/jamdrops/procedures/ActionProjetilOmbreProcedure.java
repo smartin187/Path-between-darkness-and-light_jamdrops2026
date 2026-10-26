@@ -2,6 +2,8 @@ package net.mcreator.jamdrops.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 
 public class ActionProjetilOmbreProcedure {
@@ -11,8 +13,8 @@ public class ActionProjetilOmbreProcedure {
 		double conteur_z = 0;
 		double largeur = 0;
 		double longueur = 0;
-		largeur = 6;
-		longueur = 6;
+		largeur = Mth.nextDouble(RandomSource.create(), 1, 10);
+		longueur = Mth.nextDouble(RandomSource.create(), 1, 10);
 		conteur_x = 0 - largeur / 2;
 		for (int _i1 = 0; _i1 < (int) largeur; _i1++) {
 			conteur_z = 0 - longueur / 2;
