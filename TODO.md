@@ -50,7 +50,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
     - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
-    - [smartin187] Mettre les oeuf d'apparition dans le menu créatif du mod
 - Faire netoyage sur les branches Git
 - **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
 - Crée une vidéo / diapositive / autre pour la présentation du mod
