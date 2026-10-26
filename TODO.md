@@ -33,7 +33,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Pour les boss:
     - terminer le modèle 3D du boss de l'ombre
     - faire les textures pour les boss
-    - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale -> supprimer les block en dessous du joueur
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
     - Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
