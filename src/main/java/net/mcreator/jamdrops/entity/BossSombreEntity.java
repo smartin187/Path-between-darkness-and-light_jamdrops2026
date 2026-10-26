@@ -28,7 +28,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.jamdrops.init.JamdropsModItems;
-import net.mcreator.jamdrops.init.JamdropsModEntities;
 
 public class BossSombreEntity extends Monster implements RangedAttackMob {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.PURPLE, ServerBossEvent.BossBarOverlay.PROGRESS);
@@ -88,12 +87,7 @@ public class BossSombreEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		BossSombreEntityProjectile entityarrow = new BossSombreEntityProjectile(JamdropsModEntities.BOSS_SOMBRE_PROJECTILE.get(), this, this.level());
-		double d0 = target.getY() + target.getEyeHeight() - 1.1;
-		double d1 = target.getX() - this.getX();
-		double d3 = target.getZ() - this.getZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
-		this.level().addFreshEntity(entityarrow);
+		ProjectilOmbreEntity.shoot(this, target);
 	}
 
 	@Override

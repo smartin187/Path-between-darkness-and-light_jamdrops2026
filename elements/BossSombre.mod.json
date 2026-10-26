@@ -104,7 +104,7 @@
     "breedTriggerItems": [],
     "ranged": true,
     "rangedAttackItem": "Items.ARROW",
-    "rangedItemType": "Default item",
+    "rangedItemType": "ProjectilOmbre",
     "rangedAttackInterval": 8,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,

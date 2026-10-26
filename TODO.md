@@ -53,3 +53,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Faire netoyage sur les branches Git
 - **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
 - Crée une vidéo / diapositive / autre pour la présentation du mod
+- Ajouter un équivalent au prêtre de lumière pour l'obscurité.
