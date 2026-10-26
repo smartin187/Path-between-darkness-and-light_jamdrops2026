@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Pretre de lumière",
+    "mobName": "Gardien de lumière",
     "mobLabel": "",
     "mobModelName": "ModelPretreMobCaC",
     "mobModelTexture": "pretre_cac.png",

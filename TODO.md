@@ -24,8 +24,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Faire d'autre action qui augement / diminue la jauge ?
     - Faire une nouvelle texture pour la jauge ???
 - Bottes d'ombre / lumière
-- Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ?
-- Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
+- _A faire si on a le temps_ Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ? + Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée: Epée d'obscurité: d'autre effet ?
 - [Drizzt478 & killer24-Git] Structures -> construire les structures avec les boss dedans
     - Temple de la lumière avec un le boss de la lumière -> une tour
@@ -36,6 +35,8 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - faire les textures pour les boss
     - Pour le boss de l'ombre, garder le tirs de flèche ou faire une attaque plus spéciale -> supprimer les block en dessous du joueur
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
+    - Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
+- Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
 - Block: Faire de nouvelles textures ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
@@ -45,7 +46,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
     - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
-    - [smartin187] Renommer le prêtre CaC : gardien de lumière
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
