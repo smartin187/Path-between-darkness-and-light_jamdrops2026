@@ -105,7 +105,7 @@
     "ranged": true,
     "rangedAttackItem": "Items.ARROW",
     "rangedItemType": "ProjectilOmbre",
-    "rangedAttackInterval": 8,
+    "rangedAttackInterval": 25,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
