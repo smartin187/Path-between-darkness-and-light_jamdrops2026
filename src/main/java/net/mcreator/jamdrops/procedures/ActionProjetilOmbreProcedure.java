@@ -9,8 +9,10 @@ public class ActionProjetilOmbreProcedure {
 		double conteur = 0;
 		double conteur_x = 0;
 		double conteur_z = 0;
-		conteur_x = -3;
-		for (int _i1 = 0; _i1 < 6; _i1++) {
+		double largeur = 0;
+		largeur = 6;
+		conteur_x = 0 - largeur / 2;
+		for (int _i1 = 0; _i1 < (int) largeur; _i1++) {
 			conteur_z = -3;
 			for (int _i2 = 0; _i2 < 6; _i2++) {
 				conteur = 0;
