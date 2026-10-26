@@ -22,8 +22,11 @@ public class JamdropsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JamdropsMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MENU = REGISTRY.register("menu",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jamdrops.menu")).icon(() -> new ItemStack(JamdropsModItems.GEMME_LUMINEUX.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get());
+				tabData.accept(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
 				tabData.accept(JamdropsModItems.GEMME_LUMINEUX.get());
 				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
+				tabData.accept(JamdropsModItems.PRETRE_LUMINEUX_SPAWN_EGG.get());
 				tabData.accept(JamdropsModItems.FOUDREITEM.get());
 				tabData.accept(JamdropsModItems.ORBE_LUM_ITEM.get());
 				tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
@@ -36,6 +39,7 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModBlocks.ESCALIER_D_OBSCURITE.get().asItem());
 				tabData.accept(JamdropsModBlocks.MURRET_D_OBSCURITE.get().asItem());
 				tabData.accept(JamdropsModItems.EPEE_OBSCURITE.get());
+				tabData.accept(JamdropsModItems.PRETRE_CA_C_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
