@@ -14,5 +14,25 @@ public class ActionProjetilOmbreProcedure {
 			world.destroyBlock(BlockPos.containing(x, y - conteur, z), false);
 			conteur = conteur + 1;
 		}
+		conteur = 0;
+		for (int _i1 = 0; _i1 < 15; _i1++) {
+			world.destroyBlock(BlockPos.containing(x - 1, y - conteur, z), false);
+			conteur = conteur + 1;
+		}
+		conteur = 0;
+		for (int _i1 = 0; _i1 < 15; _i1++) {
+			world.destroyBlock(BlockPos.containing(x + 1, y - conteur, z), false);
+			conteur = conteur + 1;
+		}
+		conteur = 0;
+		for (int _i1 = 0; _i1 < 15; _i1++) {
+			world.destroyBlock(BlockPos.containing(x, y - conteur, z - 1), false);
+			conteur = conteur + 1;
+		}
+		conteur = 0;
+		for (int _i1 = 0; _i1 < 15; _i1++) {
+			world.destroyBlock(BlockPos.containing(x, y - conteur, z + 1), false);
+			conteur = conteur + 1;
+		}
 	}
 }
