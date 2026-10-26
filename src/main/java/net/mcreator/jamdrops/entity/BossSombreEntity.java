@@ -89,6 +89,8 @@ public class BossSombreEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
+		if (damagesource.is(DamageTypes.FALL))
+			return false;
 		if (damagesource.is(DamageTypes.EXPLOSION) || damagesource.is(DamageTypes.PLAYER_EXPLOSION))
 			return false;
 		return super.hurt(damagesource, amount);
