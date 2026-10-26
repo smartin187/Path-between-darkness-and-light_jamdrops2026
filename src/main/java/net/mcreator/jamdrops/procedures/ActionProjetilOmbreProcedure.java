@@ -33,6 +33,6 @@ public class ActionProjetilOmbreProcedure {
 			conteur = conteur + 1;
 		}
 		if (world instanceof Level _level && !_level.isClientSide())
-			_level.explode(null, x, y, z, 4, Level.ExplosionInteraction.TNT);
+			_level.explode(null, x, (y - 16), z, 4, Level.ExplosionInteraction.BLOCK);
 	}
 }
