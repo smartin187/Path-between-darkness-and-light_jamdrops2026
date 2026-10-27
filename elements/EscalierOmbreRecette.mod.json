@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "bloc_ombre",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BlocDObscurite",
+      "",
+      "",
+      "CUSTOM:BlocDObscurite",
+      "CUSTOM:BlocDObscurite",
+      "",
+      "CUSTOM:BlocDObscurite",
+      "CUSTOM:BlocDObscurite",
+      "CUSTOM:BlocDObscurite"
+    ],
+    "recipeReturnStack": "CUSTOM:EscalierDObscurite",
+    "name": "escalier_ombre_recette",
+    "namespace": "mod"
+  }
+}

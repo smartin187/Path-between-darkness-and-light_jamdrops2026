@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloc_ombre",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:bloc_d_obscurite"
+    }
+  },
+  "result": {
+    "id": "jamdrops:dalle_d_obscurite",
+    "count": 6
+  }
+}
