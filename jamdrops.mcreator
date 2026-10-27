@@ -646,6 +646,19 @@
         ]
       },
       "path": "~/Items/Projectil boss sombre"
+    },
+    {
+      "name": "BlocLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/bloc_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
     }
   ],
   "variable_elements": [
@@ -867,7 +880,12 @@
         "children": [
           {
             "name": "Block de lumiere",
-            "children": []
+            "children": [
+              {
+                "name": "Recettes",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Block d obscurite",
