@@ -24,8 +24,6 @@ public class JamdropsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jamdrops.menu")).icon(() -> new ItemStack(JamdropsModItems.GEMME_LUMINEUX.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(JamdropsModItems.GEMME_LUMINEUX.get());
 				tabData.accept(JamdropsModItems.GEMME_SOMBRE.get());
-				tabData.accept(JamdropsModItems.FOUDREITEM.get());
-				tabData.accept(JamdropsModItems.ORBE_LUM_ITEM.get());
 				tabData.accept(JamdropsModBlocks.BLOCK_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.DALE_DE_LUMIERE.get().asItem());
 				tabData.accept(JamdropsModBlocks.ESCALIER_DE_LUMIERE.get().asItem());
