@@ -52,7 +52,7 @@ Ce boss tire aussi un projectile, mais celui ci crée un troup sous vos pied !
 
 Le boss de d'obscurité veux vous envoyer dans les ténèbres. Son rêve : vous faire traversser la couche de la bed rock pour vous envoyer dans le vide ! Heureusement, le troup n'est pas asser profond pour vous faire traverser la bed rock, mais suffisant pour vous tuer !
 
-> Le trou a une largeur et profondeur variable.
+> Le trou a une largeur et profondeur variable. La profondeur varie entre 1 et 30 bloc, et la largeur varie entre 1 et 10 bloc.
 
 #### Apparition en créatif
 
