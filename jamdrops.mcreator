@@ -685,6 +685,19 @@
         ]
       },
       "path": "~/Block/Block de lumiere/Recettes"
+    },
+    {
+      "name": "MurretLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/murret_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
     }
   ],
   "variable_elements": [
