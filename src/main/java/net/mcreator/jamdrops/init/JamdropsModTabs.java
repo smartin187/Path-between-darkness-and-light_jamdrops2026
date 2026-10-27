@@ -49,6 +49,7 @@ public class JamdropsModTabs {
 			tabData.accept(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
 			tabData.accept(JamdropsModItems.PRETRE_LUMINEUX_SPAWN_EGG.get());
 			tabData.accept(JamdropsModItems.PRETRE_CA_C_SPAWN_EGG.get());
+			tabData.accept(JamdropsModItems.PRETRE_HEAL_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
 			tabData.accept(JamdropsModItems.EPEE_OBSCURITE.get());

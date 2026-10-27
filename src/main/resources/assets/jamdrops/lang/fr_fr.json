@@ -33,5 +33,7 @@
   "item.jamdrops.epee_obscurite.description_0": "Une épée sombre et obscure !",
   "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
   "item.jamdrops.pretre_ca_c_spawn_egg": "Œuf d'apparition d'un Gardien de lumière",
-  "entity.jamdrops.pretre_ca_c": "Gardien de lumière"
+  "entity.jamdrops.pretre_ca_c": "Gardien de lumière",
+  "entity.jamdrops.pretre_heal": "Pretre Heal",
+  "item.jamdrops.pretre_heal_spawn_egg": "Pretre Heal Spawn Egg"
 }
