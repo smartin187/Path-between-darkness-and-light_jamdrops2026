@@ -39,7 +39,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Block: Faire de nouvelles textures ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
-    - [smartin187] Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
 - Prêtre de lumière:
     - A utiliser dans les structures
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
@@ -49,7 +48,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
     - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
     - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
+- Faire que les gemmes de lumière / obscurité peuvent être mis en stack de 64/32/16 (actellement 1)
 - Faire netoyage sur les branches Git
+- **Enlever les item `foudreitem` et `OrbLumItem` de l'onglet créatif**
 - **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
-- Crée une vidéo / diapositive / autre pour la présentation du mod
-- Ajouter un équivalent au prêtre de lumière pour l'obscurité.
+- **Crée une vidéo / diapositive / autre pour la présentation du mod**
+- Ajouter un équivalent au prêtre de lumière pour l'obscurité ?

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloc_lumiere",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:gemme_lumineux"
+    }
+  },
+  "result": {
+    "id": "jamdrops:block_de_lumiere",
+    "count": 1
+  }
+}

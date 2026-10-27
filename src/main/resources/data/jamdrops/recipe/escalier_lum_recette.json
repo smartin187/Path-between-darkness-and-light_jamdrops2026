@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloc_lumiere",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:block_de_lumiere"
+    }
+  },
+  "result": {
+    "id": "jamdrops:escalier_de_lumiere",
+    "count": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "bloc_lumiere",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:GemmeLumineux",
+      "CUSTOM:GemmeLumineux",
+      "",
+      "CUSTOM:GemmeLumineux",
+      "CUSTOM:GemmeLumineux",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BlockDeLumiere",
+    "name": "bloc_lum_recette",
+    "namespace": "mod"
+  }
+}

@@ -646,6 +646,110 @@
         ]
       },
       "path": "~/Items/Projectil boss sombre"
+    },
+    {
+      "name": "BlocLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/bloc_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
+    },
+    {
+      "name": "EscalierLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/escalier_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
+    },
+    {
+      "name": "DalleLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalle_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/dalle_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
+    },
+    {
+      "name": "MurretLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/murret_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
+    },
+    {
+      "name": "BlocOmbreRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_ombre_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/bloc_ombre_recette.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite/Recettes"
+    },
+    {
+      "name": "EscalierOmbreRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_ombre_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/escalier_ombre_recette.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite/Recettes"
+    },
+    {
+      "name": "DalleOmbreRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalle_ombre_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/dalle_ombre_recette.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite/Recettes"
+    },
+    {
+      "name": "MurretOmbreRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murret_ombre_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/murret_ombre_recette.json"
+        ]
+      },
+      "path": "~/Block/Block d obscurite/Recettes"
     }
   ],
   "variable_elements": [
@@ -867,11 +971,21 @@
         "children": [
           {
             "name": "Block de lumiere",
-            "children": []
+            "children": [
+              {
+                "name": "Recettes",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Block d obscurite",
-            "children": []
+            "children": [
+              {
+                "name": "Recettes",
+                "children": []
+              }
+            ]
           }
         ]
       }

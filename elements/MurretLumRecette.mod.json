@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "bloc_lumiere",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BlockDeLumiere",
+      "CUSTOM:BlockDeLumiere",
+      "CUSTOM:BlockDeLumiere",
+      "CUSTOM:BlockDeLumiere",
+      "CUSTOM:BlockDeLumiere",
+      "CUSTOM:BlockDeLumiere",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:MurretDeLumiere",
+    "name": "murret_lum_recette",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloc_ombre",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:bloc_d_obscurite"
+    }
+  },
+  "result": {
+    "id": "jamdrops:escalier_d_obscurite",
+    "count": 4
+  }
+}
