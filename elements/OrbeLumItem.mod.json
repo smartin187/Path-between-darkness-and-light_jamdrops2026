@@ -11,9 +11,7 @@
     "animations": [],
     "name": "Orbe Lum Item",
     "rarity": "COMMON",
-    "creativeTabs": [
-      "CUSTOM:Menu"
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

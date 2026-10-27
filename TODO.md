@@ -46,11 +46,8 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
-    - [smartin187] Dans la traduction `fr_fr`, bien vérifier que le nom des oeuf est bien `oeuf d'apparition...` et non pas `span egg ...`
-    - [smartin187] Vérifier qu'il y a bien une déscription "information spéciale" dans MCreator pour les items (a voir si c'est supporter pour les oeuf)
 - Faire que les gemmes de lumière / obscurité peuvent être mis en stack de 64/32/16 (actellement 1)
 - Faire netoyage sur les branches Git
-- **Enlever les item `foudreitem` et `OrbLumItem` de l'onglet créatif**
 - **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
-- **Crée une vidéo / diapositive / autre pour la présentation du mod**
+- **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
