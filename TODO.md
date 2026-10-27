@@ -39,7 +39,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Block: Faire de nouvelles textures ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
-    - [smartin187] Mettre en lien les item avec les block de lumière et obscurité (avec recettes)
 - Prêtre de lumière:
     - A utiliser dans les structures
     - [killer24-Git] Faire en sorte que le sceptre puisse être drop
