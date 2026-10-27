@@ -659,6 +659,32 @@
         ]
       },
       "path": "~/Block/Block de lumiere/Recettes"
+    },
+    {
+      "name": "EscalierLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/escalier_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
+    },
+    {
+      "name": "DalleLumRecette",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalle_lum_recette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/dalle_lum_recette.json"
+        ]
+      },
+      "path": "~/Block/Block de lumiere/Recettes"
     }
   ],
   "variable_elements": [

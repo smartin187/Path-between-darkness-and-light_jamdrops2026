@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloc_lumiere",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:block_de_lumiere"
+    }
+  },
+  "result": {
+    "id": "jamdrops:dale_de_lumiere",
+    "count": 6
+  }
+}
