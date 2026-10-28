@@ -37,7 +37,7 @@ public class GemmeLumineuxItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		GemmeLumineuxProcedureProcedure.execute(entity);
+		GemmeLumineuxProcedureProcedure.execute(entity, ar.getObject());
 		return ar;
 	}
 }
