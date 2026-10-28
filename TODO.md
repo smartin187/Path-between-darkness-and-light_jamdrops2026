@@ -14,10 +14,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
     - Mettre les recette de craft des items
-    - Mettre le lien vers les realease GitHub lorsqu'elle seront disponibles -> faire la première realease
+    - Mettre le lien vers le Modrith
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
-    - Mettre les item projectil de foudre et boule de lumière ? -> a voir si elle sont accésible en jeu ou si elle sont juste pour les boss/prêtre
 - [smartin187] Mettre le repos GitHub en public, pour le formulaire de participation au concours, ajouter le lien vers le repos + vers le readme.
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
@@ -41,8 +40,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
 - Prêtre de lumière:
     - A utiliser dans les structures
-    - [killer24-Git] Faire en sorte que le sceptre puisse être drop
-    - Pour l'item d'éclaire et l'orbe de lumière il faut corriger le texte dans la traduction `fr_fr`
     - Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
