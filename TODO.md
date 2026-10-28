@@ -30,8 +30,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les structures, utiliser les block de lumière et d'obscurité...
 - Pour les boss:
-    - terminer le modèle 3D du boss de l'ombre
-    - faire les textures pour les boss
+    - faire les textures pour le boss de lumière
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
     - Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
