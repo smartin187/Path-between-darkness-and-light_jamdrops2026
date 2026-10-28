@@ -48,4 +48,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
 
-- [smartin187] Pour le prêtre heal: ajouter la texture brillante, désactiver l'apparition. ajouter que le boss de l'ombre l'attaque, netoyer le log
+- [smartin187] Pour le prêtre heal: désactiver l'apparition. ajouter que le boss de l'ombre l'attaque, netoyer le log
