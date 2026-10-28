@@ -108,8 +108,8 @@
       "registry_name": "boss_sombre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java",
+          "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java"
         ]
       },
