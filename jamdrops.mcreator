@@ -14,25 +14,6 @@
       "path": "~/Jauge"
     },
     {
-      "name": "TestLuminosite",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_luminosite",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/jamdrops/procedures/TestLuminositeProcedure.java"
-        ]
-      },
-      "path": "~/Jauge"
-    },
-    {
       "name": "MaxMinLuminosite",
       "type": "procedure",
       "compiles": true,
@@ -127,8 +108,8 @@
       "registry_name": "boss_sombre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java",
+          "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java"
         ]
       },
@@ -157,8 +138,8 @@
       "registry_name": "gemme_lumineux",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java",
-          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json"
+          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json",
+          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java"
         ]
       },
       "path": "~/Items/Gemme lumineux"
@@ -185,6 +166,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ],
         "files": [
@@ -218,6 +203,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ],
         "files": [
@@ -596,9 +585,9 @@
       "registry_name": "pretre_ca_c",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreCaCRenderer.java",
           "src/main/resources/assets/jamdrops/models/item/pretre_ca_c_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreCaCEntity.java"
+          "src/main/java/net/mcreator/jamdrops/entity/PretreCaCEntity.java",
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreCaCRenderer.java"
         ]
       },
       "path": "~/Pretre"
@@ -783,9 +772,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamdrops/entity/PretreHealEntity.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_heal_spawn_egg.json",
-          "src/main/resources/data/jamdrops/neoforge/biome_modifier/pretre_heal_biome_modifier.json",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreHealRenderer.java"
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreHealRenderer.java",
+          "src/main/resources/assets/jamdrops/models/item/pretre_heal_spawn_egg.json"
         ]
       },
       "path": "~/Pretre"
@@ -801,10 +789,6 @@
   ],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:minecraft:enchantable/durability": [
-      "~GemmeLumineux@CUSTOM:GemmeLumineux",
-      "~GemmeSombre@CUSTOM:GemmeSombre"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~DalleDObscurite@CUSTOM:DalleDObscurite",
       "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
@@ -839,7 +823,8 @@
       "Bosslumineux",
       "BossSombre",
       "PretreLumineux",
-      "PretreCaC"
+      "PretreCaC",
+      "PretreHeal"
     ]
   },
   "language_map": {
@@ -918,8 +903,8 @@
       "item.jamdrops.epee_lumiere.description_0": "Une épée claire et lumineuse !",
       "item.jamdrops.pretre_ca_c_spawn_egg": "Œuf d\u0027apparition d\u0027un Gardien de lumière",
       "entity.jamdrops.pretre_ca_c": "Gardien de lumière",
-      "entity.jamdrops.pretre_heal": "Pretre Heal",
-      "item.jamdrops.pretre_heal_spawn_egg": "Pretre Heal Spawn Egg"
+      "entity.jamdrops.pretre_heal": "Prêtre Heal",
+      "item.jamdrops.pretre_heal_spawn_egg": "Œuf d\u0027apparition d\u0027un prêtre Heal"
     }
   },
   "metadata": {

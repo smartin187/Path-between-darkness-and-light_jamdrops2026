@@ -18,7 +18,7 @@ import java.util.List;
 
 public class GemmeSombreItem extends Item {
 	public GemmeSombreItem() {
-		super(new Item.Properties().durability(1));
+		super(new Item.Properties().stacksTo(32));
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class GemmeSombreItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		GemmeSombreProcedureProcedure.execute(entity);
+		GemmeSombreProcedureProcedure.execute(entity, ar.getObject());
 		return ar;
 	}
 }

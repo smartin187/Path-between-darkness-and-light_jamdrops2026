@@ -30,8 +30,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les structures, utiliser les block de lumière et d'obscurité...
 - Pour les boss:
-    - terminer le modèle 3D du boss de l'ombre
-    - faire les textures pour les boss
+    - faire les textures pour le boss de lumière
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
     - Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
@@ -43,10 +42,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
 - Voir pour les oeuf d'apparition:
     - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
-- Faire que les gemmes de lumière / obscurité peuvent être mis en stack de 64/32/16 (actellement 1)
 - Faire netoyage sur les branches Git
-- **Ne pas oublier de supprimer / désactiver la procédure `TestLuminosite`**
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
-
-- [smartin187] Pour le prêtre heal: mettre les oeuf dans le bon menu, corriger eventuellement la traduction, ajouter la texture brillante, désactiver l'apparition. ajouter que le boss de l'ombre l'attaque, netoyer le log

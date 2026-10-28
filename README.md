@@ -74,6 +74,8 @@ Ce mob est aussi asocié au boss de lumière. Contrairement au prêtre de lumiè
 
 #### Prêtre de lumière heal
 
+Cette variante du prêtre de lumière soigne les autre mobs. Il vous attaquera que si vous le frapper en premier, mais il est généralement accompagné d'autre mobs de lumière, qui eux vous attaqueront sans hésiter.
+
 #### Mob de lumière vs mob d'obscurité
 
 Les mobs de lumière et d'obscurité se détestent bien évidement ! Il ne supportent pas d'être a moins d'une vaintaine blocs l'un de l'autre. Si cela se produit, ils se batteront (a mort !).
