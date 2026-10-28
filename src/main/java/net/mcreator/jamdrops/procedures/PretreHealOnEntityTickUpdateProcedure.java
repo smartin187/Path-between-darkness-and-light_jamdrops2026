@@ -9,8 +9,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
-import net.mcreator.jamdrops.JamdropsMod;
-
 import java.util.Comparator;
 
 public class PretreHealOnEntityTickUpdateProcedure {
@@ -18,7 +16,6 @@ public class PretreHealOnEntityTickUpdateProcedure {
 		if (entity == null)
 			return;
 		double nb_tick = 0;
-		JamdropsMod.LOGGER.info(entity.getPersistentData().getDouble("nb_tick"));
 		if (entity.getPersistentData().getDouble("nb_tick") == 80) {
 			entity.getPersistentData().putDouble("nb_tick", 0);
 			{
@@ -32,7 +29,6 @@ public class PretreHealOnEntityTickUpdateProcedure {
 					}
 				}
 			}
-			JamdropsMod.LOGGER.info("Je heal");
 		}
 		entity.getPersistentData().putDouble("nb_tick", (entity.getPersistentData().getDouble("nb_tick") + 1));
 	}
