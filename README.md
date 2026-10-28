@@ -68,6 +68,12 @@ Ce mob est l'asocié au boss de lumière. Il l'aide a répendre la lumière dans
 
 Il existe deux variantes du prêtre de lumière : il peut soit combattre en tirant une orbe de lumière, soit en combat corps a corps.
 
+#### Gardien de lumière
+
+Ce mob est aussi asocié au boss de lumière. Contrairement au prêtre de lumière, le gardien fait du combat corps a corps. Il est donc un peut moins puissant que le prêtre de lumière.
+
+#### Prêtre de lumière heal
+
 #### Mob de lumière vs mob d'obscurité
 
 Les mobs de lumière et d'obscurité se détestent bien évidement ! Il ne supportent pas d'être a moins d'une vaintaine blocs l'un de l'autre. Si cela se produit, ils se batteront (a mort !).
@@ -89,6 +95,9 @@ Il existe les bloc, dalle, escalier et murret de lumière et d'obscurité.
 _En créatif, vous retrouverait ces bloc dans le menu créatif du mod..._
 
 #### Crafting
+
+Les bloc de lumière ou d'obscurité sont crée avec 4 gemmes de lumière ou d'obscurité. Ensuite, il est possible de les transformer en dalle, escalier ou murret, comme avec les recettes des autre bloc du jeu, comme le bois.
+
 
 ### Les items
 
