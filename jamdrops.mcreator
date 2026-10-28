@@ -765,8 +765,7 @@
         "files": [
           "src/main/java/net/mcreator/jamdrops/entity/PretreHealEntity.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreHealRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_heal_spawn_egg.json",
-          "src/main/resources/data/jamdrops/neoforge/biome_modifier/pretre_heal_biome_modifier.json"
+          "src/main/resources/assets/jamdrops/models/item/pretre_heal_spawn_egg.json"
         ]
       },
       "path": "~/Pretre"
