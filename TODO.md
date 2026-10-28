@@ -47,5 +47,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Faire netoyage sur les branches Git
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
-
-- [smartin187] Pour le prêtre heal: netoyer le log
+- Pour le prêtre heal: netoyer le log
