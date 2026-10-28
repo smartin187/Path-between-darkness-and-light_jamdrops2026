@@ -14,25 +14,6 @@
       "path": "~/Jauge"
     },
     {
-      "name": "TestLuminosite",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_luminosite",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/jamdrops/procedures/TestLuminositeProcedure.java"
-        ]
-      },
-      "path": "~/Jauge"
-    },
-    {
       "name": "MaxMinLuminosite",
       "type": "procedure",
       "compiles": true,
