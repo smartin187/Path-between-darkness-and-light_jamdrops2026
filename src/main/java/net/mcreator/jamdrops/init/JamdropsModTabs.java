@@ -38,6 +38,7 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
 				tabData.accept(JamdropsModItems.PRETRE_LUMINEUX_SPAWN_EGG.get());
 				tabData.accept(JamdropsModItems.PRETRE_CA_C_SPAWN_EGG.get());
+				tabData.accept(JamdropsModItems.PRETRE_HEAL_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
