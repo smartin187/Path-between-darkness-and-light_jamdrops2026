@@ -138,8 +138,8 @@
       "registry_name": "gemme_lumineux",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java",
-          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json"
+          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json",
+          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java"
         ]
       },
       "path": "~/Items/Gemme lumineux"
@@ -781,10 +781,6 @@
   ],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:minecraft:enchantable/durability": [
-      "~GemmeLumineux@CUSTOM:GemmeLumineux",
-      "~GemmeSombre@CUSTOM:GemmeSombre"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~DalleDObscurite@CUSTOM:DalleDObscurite",
       "~DaleDeLumiere@CUSTOM:DaleDeLumiere"

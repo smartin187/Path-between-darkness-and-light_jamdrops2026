@@ -18,7 +18,7 @@ import java.util.List;
 
 public class GemmeSombreItem extends Item {
 	public GemmeSombreItem() {
-		super(new Item.Properties().durability(1));
+		super(new Item.Properties().stacksTo(32));
 	}
 
 	@Override
