@@ -23,24 +23,17 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - _A faire si on a le temps_ Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ? + Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée: Epée d'obscurité: d'autre effet ?
 - [Drizzt478 & killer24-Git] Structures -> construire les structures avec les boss dedans
-    - Temple de la lumière avec un le boss de la lumière -> une tour
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les structures, utiliser les block de lumière et d'obscurité...
-- Pour les boss:
-    - faire les textures pour le boss de lumière -> la textures est bonne, mais trop lumineuse. Utiliser uniquement un éditeur d'image pour la rendre moins lumineuse (ou tout refaire avec blockbench mais cela est long)
-    - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
-    - Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
+- Pour les mob: Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
 - Block: Faire de nouvelles textures ?
 - Item:
     - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
-- Prêtre de lumière:
-    - A utiliser dans les structures
-    - Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
-- Voir pour les oeuf d'apparition:
-    - [PouletFlamboyant] Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
+- Prêtre de lumière: Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
+- [PouletFlamboyant] Voir pour les oeuf d'apparition: Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
 - Faire netoyage sur les branches Git
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
-- Faire que l'oeuf du boss de lumière/ombre puisse être craft si le niveaux de lumière / obscurité est au max.
+- Faire que l'oeuf du boss de lumière/ombre puisse être craft si le niveaux de lumière / obscurité est au max -> problème : en créatif, il faut désactiver cette fonctionnalité car cela bloc d'avoir l'oeuf
 - **Problème avec la texture du prêtre de lumière -> certain cubes de la tetes sont transparent, en raison qu'il sont en partit dehors de la texture** -> déplacer dans la texture les cubes. + vérifier si d'autre mob on le problème.
