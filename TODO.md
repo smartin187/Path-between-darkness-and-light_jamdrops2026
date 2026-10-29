@@ -46,3 +46,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
 - Faire que l'oeuf du boss de lumière/ombre puisse être craft si le niveaux de lumière / obscurité est au max.
+- **Problème avec la texture du prêtre de lumière -> certain cubes de la tetes sont transparent, en raison qu'il sont en partit dehors de la texture** -> déplacer dans la texture les cubes. + vérifier si d'autre mob on le problème.

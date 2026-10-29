@@ -247,10 +247,7 @@ public class ModelBossLumiere<T extends Entity> extends EntityModel<T> {
 			float headPitch) {
 		this.JambeDroite.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
 		this.JambeGauche.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
-		this.BrasDroit.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
-		this.Capuche.yRot = netHeadYaw / (180F / (float) Math.PI);
-		this.Capuche.xRot = headPitch / (180F / (float) Math.PI);
-		this.Arme.yRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
-		this.BrasGauche.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.BrasDroit.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.BrasGauche.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
 	}
 }
