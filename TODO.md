@@ -30,7 +30,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
     - Pour les structures, utiliser les block de lumière et d'obscurité...
 - Pour les boss:
-    - faire les textures pour le boss de lumière
+    - faire les textures pour le boss de lumière -> la textures est bonne, mais trop lumineuse. Utiliser uniquement un éditeur d'image pour la rendre moins lumineuse (ou tout refaire avec blockbench mais cela est long)
     - Pour les boss, terminer de voir pour les annimation (lors de l'import du fichier java dans MCreator)
     - Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
@@ -45,3 +45,5 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Faire netoyage sur les branches Git
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
+- Faire que l'oeuf du boss de lumière/ombre puisse être craft si le niveaux de lumière / obscurité est au max.
+- **Problème avec la texture du prêtre de lumière -> certain cubes de la tetes sont transparent, en raison qu'il sont en partit dehors de la texture** -> déplacer dans la texture les cubes. + vérifier si d'autre mob on le problème.
