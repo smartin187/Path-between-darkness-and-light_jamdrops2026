@@ -28,12 +28,16 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Pour les mob: Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
 - Block: Faire de nouvelles textures ?
-- Item:
-    - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
+- [gardienleviathan] Item: Faire la textures finale des items de lumière et d'ombre
 - Prêtre de lumière: Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
 - [PouletFlamboyant] Voir pour les oeuf d'apparition: Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
+- Optimisation possible : pour les procédure pour bloquer le joueur d'obtenir les oeuf de lumière / obscurité sans niveau max, il y a deux `si` imbriqué, possible de mettre un `and` pour plus de rapidité ?
 - Faire netoyage sur les branches Git
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
 - Faire que l'oeuf du boss de lumière/ombre puisse être craft si le niveaux de lumière / obscurité est au max -> problème : en créatif, il faut désactiver cette fonctionnalité car cela bloc d'avoir l'oeuf
 - **Problème avec la texture du prêtre de lumière -> certain cubes de la tetes sont transparent, en raison qu'il sont en partit dehors de la texture** -> déplacer dans la texture les cubes. + vérifier si d'autre mob on le problème.
+- Pour la structure du temple de lumière :
+    - Un slim apparait souvent en dessous  -> surement qu'il slime a était embarqué dans la structure (si la structure a était faire en monde plat). Soit le slime arrive a spawn, donc il est dessous la structure, soit il spawn dans un bloc
+    - des logs `[worldgen/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-28, y=-34, z=7}` _peut être lié au slime qui apparait dans un bloc, pas sur a 100%_
+    - Réduire la fréquence d'apparition du templs de la lumière (il apparait trop souvent).
