@@ -125,7 +125,7 @@ Avec elle, vous gagner plusieurs effets, du moment que l'épée est dans votre m
 
 Le mod est disponible sur Modrinth :
 
-**[Page Modrinth](https://modrinth.com/project/jamdrops)**
+**[Page Modrinth](https://modrinth.com/project/path-between-darkness-and-light)**
 
 Nous metton aussi a disposition les releases sur GitHub, pour les version beta et en teste :
 
