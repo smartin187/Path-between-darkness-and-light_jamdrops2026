@@ -6,10 +6,14 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
+import net.minecraft.world.level.GameType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
+import net.minecraft.client.multiplayer.PlayerInfo;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.jamdrops.network.JamdropsModVariables;
 import net.mcreator.jamdrops.init.JamdropsModItems;
@@ -31,7 +35,7 @@ public class CraftBossLumiereProcedureProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get()))) {
+		if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get())) && !(getEntityGameType(entity) == GameType.CREATIVE)) {
 			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite < 60) {
 				if (entity instanceof Player _player) {
 					ItemStack _stktoremove = new ItemStack(JamdropsModItems.BOSSLUMINEUX_SPAWN_EGG.get());
@@ -57,5 +61,16 @@ public class CraftBossLumiereProcedureProcedure {
 		if (entity instanceof Player player)
 			return player.getInventory().contains(stack -> !stack.isEmpty() && ItemStack.isSameItem(stack, itemstack));
 		return false;
+	}
+
+	private static GameType getEntityGameType(Entity entity) {
+		if (entity instanceof ServerPlayer serverPlayer) {
+			return serverPlayer.gameMode.getGameModeForPlayer();
+		} else if (entity instanceof Player player && player.level().isClientSide()) {
+			PlayerInfo playerInfo = Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId());
+			if (playerInfo != null)
+				return playerInfo.getGameMode();
+		}
+		return null;
 	}
 }

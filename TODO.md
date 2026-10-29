@@ -28,8 +28,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Pour les mob: Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Problème avec le prêtre de lumière : la texture a un problème au niveau de la tête.
 - Block: Faire de nouvelles textures ?
-- Item:
-    - [gardienleviathan] Faire la textures finale des items de lumière et d'ombre
+- [gardienleviathan] Item: Faire la textures finale des items de lumière et d'ombre
 - Prêtre de lumière: Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
 - [PouletFlamboyant] Voir pour les oeuf d'apparition: Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
 - Faire netoyage sur les branches Git
