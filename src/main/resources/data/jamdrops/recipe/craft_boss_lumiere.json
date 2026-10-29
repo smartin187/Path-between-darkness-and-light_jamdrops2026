@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:gemme_lumineux"
+    },
+    "b": {
+      "item": "jamdrops:block_de_lumiere"
+    }
+  },
+  "result": {
+    "id": "jamdrops:bosslumineux_spawn_egg",
+    "count": 1
+  }
+}
