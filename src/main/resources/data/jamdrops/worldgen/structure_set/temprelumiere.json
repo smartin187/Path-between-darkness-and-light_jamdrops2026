@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "jamdrops:temprelumiere",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1381610096
+  }
+}

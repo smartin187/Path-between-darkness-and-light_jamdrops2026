@@ -777,6 +777,76 @@
         ]
       },
       "path": "~/Pretre"
+    },
+    {
+      "name": "Temprelumiere",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temprelumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/worldgen/template_pool/temprelumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure_set/temprelumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure/temprelumiere.json"
+        ]
+      },
+      "path": "~/Structures/Temple de la lumiere"
+    },
+    {
+      "name": "CraftBossLumiere",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_boss_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/advancement/recipes/craft_boss_lumiere.json",
+          "src/main/resources/data/jamdrops/recipe/craft_boss_lumiere.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftBossLumiereProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_boss_lumiere_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/CraftBossLumiereProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftBossObscurite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_boss_obscurite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_boss_obscurite.json",
+          "src/main/resources/data/jamdrops/advancement/recipes/craft_boss_obscurite.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftBossSombreProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_boss_sombre_procedure",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [
@@ -913,12 +983,12 @@
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
-      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java"
     ]
   },
   "foldersRoot": {
@@ -1014,6 +1084,10 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Craft",
+        "children": []
       }
     ]
   },
