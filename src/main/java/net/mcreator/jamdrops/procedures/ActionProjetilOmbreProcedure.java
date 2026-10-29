@@ -1,5 +1,6 @@
 package net.mcreator.jamdrops.procedures;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.util.RandomSource;
@@ -23,7 +24,7 @@ public class ActionProjetilOmbreProcedure {
 			for (int _i2 = 0; _i2 < (int) longueur; _i2++) {
 				conteur = 0;
 				for (int _i3 = 0; _i3 < (int) profondeur; _i3++) {
-					world.destroyBlock(BlockPos.containing(x + conteur_x, y - conteur, z + conteur_z), false);
+					world.setBlock(BlockPos.containing(x + conteur_x, y - conteur, z + conteur_z), Blocks.AIR.defaultBlockState(), 3);
 					conteur = conteur + 1;
 				}
 				conteur_z = conteur_z + 1;
