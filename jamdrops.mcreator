@@ -831,6 +831,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_boss_sombre_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/CraftBossSombreProcedureProcedure.java"
+        ]
+      },
       "path": "~/Craft"
     }
   ],
