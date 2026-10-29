@@ -1020,10 +1020,10 @@
   "workspaceSettings": {
     "modid": "jamdrops",
     "modName": "Path between darkness and light",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Mod pour le concours Jam Drops 2026 sur le thème Bloom and Gloom - l\u0027ombre et la lumière (crée avec MCreator)",
     "author": "MCreator, Drizzt478, gardienleviathan, smartin187, killer24-Git, PouletFlamboyant",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://modrinth.com/project/path-between-darkness-and-light",
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "logo",
