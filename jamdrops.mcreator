@@ -86,21 +86,6 @@
       "path": "~/Jauge/Luminosite"
     },
     {
-      "name": "TempleDeLumiere",
-      "type": "structure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "temple_de_lumiere",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_lumiere.json",
-          "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_lumiere.json",
-          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_lumiere.json"
-        ]
-      },
-      "path": "~/Structures/Temple de la lumiere"
-    },
-    {
       "name": "BossSombre",
       "type": "livingentity",
       "compiles": true,
@@ -983,12 +968,12 @@
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
+      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java"
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java"
     ]
   },
   "foldersRoot": {
