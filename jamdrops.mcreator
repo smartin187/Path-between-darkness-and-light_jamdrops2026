@@ -60,8 +60,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamdrops/entity/BosslumineuxEntity.java",
-          "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java"
+          "src/main/java/net/mcreator/jamdrops/client/renderer/BosslumineuxRenderer.java",
+          "src/main/resources/assets/jamdrops/models/item/bosslumineux_spawn_egg.json"
         ]
       },
       "path": "~/Structures/Temple de la lumiere"
@@ -84,6 +84,21 @@
         ]
       },
       "path": "~/Jauge/Luminosite"
+    },
+    {
+      "name": "TempleDeLumiere",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temple_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_lumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_lumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_lumiere.json"
+        ]
+      },
+      "path": "~/Structures/Temple de la lumiere"
     },
     {
       "name": "BossSombre",
@@ -123,8 +138,8 @@
       "registry_name": "gemme_lumineux",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json",
-          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java"
+          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java",
+          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json"
         ]
       },
       "path": "~/Items/Gemme lumineux"
@@ -151,10 +166,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ],
         "files": [
@@ -188,10 +199,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ],
         "files": [
@@ -208,9 +215,9 @@
       "registry_name": "pretre_lumineux",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreLumineuxRenderer.java",
           "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreLumineuxRenderer.java"
+          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java"
         ]
       },
       "path": "~/Pretre"
@@ -570,9 +577,9 @@
       "registry_name": "pretre_ca_c",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreCaCRenderer.java",
           "src/main/resources/assets/jamdrops/models/item/pretre_ca_c_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreCaCEntity.java",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreCaCRenderer.java"
+          "src/main/java/net/mcreator/jamdrops/entity/PretreCaCEntity.java"
         ]
       },
       "path": "~/Pretre"
@@ -762,87 +769,6 @@
         ]
       },
       "path": "~/Pretre"
-    },
-    {
-      "name": "Temprelumiere",
-      "type": "structure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "temprelumiere",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jamdrops/worldgen/structure_set/temprelumiere.json",
-          "src/main/resources/data/jamdrops/worldgen/structure/temprelumiere.json",
-          "src/main/resources/data/jamdrops/worldgen/template_pool/temprelumiere.json"
-        ]
-      },
-      "path": "~/Structures/Temple de la lumiere"
-    },
-    {
-      "name": "CraftBossLumiere",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_boss_lumiere",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jamdrops/advancement/recipes/craft_boss_lumiere.json",
-          "src/main/resources/data/jamdrops/recipe/craft_boss_lumiere.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "CraftBossLumiereProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_boss_lumiere_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/jamdrops/procedures/CraftBossLumiereProcedureProcedure.java"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "CraftBossObscurite",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_boss_obscurite",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jamdrops/recipe/craft_boss_obscurite.json",
-          "src/main/resources/data/jamdrops/advancement/recipes/craft_boss_obscurite.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "CraftBossSombreProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_boss_sombre_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/jamdrops/procedures/CraftBossSombreProcedureProcedure.java"
-        ]
-      },
-      "path": "~/Craft"
     }
   ],
   "variable_elements": [
@@ -855,6 +781,10 @@
   ],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~GemmeLumineux@CUSTOM:GemmeLumineux",
+      "~GemmeSombre@CUSTOM:GemmeSombre"
+    ],
     "BLOCKS:minecraft:slabs": [
       "~DalleDObscurite@CUSTOM:DalleDObscurite",
       "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
@@ -977,14 +907,14 @@
     "files": [
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModBlocks.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java"
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java"
     ]
   },
   "foldersRoot": {
@@ -1080,20 +1010,16 @@
             ]
           }
         ]
-      },
-      {
-        "name": "Craft",
-        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "jamdrops",
     "modName": "Path between darkness and light",
-    "version": "1.2.0",
+    "version": "1.1.0",
     "description": "Mod pour le concours Jam Drops 2026 sur le thème Bloom and Gloom - l\u0027ombre et la lumière (crée avec MCreator)",
     "author": "MCreator, Drizzt478, gardienleviathan, smartin187, killer24-Git, PouletFlamboyant",
-    "websiteURL": "https://modrinth.com/project/path-between-darkness-and-light",
+    "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "logo",
