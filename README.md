@@ -35,6 +35,9 @@ Ces gemmes peuvent être utilisées pour diminuer ou augmenter la jauge de lumi�
 
 > Les gemmes peuvent aussi servir de monnaie d'échange entre les joueurs. Notamment, si un joueur est intéressé par la lumière, il pourrait échanger des gemmes d'obscurité contre des gemmes de lumière avec un autre joueur.
 
+_Une gemme de lumière et d'obsrucité :_
+![gemme de lumière et d'obscurité](./ReadmeData/gemmes.png)
+
 ### Les boss
 
 Il y a deux boss dans ce mod : le boss de lumière et le boss d'obscurité.
@@ -76,6 +79,14 @@ Il est possible d'invoquer un boss en utilisant un œuf d'apparition. Pour obten
 > En créatif, vous pouvez les faire apparaître via les œufs d'apparition sans avoir besoin d'avoir le niveau maximum de lumière ou d'obscurité.
 
 ###### Crafting
+
+_Invoquer un boss de lumière :_
+
+![Invoquer un boss de lumière](./ReadmeData/craft/boss_lum.png)
+
+_Invoquer un boss d'obscurité :_
+
+![Invoquer un boss d'obscurité](./ReadmeData/craft/boss_ombre.png)
 
 ### Les mobs
 
@@ -139,6 +150,15 @@ _En créatif, vous retrouverez ces blocs dans le menu créatif du mod..._
 
 Les blocs de lumière ou d'obscurité sont créés avec 4 gemmes de lumière ou d'obscurité. Ensuite, il est possible de les transformer en dalles, escaliers ou murets, comme avec les recettes des autres blocs du jeu, comme le bois.
 
+![craft bloc de lumière](./ReadmeData/craft/lum/bloc.png)
+![craft escalier de lumière](./ReadmeData/craft/lum/escalier.png)
+![craft dalle de lumière](./ReadmeData/craft/lum/dalle.png)
+![craft muret de lumière](./ReadmeData/craft/lum/murret.png)
+
+![craft bloc d'obscurité](./ReadmeData/craft/ombre/bloc.png)
+![craft escalier d'obscurité](./ReadmeData/craft/ombre/escalier.png)
+![craft dalle d'obscurité](./ReadmeData/craft/ombre/dalle.png)
+![craft muret d'obscurité](./ReadmeData/craft/ombre/murret.png)
 
 ### Les items
 
@@ -152,6 +172,8 @@ Avec elle, vous gagnez un effet de force tant que l'épée est dans votre main.
 
 ##### Crafting
 
+![épée d'obscurité craft](./ReadmeData/craft/épée_ombre.png)
+
 #### L'épée de lumière
 
 > Cette épée est lumineuse et éclatante !
@@ -163,6 +185,7 @@ Avec elle, vous gagnez plusieurs effets tant que l'épée est dans votre main :
 
 ##### Crafting
 
+![épée de lumière craft](./ReadmeData/craft/épée_lum.png)
 
 ## Télécharger
 
