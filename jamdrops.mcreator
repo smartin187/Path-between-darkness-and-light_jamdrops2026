@@ -771,9 +771,9 @@
       "registry_name": "temprelumiere",
       "metadata": {
         "files": [
-          "src/main/resources/data/jamdrops/worldgen/template_pool/temprelumiere.json",
           "src/main/resources/data/jamdrops/worldgen/structure_set/temprelumiere.json",
-          "src/main/resources/data/jamdrops/worldgen/structure/temprelumiere.json"
+          "src/main/resources/data/jamdrops/worldgen/structure/temprelumiere.json",
+          "src/main/resources/data/jamdrops/worldgen/template_pool/temprelumiere.json"
         ]
       },
       "path": "~/Structures/Temple de la lumiere"

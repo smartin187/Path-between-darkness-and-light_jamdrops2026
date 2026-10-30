@@ -7,8 +7,8 @@
     "ignoredBlocks": [
       "Blocks.STRUCTURE_BLOCK"
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 21,
+    "separation": 15,
     "restrictionBiomes": [
       "badlands",
       "bamboo_jungle",
