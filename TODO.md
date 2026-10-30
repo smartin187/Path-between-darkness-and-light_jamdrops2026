@@ -14,7 +14,7 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre les recette de craft des items
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
-- [smartin187] Mettre le repos GitHub en public, pour le formulaire de participation au concours, ajouter le lien vers le repos + vers le readme.
+    - [smartin187] Faire une vidéo de présentation du mod en l'intégrant dans le readme
 - Une jauge de lumière/obscurité ->
     - (actuelelement la jauge est en prototype).
     - Faire d'autre action qui augement / diminue la jauge ?
