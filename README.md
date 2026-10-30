@@ -152,6 +152,8 @@ Avec elle, vous gagnez un effet de force tant que l'épée est dans votre main.
 
 ##### Crafting
 
+![épée d'obscurité craft](./ReadmeData/craft/épée_ombre.png)
+
 #### L'épée de lumière
 
 > Cette épée est lumineuse et éclatante !
@@ -163,6 +165,7 @@ Avec elle, vous gagnez plusieurs effets tant que l'épée est dans votre main :
 
 ##### Crafting
 
+![épée de lumière craft](./ReadmeData/craft/épée_lum.png)
 
 ## Télécharger
 
