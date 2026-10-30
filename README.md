@@ -4,7 +4,12 @@
 
 ---
 
-![Jam Drops 2026](https://jamdrops.lairhisson.fr/public/logo/logo-jam-drops-new.png) ![Bloom and Gloom](https://jamdrops.lairhisson.fr/public/logo/bloom%20and%20gloom%20logo.png)
+<img src="https://jamdrops.lairhisson.fr/public/logo/logo-jam-drops-new.png" alt="Jam Drops 2026" width="300">
+<img src="https://jamdrops.lairhisson.fr/public/logo/bloom%20and%20gloom%20logo.png" alt="Bloom and Gloom" width="300">
+
+---
+
+## [**Télécharger le mod**](#télécharger)
 
 ---
 
