@@ -38,6 +38,8 @@ Il y a deux boss dans ce mod : le boss de lumière et le boss d'obscurité.
 
 Ce boss vie dans un temple de lumière. Le joueur doit donc trouver un temple pour le combatre. En mourant, le boss de lumière laisse tomber une [gemme de lumière](#les-gemmes), que le joueur peut utiliser pour augementer sa jauge de lumière.
 
+![boss lumiere](./ReadmeData/boss_lumière.png)
+
 ##### Attaque
 
 Le boss de lumière utilise une attaque a distance. Lors que le projectile tirer par le boss vous touche, un éclaire tombe du ciel sur vous ! Heureusement, le boss n'atteint pas toujours sa cible, et il est possible d'esquiver l'attaque si vous êtes rapide et que vous bouter tout le temps.
@@ -82,9 +84,13 @@ Il existe deux variantes du prêtre de lumière : il peut soit combattre en tira
 
 Ce mob est aussi asocié au boss de lumière. Contrairement au prêtre de lumière, le gardien fait du combat corps a corps. Il est donc un peut moins puissant que le prêtre de lumière.
 
+![gardien de lumière](./ReadmeData/gardien_lumière.png)
+
 #### Prêtre de lumière heal
 
 Cette variante du prêtre de lumière soigne les autre mobs. Il vous attaquera que si vous le frapper en premier, mais il est généralement accompagné d'autre mobs de lumière, qui eux vous attaqueront sans hésiter.
+
+![prêtre de lumière heal](./ReadmeData/pretre_heal.png)
 
 #### Mob de lumière vs mob d'obscurité
 
@@ -95,6 +101,19 @@ Tout les mobs de lumière (boss, prêtre...) et tout les mobs d'obscurité feron
 > Vous pouvez bien sur utiliser cette stratégie pour les combattre plus facilement !
 
 ### Le temple de lumière et le temple d'obscurité
+
+Ces temples sont les lieux de vie des boss ainsi que les autre mobs associé aux boss.
+
+#### Temple de lumière
+
+Ce temple est une grande tour en bois, avec des bloc de lumière au sommet. Il y a 3 étages:
+- Le premier étage est un parcour, pour accéder au deuxième étage.
+- Le deuxième étage habité par les mobs de lumière, ils sont nombreux !
+- Le troisième étage est le sommet de la tour, où veille le boss de lumière.
+
+> Cette structure se trouve dans tout les biomes de l'overworld.
+
+![temple de lumière](./ReadmeData/tour_lumière.png)
 
 ### Les blocs
 
