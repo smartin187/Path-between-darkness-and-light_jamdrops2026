@@ -80,6 +80,14 @@ Il est possible d'invoquer un boss en utilisant un œuf d'apparition. Pour obten
 
 ###### Crafting
 
+_Invoquer un boss de lumière :_
+
+![Invoquer un boss de lumière](./ReadmeData/craft/boss_lum.png)
+
+_Invoquer un boss d'obscurité :_
+
+![Invoquer un boss d'obscurité](./ReadmeData/craft/boss_ombre.png)
+
 ### Les mobs
 
 En plus des deux boss, ce mod ajoute des mobs.
