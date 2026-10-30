@@ -35,6 +35,9 @@ Ces gemmes peuvent être utilisées pour diminuer ou augmenter la jauge de lumi�
 
 > Les gemmes peuvent aussi servir de monnaie d'échange entre les joueurs. Notamment, si un joueur est intéressé par la lumière, il pourrait échanger des gemmes d'obscurité contre des gemmes de lumière avec un autre joueur.
 
+_Une gemme de lumière et d'obsrucité :_
+![gemme de lumière et d'obscurité](./ReadmeData/gemmes.png)
+
 ### Les boss
 
 Il y a deux boss dans ce mod : le boss de lumière et le boss d'obscurité.
