@@ -147,7 +147,10 @@ Les blocs de lumière ou d'obscurité sont créés avec 4 gemmes de lumière ou 
 ![craft dalle de lumière](./ReadmeData/craft/lum/dalle.png)
 ![craft muret de lumière](./ReadmeData/craft/lum/murret.png)
 
-
+![craft bloc d'obscurité](./ReadmeData/craft/ombre/bloc.png)
+![craft escalier d'obscurité](./ReadmeData/craft/ombre/escalier.png)
+![craft dalle d'obscurité](./ReadmeData/craft/ombre/dalle.png)
+![craft muret d'obscurité](./ReadmeData/craft/ombre/murret.png)
 
 ### Les items
 
