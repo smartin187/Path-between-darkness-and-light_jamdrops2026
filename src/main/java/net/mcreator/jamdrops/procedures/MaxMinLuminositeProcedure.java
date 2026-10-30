@@ -28,7 +28,7 @@ public class MaxMinLuminositeProcedure {
 			return;
 		{
 			JamdropsModVariables.PlayerVariables _vars = entity.getData(JamdropsModVariables.PLAYER_VARIABLES);
-			_vars.luminosite = Mth.clamp(entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite, -63, 63);
+			_vars.luminosite = Mth.clamp(entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite, -60, 60);
 			_vars.markSyncDirty();
 		}
 	}

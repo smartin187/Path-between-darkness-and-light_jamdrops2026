@@ -10,7 +10,7 @@ public class AjouterLuminositeProcedure {
 			return;
 		{
 			JamdropsModVariables.PlayerVariables _vars = entity.getData(JamdropsModVariables.PLAYER_VARIABLES);
-			_vars.luminosite = entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite + 1;
+			_vars.luminosite = entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite + 5;
 			_vars.markSyncDirty();
 		}
 	}
