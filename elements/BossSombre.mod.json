@@ -29,11 +29,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -13421773,
+      "value": -10092442,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -13421773,
+      "value": -16777216,
       "falpha": 0.0
     },
     "spawnEggTexture": "",
