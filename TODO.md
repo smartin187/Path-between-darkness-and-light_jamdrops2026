@@ -30,7 +30,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Block: Faire de nouvelles textures ?
 - [gardienleviathan] Item: Faire la textures finale des items de lumière et d'ombre
 - Prêtre de lumière: Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
-- [smartin187] Voir pour les oeuf d'apparition: Soit faire les textures, soit utiliser la texture par défaut où l'on choisit 2 couleurs (fond et contours).
 - Optimisation possible : pour les procédure pour bloquer le joueur d'obtenir les oeuf de lumière / obscurité sans niveau max, il y a deux `si` imbriqué, possible de mettre un `and` pour plus de rapidité ?
 - Faire netoyage sur les branches Git
 - **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
