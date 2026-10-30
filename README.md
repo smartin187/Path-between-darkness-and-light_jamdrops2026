@@ -142,6 +142,12 @@ _En créatif, vous retrouverez ces blocs dans le menu créatif du mod..._
 
 Les blocs de lumière ou d'obscurité sont créés avec 4 gemmes de lumière ou d'obscurité. Ensuite, il est possible de les transformer en dalles, escaliers ou murets, comme avec les recettes des autres blocs du jeu, comme le bois.
 
+![craft bloc de lumière](./ReadmeData/craft/lum/bloc.png)
+![craft escalier de lumière](./ReadmeData/craft/lum/escalier.png)
+![craft dalle de lumière](./ReadmeData/craft/lum/dalle.png)
+![craft muret de lumière](./ReadmeData/craft/lum/murret.png)
+
+
 
 ### Les items
 
