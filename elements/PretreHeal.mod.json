@@ -40,7 +40,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -65536,
       "falpha": 0.0
     },
     "spawnEggTexture": "",
