@@ -48,6 +48,8 @@ Le boss de lumière utilise une attaque a distance. Lors que le projectile tirer
 
 Ce boss est l'oposé du boss de lumière. Il vie dans un temple d'obscurité. En mourant, le boss d'obscurité laisse tomber une [gemme d'obscurité](#les-gemmes), que le joueur peut utiliser pour diminuer sa jauge de lumière.
 
+![boss obscurité](./ReadmeData/boss_sombre.png)
+
 ##### Attaque
 
 Ce boss tire aussi un projectile, mais celui ci crée un trou sous vos pied !
@@ -122,6 +124,9 @@ Ce mod ajoute de nouveau bloc (et escalier, dalle, murret).
 Il existe les bloc, dalle, escalier et murret de lumière et d'obscurité.
 
 > Bien évidement, les bloc de lumière sont lumineux, et produisent beaucoup de lumière.
+
+![bloc de lumière](./ReadmeData/bloc_lumiere.png)
+![bloc d'obscurité](./ReadmeData/bloc_ombre.png)
 
 _En créatif, vous retrouverait ces bloc dans le menu créatif du mod..._
 
