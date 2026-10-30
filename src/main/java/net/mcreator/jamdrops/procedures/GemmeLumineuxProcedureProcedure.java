@@ -3,11 +3,15 @@ package net.mcreator.jamdrops.procedures;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.jamdrops.network.JamdropsModVariables;
+
 public class GemmeLumineuxProcedureProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		AjouterLuminositeProcedure.execute(entity);
-		itemstack.shrink(1);
+		if (60 > entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite) {
+			AjouterLuminositeProcedure.execute(entity);
+			itemstack.shrink(1);
+		}
 	}
 }

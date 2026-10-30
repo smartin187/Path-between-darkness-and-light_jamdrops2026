@@ -166,6 +166,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ],
         "files": [
@@ -199,6 +203,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ],
         "files": [
@@ -499,8 +507,8 @@
       "registry_name": "epee_obscurite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/epee_obscurite.json",
-          "src/main/java/net/mcreator/jamdrops/item/EpeeObscuriteItem.java"
+          "src/main/java/net/mcreator/jamdrops/item/EpeeObscuriteItem.java",
+          "src/main/resources/assets/jamdrops/models/item/epee_obscurite.json"
         ]
       },
       "path": "~/Epee/Epee d obscurite"
@@ -534,6 +542,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           }
         ],
@@ -781,10 +793,6 @@
   ],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:minecraft:enchantable/durability": [
-      "~GemmeLumineux@CUSTOM:GemmeLumineux",
-      "~GemmeSombre@CUSTOM:GemmeSombre"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~DalleDObscurite@CUSTOM:DalleDObscurite",
       "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
@@ -798,8 +806,8 @@
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
     ],
     "ITEMS:minecraft:swords": [
-      "~EpeeObscurite@CUSTOM:EpeeObscurite",
-      "~EpeeLumiere@CUSTOM:EpeeLumiere"
+      "~EpeeLumiere@CUSTOM:EpeeLumiere",
+      "~EpeeObscurite@CUSTOM:EpeeObscurite"
     ]
   },
   "tab_element_order": {

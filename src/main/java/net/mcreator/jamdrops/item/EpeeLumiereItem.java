@@ -39,7 +39,7 @@ public class EpeeLumiereItem extends SwordItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
+			return BlockTags.INCORRECT_FOR_IRON_TOOL;
 		}
 
 		@Override
@@ -54,7 +54,7 @@ public class EpeeLumiereItem extends SwordItem {
 	};
 
 	public EpeeLumiereItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 5f, -3f)));
 	}
 
 	@Override

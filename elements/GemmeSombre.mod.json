@@ -35,7 +35,7 @@
       ]
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "openGUIOnRightClick": {
       "fixedValue": false

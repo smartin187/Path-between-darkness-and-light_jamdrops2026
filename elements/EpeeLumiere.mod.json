@@ -23,14 +23,14 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 6.0,
     "usageCount": 100,
     "glowCondition": {
       "fixedValue": true
     },
     "repairItems": [],
     "immuneToFire": false,
-    "blockDropsTier": "WOOD",
+    "blockDropsTier": "IRON",
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
