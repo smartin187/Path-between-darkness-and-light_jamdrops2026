@@ -11,7 +11,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - [Drizzt478] Pour l'url du mod, pour le Modrith, vérifier qu'il n'y a plus de 404 lors du rendu finale.
 - Complété le `README.md` lorsque des fonctionalités sont ajoutés au mod:
     - Mettre la description du mod
-    - Mettre les recette de craft des items
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
     - [smartin187] Faire une vidéo de présentation du mod en l'intégrant dans le readme
