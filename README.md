@@ -48,15 +48,25 @@ Ce boss est l'oposé du boss de lumière. Il vie dans un temple d'obscurité. En
 
 ##### Attaque
 
-Ce boss tire aussi un projectile, mais celui ci crée un troup sous vos pied !
+Ce boss tire aussi un projectile, mais celui ci crée un trou sous vos pied !
 
 Le boss de d'obscurité veux vous envoyer dans les ténèbres. Son rêve : vous faire traversser la couche de la bed rock pour vous envoyer dans le vide ! Heureusement, le troup n'est pas asser profond pour vous faire traverser la bed rock, mais suffisant pour vous tuer !
 
 > Le trou a une largeur et profondeur variable. La profondeur varie entre 1 et 30 bloc, et la largeur varie entre 1 et 10 bloc.
 
-#### Apparition en créatif
+#### Invocation du boss
 
-> Note: en survie, les boss se trouve uniquement dans les temples. En créatif, vous pouvez les faire apparaitre via les oeufs d'apparition...
+##### Dans les temples
+
+Les boss se trouve dans leur temple. Vous les trouverez donc en découvrant un temple.
+
+##### Invoquer un boss
+
+Il est possible d'invoquer un boss en utilisant un oeuf d'apparition. Pour obtenir l'oeuf, il faut avoir le niveau maximum de lumière ou d'obscurité dans la jauge. Ensuite, vous pouvez crafter l'oeuf d'apparition du boss de lumière ou d'obscurité (celon si vous être au maximum de lumière ou d'obscurité).
+
+> En créatif, vous pouvez les faire apparaitre via les oeufs d'apparition sans avoir besoin d'avoir le niveau maximum de lumière ou d'obscurité.
+
+###### Crafting
 
 ### Les mobs
 
@@ -111,6 +121,8 @@ Ce mod ajoute beaucoup de nouveaux items. Il y a les [gemmes](#les-gemmes), les 
 
 Avec elle, vous gagner un effet de force du moment que l'épée est dans votre main.
 
+##### Crafting
+
 #### L'épée de lumière
 
 > Cette épée est lumineuse et éclatante !
@@ -118,8 +130,10 @@ Avec elle, vous gagner un effet de force du moment que l'épée est dans votre m
 Avec elle, vous gagner plusieurs effets, du moment que l'épée est dans votre main :
 - Vision nocturne
 - PV supplémentaire
-- Regénération
 - Resistance
+
+##### Crafting
+
 
 ## Télécharger
 
