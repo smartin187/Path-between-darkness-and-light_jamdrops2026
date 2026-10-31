@@ -15,6 +15,14 @@
 
 Ce mod a été créé par l'équipe _Path between darkness and light_, en utilisant MCreator, pour le concours [Jam Drops 2026](https://jamdrops.lairhisson.fr/), _Bloom and Gloom_.
 
+## Regarder la vidéo de présentation
+
+<video width="640" height="360" controls>
+  <source src="ReadmeData/vidéo_presentation.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos. Cliquer [ici](ReadmeData/vidéo_presentation.mp4) pour télécharger la vidéo.
+</video>
+
+
 ## Description
 
 Ce mod ajoute plusieurs fonctionnalités intéressantes sur le thème de la lumière et de l'obscurité.

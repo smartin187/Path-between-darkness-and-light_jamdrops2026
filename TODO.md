@@ -13,7 +13,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
     - Mettre la description du mod
     - Mettre quelque images (screenshots)
     - Vérifier l'ortographe
-    - [smartin187] Faire une vidéo de présentation du mod en l'intégrant dans le readme
 - Une jauge de lumière/obscurité -> Faire d'autre action qui augement / diminue la jauge ?
 - Bottes d'ombre / lumière
 - _A faire si on a le temps_ Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ? + Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
@@ -22,9 +21,9 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Prêtre de lumière: Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
 - Optimisation possible : pour les procédure pour bloquer le joueur d'obtenir les oeuf de lumière / obscurité sans niveau max, il y a deux `si` imbriqué, possible de mettre un `and` pour plus de rapidité ?
 - Faire netoyage sur les branches Git
-- [smartin187] **Crée une vidéo / diapositive / autre pour la présentation du mod** -> au pire utiliser uniquement le `README.md`
 - Ajouter un équivalent au prêtre de lumière pour l'obscurité ?
 - **Problème avec la texture du prêtre de lumière -> certain cubes de la tetes sont transparent, en raison qu'il sont en partit dehors de la texture** -> déplacer dans la texture les cubes. + vérifier si d'autre mob on le problème.
 - Pour la structure du temple de lumière :
     - Un slim apparait souvent en dessous  -> surement qu'il slime a était embarqué dans la structure (si la structure a était faire en monde plat). Soit le slime arrive a spawn, donc il est dessous la structure, soit il spawn dans un bloc
     - des logs `[worldgen/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-28, y=-34, z=7}` _peut être lié au slime qui apparait dans un bloc_
+- Mettre a jour lien
