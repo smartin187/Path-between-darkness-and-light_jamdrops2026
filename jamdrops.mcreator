@@ -916,6 +916,21 @@
         ]
       },
       "path": "~/Pretre/Ombre"
+    },
+    {
+      "name": "PretreSombre",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pretre_sombre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreSombreRenderer.java",
+          "src/main/java/net/mcreator/jamdrops/entity/PretreSombreEntity.java",
+          "src/main/resources/assets/jamdrops/models/item/pretre_sombre_spawn_egg.json"
+        ]
+      },
+      "path": "~/Pretre/Ombre"
     }
   ],
   "variable_elements": [
@@ -964,7 +979,8 @@
       "PretreLumineux",
       "PretreCaC",
       "PretreHeal",
-      "GardienOmbre"
+      "GardienOmbre",
+      "PretreSombre"
     ]
   },
   "language_map": {
@@ -1007,7 +1023,9 @@
       "entity.jamdrops.pretre_heal": "Pretre Heal",
       "item.jamdrops.pretre_heal_spawn_egg": "Pretre Heal Spawn Egg",
       "item.jamdrops.gardien_ombre_spawn_egg": "Gardien d\u0027obscurité Spawn Egg",
-      "entity.jamdrops.gardien_ombre": "Gardien d\u0027obscurité"
+      "entity.jamdrops.gardien_ombre": "Gardien d\u0027obscurité",
+      "entity.jamdrops.pretre_sombre": "Pretre de lumière",
+      "item.jamdrops.pretre_sombre_spawn_egg": "Pretre de lumière Spawn Egg"
     },
     "fr_fr": {
       "item.jamdrops.bosslumineux_spawn_egg": "Œuf d\u0027apparition du Boss de la lumière",
@@ -1048,7 +1066,9 @@
       "entity.jamdrops.pretre_heal": "Prêtre Heal",
       "item.jamdrops.pretre_heal_spawn_egg": "Œuf d\u0027apparition d\u0027un prêtre Heal",
       "item.jamdrops.gardien_ombre_spawn_egg": "Œuf d\u0027apparition Gardien d\u0027obscurité",
-      "entity.jamdrops.gardien_ombre": "Gardien d\u0027obscurité"
+      "entity.jamdrops.gardien_ombre": "Gardien d\u0027obscurité",
+      "entity.jamdrops.pretre_sombre": "Pretre d\u0027ombre",
+      "item.jamdrops.pretre_sombre_spawn_egg": "Œuf d\u0027apparition Pretre d\u0027ombre"
     }
   },
   "metadata": {

@@ -25,5 +25,6 @@ public class JamdropsModEntityRenderers {
 		event.registerEntityRenderer(JamdropsModEntities.PROJECTIL_OMBRE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.PRETRE_HEAL.get(), PretreHealRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.GARDIEN_OMBRE.get(), GardienOmbreRenderer::new);
+		event.registerEntityRenderer(JamdropsModEntities.PRETRE_SOMBRE.get(), PretreSombreRenderer::new);
 	}
 }
