@@ -778,7 +778,7 @@
           "src/main/resources/data/jamdrops/recipe/craft_boss_lumi.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Lumiere"
     },
     {
       "name": "CraftBossObscu",
@@ -791,7 +791,7 @@
           "src/main/resources/data/jamdrops/recipe/craft_boss_obscu.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Ombre"
     },
     {
       "name": "CraftCheckProcedure",
@@ -839,7 +839,7 @@
           "src/main/resources/data/jamdrops/recipe/craft_pretre_distance.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Lumiere"
     },
     {
       "name": "CraftPretreHeal",
@@ -852,7 +852,7 @@
           "src/main/resources/data/jamdrops/recipe/craft_pretre_heal.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Lumiere"
     },
     {
       "name": "CraftPretreCaC",
@@ -865,7 +865,7 @@
           "src/main/resources/data/jamdrops/recipe/craft_pretre_ca_c.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Lumiere"
     },
     {
       "name": "LevelUpProcedure",
@@ -910,9 +910,9 @@
       "registry_name": "gardien_ombre",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/entity/GardienOmbreEntity.java",
+          "src/main/resources/assets/jamdrops/models/item/gardien_ombre_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/client/renderer/GardienOmbreRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/gardien_ombre_spawn_egg.json"
+          "src/main/java/net/mcreator/jamdrops/entity/GardienOmbreEntity.java"
         ]
       },
       "path": "~/Pretre/Ombre"
@@ -926,8 +926,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreSombreRenderer.java",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreSombreEntity.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_sombre_spawn_egg.json"
+          "src/main/resources/assets/jamdrops/models/item/pretre_sombre_spawn_egg.json",
+          "src/main/java/net/mcreator/jamdrops/entity/PretreSombreEntity.java"
         ]
       },
       "path": "~/Pretre/Ombre"
@@ -944,6 +944,32 @@
         ]
       },
       "path": "~/Items/boule dombre"
+    },
+    {
+      "name": "CraftPretreSombreDistance",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pretre_sombre_distance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_pretre_sombre_distance.json"
+        ]
+      },
+      "path": "~/Craft/Ombre"
+    },
+    {
+      "name": "CraftPretreSombreCac",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pretre_sombre_cac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_pretre_sombre_cac.json"
+        ]
+      },
+      "path": "~/Craft/Ombre"
     }
   ],
   "variable_elements": [
@@ -1207,7 +1233,16 @@
       },
       {
         "name": "Craft",
-        "children": []
+        "children": [
+          {
+            "name": "Lumiere",
+            "children": []
+          },
+          {
+            "name": "Ombre",
+            "children": []
+          }
+        ]
       }
     ]
   },
