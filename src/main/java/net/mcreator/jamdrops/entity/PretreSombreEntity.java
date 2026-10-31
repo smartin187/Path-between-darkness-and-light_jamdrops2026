@@ -72,7 +72,7 @@ public class PretreSombreEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		OrbeDeLumiereEntity.shoot(this, target);
+		OrbeDOmbreEntity.shoot(this, target);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

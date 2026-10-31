@@ -931,6 +931,19 @@
         ]
       },
       "path": "~/Pretre/Ombre"
+    },
+    {
+      "name": "OrbeDOmbre",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbe_d_ombre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/entity/OrbeDOmbreEntity.java"
+        ]
+      },
+      "path": "~/Items/boule dombre"
     }
   ],
   "variable_elements": [
@@ -1122,6 +1135,10 @@
           },
           {
             "name": "Projectil boss sombre",
+            "children": []
+          },
+          {
+            "name": "boule dombre",
             "children": []
           }
         ]

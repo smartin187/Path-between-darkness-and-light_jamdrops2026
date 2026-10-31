@@ -104,7 +104,7 @@
     "breedTriggerItems": [],
     "ranged": true,
     "rangedAttackItem": "Items.ARROW",
-    "rangedItemType": "OrbeDeLumiere",
+    "rangedItemType": "OrbeDOmbre",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,

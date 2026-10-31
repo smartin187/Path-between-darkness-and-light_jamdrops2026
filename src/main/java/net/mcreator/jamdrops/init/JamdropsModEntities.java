@@ -55,6 +55,8 @@ public class JamdropsModEntities {
 			EntityType.Builder.<PretreSombreEntity>of(PretreSombreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<OrbeDOmbreEntity>> ORBE_D_OMBRE = register("orbe_d_ombre",
+			EntityType.Builder.<OrbeDOmbreEntity>of(OrbeDOmbreEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
