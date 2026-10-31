@@ -168,7 +168,7 @@ Ce mod ajoute beaucoup de nouveaux items. Il y a les [gemmes](#les-gemmes), les 
 
 > Cette épée est sombre et mystérieuse !
 
-Avec elle, vous gagnez un effet de force tant que l'épée est dans votre main.
+Vous aurait l'effet de force lors que vous frappez un adversaire avec l'épée.
 
 ##### Crafting
 

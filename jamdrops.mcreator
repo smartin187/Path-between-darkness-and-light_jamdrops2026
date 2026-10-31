@@ -123,8 +123,8 @@
       "registry_name": "temple_de_l_ombre",
       "metadata": {
         "files": [
-          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_l_ombre.json",
           "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_l_ombre.json",
+          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_l_ombre.json",
           "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_l_ombre.json"
         ]
       },

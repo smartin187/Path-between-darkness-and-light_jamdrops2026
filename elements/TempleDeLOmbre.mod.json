@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "structure",
   "definition": {
-    "structure": "templedelombre",
+    "structure": "temple_ombre_finale",
     "projection": "rigid",
     "ignoredBlocks": [
       "Blocks.STRUCTURE_BLOCK"
