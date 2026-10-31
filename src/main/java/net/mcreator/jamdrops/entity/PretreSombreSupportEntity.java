@@ -19,7 +19,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.jamdrops.procedures.PretreHealOnEntityTickUpdateProcedure;
+import net.mcreator.jamdrops.procedures.SoutientForcePretreSoutientProcedure;
 
 public class PretreSombreSupportEntity extends Monster {
 	public PretreSombreSupportEntity(EntityType<PretreSombreSupportEntity> type, Level world) {
@@ -62,7 +62,7 @@ public class PretreSombreSupportEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		PretreHealOnEntityTickUpdateProcedure.execute(this.level(), this);
+		SoutientForcePretreSoutientProcedure.execute(this.level(), this);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

@@ -959,6 +959,29 @@
         ]
       },
       "path": "~/Pretre/Ombre"
+    },
+    {
+      "name": "SoutientForcePretreSoutient",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soutient_force_pretre_soutient",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/SoutientForcePretreSoutientProcedure.java"
+        ]
+      },
+      "path": "~/Pretre/Ombre"
     }
   ],
   "variable_elements": [
