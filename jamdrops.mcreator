@@ -86,21 +86,6 @@
       "path": "~/Jauge/Luminosite"
     },
     {
-      "name": "TempleDeLumiere",
-      "type": "structure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "temple_de_lumiere",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_lumiere.json",
-          "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_lumiere.json",
-          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_lumiere.json"
-        ]
-      },
-      "path": "~/Structures/Temple de la lumiere"
-    },
-    {
       "name": "BossSombre",
       "type": "livingentity",
       "compiles": true,
@@ -108,9 +93,9 @@
       "registry_name": "boss_sombre",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java",
           "src/main/resources/assets/jamdrops/models/item/boss_sombre_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java"
+          "src/main/java/net/mcreator/jamdrops/client/renderer/BossSombreRenderer.java",
+          "src/main/java/net/mcreator/jamdrops/entity/BossSombreEntity.java"
         ]
       },
       "path": "~/Structures/Temple de lombre"
@@ -123,8 +108,8 @@
       "registry_name": "temple_de_l_ombre",
       "metadata": {
         "files": [
-          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_l_ombre.json",
           "src/main/resources/data/jamdrops/worldgen/template_pool/temple_de_l_ombre.json",
+          "src/main/resources/data/jamdrops/worldgen/structure/temple_de_l_ombre.json",
           "src/main/resources/data/jamdrops/worldgen/structure_set/temple_de_l_ombre.json"
         ]
       },
@@ -138,8 +123,8 @@
       "registry_name": "gemme_lumineux",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json",
-          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java"
+          "src/main/java/net/mcreator/jamdrops/item/GemmeLumineuxItem.java",
+          "src/main/resources/assets/jamdrops/models/item/gemme_lumineux.json"
         ]
       },
       "path": "~/Items/Gemme lumineux"
@@ -186,8 +171,8 @@
       "registry_name": "gemme_sombre",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java",
-          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json"
+          "src/main/resources/assets/jamdrops/models/item/gemme_sombre.json",
+          "src/main/java/net/mcreator/jamdrops/item/GemmeSombreItem.java"
         ]
       },
       "path": "~/Items/Gemme sombre"
@@ -224,8 +209,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreLumineuxRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java"
+          "src/main/java/net/mcreator/jamdrops/entity/PretreLumineuxEntity.java",
+          "src/main/resources/assets/jamdrops/models/item/pretre_lumineux_spawn_egg.json"
         ]
       },
       "path": "~/Pretre"
@@ -238,8 +223,8 @@
       "registry_name": "foudreitem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/foudreitem.json",
-          "src/main/java/net/mcreator/jamdrops/item/FoudreitemItem.java"
+          "src/main/java/net/mcreator/jamdrops/item/FoudreitemItem.java",
+          "src/main/resources/assets/jamdrops/models/item/foudreitem.json"
         ]
       },
       "path": "~/Items/Projectile foudre"
@@ -316,8 +301,8 @@
       "registry_name": "orbe_lum_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/item/OrbeLumItemItem.java",
-          "src/main/resources/assets/jamdrops/models/item/orbe_lum_item.json"
+          "src/main/resources/assets/jamdrops/models/item/orbe_lum_item.json",
+          "src/main/java/net/mcreator/jamdrops/item/OrbeLumItemItem.java"
         ]
       },
       "path": "~/Items/Boule de lumiere"
@@ -343,8 +328,8 @@
       "registry_name": "epee_lumiere",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/item/EpeeLumiereItem.java",
-          "src/main/resources/assets/jamdrops/models/item/epee_lumiere.json"
+          "src/main/resources/assets/jamdrops/models/item/epee_lumiere.json",
+          "src/main/java/net/mcreator/jamdrops/item/EpeeLumiereItem.java"
         ]
       },
       "path": "~/Epee/Epee de lumiere"
@@ -357,11 +342,11 @@
       "registry_name": "block_de_lumiere",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/block/BlockDeLumiereBlock.java",
+          "src/main/resources/data/jamdrops/loot_table/blocks/block_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/item/block_de_lumiere.json",
-          "src/main/resources/assets/jamdrops/blockstates/block_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/block/block_de_lumiere.json",
-          "src/main/resources/data/jamdrops/loot_table/blocks/block_de_lumiere.json"
+          "src/main/java/net/mcreator/jamdrops/block/BlockDeLumiereBlock.java",
+          "src/main/resources/assets/jamdrops/blockstates/block_de_lumiere.json"
         ]
       },
       "path": "~/Block/Block de lumiere"
@@ -374,13 +359,13 @@
       "registry_name": "dale_de_lumiere",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/dale_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_full.json",
           "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere.json",
-          "src/main/java/net/mcreator/jamdrops/block/DaleDeLumiereBlock.java",
-          "src/main/resources/data/jamdrops/loot_table/blocks/dale_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_top.json",
+          "src/main/resources/assets/jamdrops/models/item/dale_de_lumiere.json",
           "src/main/resources/assets/jamdrops/blockstates/dale_de_lumiere.json",
-          "src/main/resources/assets/jamdrops/models/block/dale_de_lumiere_full.json"
+          "src/main/java/net/mcreator/jamdrops/block/DaleDeLumiereBlock.java",
+          "src/main/resources/data/jamdrops/loot_table/blocks/dale_de_lumiere.json"
         ]
       },
       "path": "~/Block/Block de lumiere"
@@ -393,12 +378,12 @@
       "registry_name": "escalier_de_lumiere",
       "metadata": {
         "files": [
+          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/blockstates/escalier_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_inner.json",
           "src/main/java/net/mcreator/jamdrops/block/EscalierDeLumiereBlock.java",
-          "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere.json",
           "src/main/resources/data/jamdrops/loot_table/blocks/escalier_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/item/escalier_de_lumiere.json",
-          "src/main/resources/assets/jamdrops/blockstates/escalier_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/block/escalier_de_lumiere_outer.json"
         ]
       },
@@ -412,14 +397,14 @@
       "registry_name": "murret_de_lumiere",
       "metadata": {
         "files": [
-          "src/main/resources/data/jamdrops/loot_table/blocks/murret_de_lumiere.json",
-          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_post.json",
-          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_inventory.json",
+          "src/main/resources/assets/jamdrops/blockstates/murret_de_lumiere.json",
           "src/main/java/net/mcreator/jamdrops/block/MurretDeLumiereBlock.java",
-          "src/main/resources/assets/jamdrops/models/item/murret_de_lumiere.json",
           "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_side_tall.json",
-          "src/main/resources/assets/jamdrops/blockstates/murret_de_lumiere.json"
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_de_lumiere_post.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/murret_de_lumiere.json",
+          "src/main/resources/assets/jamdrops/models/item/murret_de_lumiere.json"
         ]
       },
       "path": "~/Block/Block de lumiere"
@@ -432,10 +417,10 @@
       "registry_name": "bloc_d_obscurite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/blockstates/bloc_d_obscurite.json",
-          "src/main/resources/data/jamdrops/loot_table/blocks/bloc_d_obscurite.json",
-          "src/main/resources/assets/jamdrops/models/item/bloc_d_obscurite.json",
           "src/main/java/net/mcreator/jamdrops/block/BlocDObscuriteBlock.java",
+          "src/main/resources/data/jamdrops/loot_table/blocks/bloc_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/blockstates/bloc_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/item/bloc_d_obscurite.json",
           "src/main/resources/assets/jamdrops/models/block/bloc_d_obscurite.json"
         ]
       },
@@ -449,13 +434,13 @@
       "registry_name": "dalle_d_obscurite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite_full.json",
-          "src/main/resources/assets/jamdrops/models/item/dalle_d_obscurite.json",
-          "src/main/resources/assets/jamdrops/blockstates/dalle_d_obscurite.json",
           "src/main/resources/data/jamdrops/loot_table/blocks/dalle_d_obscurite.json",
-          "src/main/java/net/mcreator/jamdrops/block/DalleDObscuriteBlock.java",
           "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite.json",
-          "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite_top.json"
+          "src/main/java/net/mcreator/jamdrops/block/DalleDObscuriteBlock.java",
+          "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite_top.json",
+          "src/main/resources/assets/jamdrops/models/item/dalle_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/dalle_d_obscurite_full.json",
+          "src/main/resources/assets/jamdrops/blockstates/dalle_d_obscurite.json"
         ]
       },
       "path": "~/Block/Block d obscurite"
@@ -468,11 +453,11 @@
       "registry_name": "escalier_d_obscurite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/escalier_d_obscurite.json",
           "src/main/java/net/mcreator/jamdrops/block/EscalierDObscuriteBlock.java",
-          "src/main/resources/assets/jamdrops/blockstates/escalier_d_obscurite.json",
           "src/main/resources/assets/jamdrops/models/block/escalier_d_obscurite_outer.json",
+          "src/main/resources/assets/jamdrops/models/item/escalier_d_obscurite.json",
           "src/main/resources/assets/jamdrops/models/block/escalier_d_obscurite_inner.json",
+          "src/main/resources/assets/jamdrops/blockstates/escalier_d_obscurite.json",
           "src/main/resources/assets/jamdrops/models/block/escalier_d_obscurite.json",
           "src/main/resources/data/jamdrops/loot_table/blocks/escalier_d_obscurite.json"
         ]
@@ -487,14 +472,14 @@
       "registry_name": "murret_d_obscurite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite.json",
-          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_inventory.json",
-          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_side_tall.json",
-          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_post.json",
-          "src/main/resources/data/jamdrops/loot_table/blocks/murret_d_obscurite.json",
-          "src/main/resources/assets/jamdrops/models/item/murret_d_obscurite.json",
           "src/main/java/net/mcreator/jamdrops/block/MurretDObscuriteBlock.java",
-          "src/main/resources/assets/jamdrops/blockstates/murret_d_obscurite.json"
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_post.json",
+          "src/main/resources/assets/jamdrops/blockstates/murret_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_side_tall.json",
+          "src/main/resources/assets/jamdrops/models/item/murret_d_obscurite.json",
+          "src/main/resources/assets/jamdrops/models/block/murret_d_obscurite_inventory.json",
+          "src/main/resources/data/jamdrops/loot_table/blocks/murret_d_obscurite.json"
         ]
       },
       "path": "~/Block/Block d obscurite"
@@ -589,9 +574,9 @@
       "registry_name": "pretre_ca_c",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreCaCRenderer.java",
+          "src/main/java/net/mcreator/jamdrops/entity/PretreCaCEntity.java",
           "src/main/resources/assets/jamdrops/models/item/pretre_ca_c_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreCaCEntity.java"
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreCaCRenderer.java"
         ]
       },
       "path": "~/Pretre"
@@ -775,12 +760,147 @@
       "registry_name": "pretre_heal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jamdrops/entity/PretreHealEntity.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreHealRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_heal_spawn_egg.json"
+          "src/main/resources/assets/jamdrops/models/item/pretre_heal_spawn_egg.json",
+          "src/main/java/net/mcreator/jamdrops/entity/PretreHealEntity.java"
         ]
       },
       "path": "~/Pretre"
+    },
+    {
+      "name": "CraftBossLumi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_boss_lumi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_boss_lumi.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftBossObscu",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_boss_obscu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_boss_obscu.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftCheckProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_check_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/CraftCheckProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftPretreDistance",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pretre_distance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_pretre_distance.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftPretreHeal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pretre_heal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_pretre_heal.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CraftPretreCaC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pretre_ca_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_pretre_ca_c.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "LevelUpProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_up_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/jamdrops/procedures/LevelUpProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [
@@ -793,6 +913,10 @@
   ],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~EpeeObscurite@CUSTOM:EpeeObscurite",
+      "~EpeeLumiere@CUSTOM:EpeeLumiere"
+    ],
     "BLOCKS:minecraft:slabs": [
       "~DalleDObscurite@CUSTOM:DalleDObscurite",
       "~DaleDeLumiere@CUSTOM:DaleDeLumiere"
@@ -804,10 +928,6 @@
     "BLOCKS:minecraft:walls": [
       "~MurretDObscurite@CUSTOM:MurretDObscurite",
       "~MurretDeLumiere@CUSTOM:MurretDeLumiere"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~EpeeLumiere@CUSTOM:EpeeLumiere",
-      "~EpeeObscurite@CUSTOM:EpeeObscurite"
     ]
   },
   "tab_element_order": {
@@ -915,14 +1035,14 @@
     "files": [
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModBlocks.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
-      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
+      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
       "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java"
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java"
     ]
   },
   "foldersRoot": {
@@ -1018,6 +1138,10 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Craft",
+        "children": []
       }
     ]
   },

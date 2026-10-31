@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:GemmeLumineux",
+      "CUSTOM:GemmeLumineux",
+      "CUSTOM:GemmeLumineux",
+      "",
+      "Items.APPLE",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:PretreHeal.spawn_egg",
+    "name": "craft_pretre_heal",
+    "namespace": "mod"
+  }
+}

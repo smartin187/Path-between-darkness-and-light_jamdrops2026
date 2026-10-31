@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jamdrops:gemme_sombre"
+    },
+    "b": {
+      "item": "jamdrops:bloc_d_obscurite"
+    }
+  },
+  "result": {
+    "id": "jamdrops:boss_sombre_spawn_egg",
+    "count": 1
+  }
+}
