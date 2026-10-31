@@ -37,5 +37,7 @@
   "entity.jamdrops.pretre_heal": "Prêtre Heal",
   "item.jamdrops.pretre_heal_spawn_egg": "Œuf d'apparition d'un prêtre Heal",
   "item.jamdrops.gardien_ombre_spawn_egg": "Œuf d'apparition Gardien d'obscurité",
-  "entity.jamdrops.gardien_ombre": "Gardien d'obscurité"
+  "entity.jamdrops.gardien_ombre": "Gardien d'obscurité",
+  "entity.jamdrops.pretre_sombre": "Pretre d'ombre",
+  "item.jamdrops.pretre_sombre_spawn_egg": "Œuf d'apparition Pretre d'ombre"
 }
