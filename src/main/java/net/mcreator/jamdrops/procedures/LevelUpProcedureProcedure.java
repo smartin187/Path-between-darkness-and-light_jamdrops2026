@@ -149,12 +149,14 @@ public class LevelUpProcedureProcedure {
 					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_epee_ombre")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
 			}
 		}
-		if (!hasEntityRecipe(entity, ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance"))) {
+		if (!hasEntityRecipe(entity, ResourceLocation.parse("jamdrops:craft_pretre_sombre_distance"))) {
 			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite == -40) {
 				if (entity instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.awardRecipesByKey(Collections.singletonList(ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance")));
+					_serverPlayer.awardRecipesByKey(Collections.singletonList(ResourceLocation.parse("jamdrops:craft_pretre_sombre_distance")));
 				if (entity instanceof ServerPlayer _serverPlayer)
 					_serverPlayer.awardRecipesByKey(Collections.singletonList(ResourceLocation.parse("jamdrops:craft_pretre_sombre_cac")));
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.awardRecipesByKey(Collections.singletonList(ResourceLocation.parse("jamdrops:craft_pretre_sombre_support")));
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							("title " + (entity.getDisplayName().getString() + "" + " title {\"text\":\"Chevalier de l'obscurit\u00E9\",\"color\":\"gray\"}")));
@@ -173,9 +175,11 @@ public class LevelUpProcedureProcedure {
 		if (hasEntityRecipe(entity, ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance"))) {
 			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite > -40) {
 				if (entity instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
+					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_pretre_sombre_distance")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
 				if (entity instanceof ServerPlayer _serverPlayer)
 					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_pretre_sombre_cac")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_pretre_sombre_support")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
 			}
 		}
 		if (!hasEntityRecipe(entity, ResourceLocation.parse("jamdrops:craft_boss_obscu"))) {
