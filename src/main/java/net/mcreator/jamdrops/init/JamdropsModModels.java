@@ -10,6 +10,7 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.jamdrops.client.model.ModelPretreMobCaC;
 import net.mcreator.jamdrops.client.model.ModelPretreMob;
+import net.mcreator.jamdrops.client.model.ModelGardienSombre;
 import net.mcreator.jamdrops.client.model.ModelBoss_sombre;
 import net.mcreator.jamdrops.client.model.ModelBossLumiere;
 
@@ -19,6 +20,7 @@ public class JamdropsModModels {
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelPretreMob.LAYER_LOCATION, ModelPretreMob::createBodyLayer);
 		event.registerLayerDefinition(ModelPretreMobCaC.LAYER_LOCATION, ModelPretreMobCaC::createBodyLayer);
+		event.registerLayerDefinition(ModelGardienSombre.LAYER_LOCATION, ModelGardienSombre::createBodyLayer);
 		event.registerLayerDefinition(ModelBoss_sombre.LAYER_LOCATION, ModelBoss_sombre::createBodyLayer);
 		event.registerLayerDefinition(ModelBossLumiere.LAYER_LOCATION, ModelBossLumiere::createBodyLayer);
 	}

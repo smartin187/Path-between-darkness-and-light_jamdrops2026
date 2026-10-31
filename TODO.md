@@ -25,3 +25,4 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Pour la structure du temple de lumière :
     - Un slim apparait souvent en dessous  -> surement qu'il slime a était embarqué dans la structure (si la structure a était faire en monde plat). Soit le slime arrive a spawn, donc il est dessous la structure, soit il spawn dans un bloc
     - des logs `[worldgen/ERROR] [minecraft/BlockAttachedEntity]: Block-attached entity at invalid position: BlockPos{x=-28, y=-34, z=7}` _peut être lié au slime qui apparait dans un bloc_
+- Vérifier que les mob d'ombre et de lumière se battent bien
