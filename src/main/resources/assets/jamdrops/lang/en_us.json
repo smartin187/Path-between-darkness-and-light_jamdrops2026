@@ -39,5 +39,7 @@
   "item.jamdrops.gardien_ombre_spawn_egg": "Gardien d'obscurité Spawn Egg",
   "entity.jamdrops.gardien_ombre": "Gardien d'obscurité",
   "entity.jamdrops.pretre_sombre": "Pretre de lumière",
-  "item.jamdrops.pretre_sombre_spawn_egg": "Pretre de lumière Spawn Egg"
+  "item.jamdrops.pretre_sombre_spawn_egg": "Pretre de lumière Spawn Egg",
+  "item.jamdrops.pretre_sombre_support_spawn_egg": "Pretre sombre force Spawn Egg",
+  "entity.jamdrops.pretre_sombre_support": "Pretre sombre force"
 }
