@@ -41,16 +41,16 @@ public class PretreMob<T extends Entity> extends EntityModel<T> {
 		.texOffs(16, 29).addBox(-1.0F, -2.0F, -2.0F, 3.0F, 7.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, 1.0F, -1.0F, -1.0472F, 0.0F, 0.0F));
 
 		PartDefinition Capuche = partdefinition.addOrReplaceChild("Capuche", CubeListBuilder.create().texOffs(0, 1).addBox(0.0F, -2.0F, -1.0F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))
-		.texOffs(-9, -6).addBox(-1.0F, -4.0F, -1.0F, 8.0F, 2.0F, 8.0F, new CubeDeformation(0.0F))
+		.texOffs(32, 54).addBox(-1.0F, -4.0F, -1.0F, 8.0F, 2.0F, 8.0F, new CubeDeformation(0.0F))
 		.texOffs(1, 1).addBox(4.0F, -2.0F, -1.0F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))
 		.texOffs(2, 1).addBox(5.0F, -1.0F, -1.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F))
 		.texOffs(2, 1).addBox(0.0F, -1.0F, -1.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(-3.0F, -1.0F, -3.0F));
 
-		PartDefinition Capuche4_r1 = Capuche.addOrReplaceChild("Capuche4_r1", CubeListBuilder.create().texOffs(-5, -3).addBox(-3.0F, 0.0F, -2.0F, 7.0F, 1.0F, 5.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, 0.0F, 3.0F, 0.0F, 1.5708F, 1.5708F));
+		PartDefinition Capuche4_r1 = Capuche.addOrReplaceChild("Capuche4_r1", CubeListBuilder.create().texOffs(0, 49).addBox(-3.0F, 0.0F, -2.0F, 7.0F, 1.0F, 5.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, 0.0F, 3.0F, 0.0F, 1.5708F, 1.5708F));
 
-		PartDefinition Capuche3_r1 = Capuche.addOrReplaceChild("Capuche3_r1", CubeListBuilder.create().texOffs(-5, -3).addBox(-3.0F, 0.0F, -2.0F, 7.0F, 1.0F, 5.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(7.0F, 0.0F, 3.0F, 0.0F, 1.5708F, 1.5708F));
+		PartDefinition Capuche3_r1 = Capuche.addOrReplaceChild("Capuche3_r1", CubeListBuilder.create().texOffs(0, 58).addBox(-3.0F, 0.0F, -2.0F, 7.0F, 1.0F, 5.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(7.0F, 0.0F, 3.0F, 0.0F, 1.5708F, 1.5708F));
 
-		PartDefinition Capuche2_r1 = Capuche.addOrReplaceChild("Capuche2_r1", CubeListBuilder.create().texOffs(-7, -4).addBox(-4.0F, 0.0F, -2.0F, 8.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(3.0F, 0.0F, 7.0F, -1.5708F, 0.0F, 0.0F));
+		PartDefinition Capuche2_r1 = Capuche.addOrReplaceChild("Capuche2_r1", CubeListBuilder.create().texOffs(36, 57).addBox(-4.0F, 0.0F, -2.0F, 8.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(3.0F, 0.0F, 7.0F, -1.5708F, 0.0F, 0.0F));
 
 		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main", CubeListBuilder.create().texOffs(0, 14).addBox(-4.0F, -22.0F, -2.0F, 8.0F, 11.0F, 4.0F, new CubeDeformation(0.0F))
 		.texOffs(2, 1).addBox(-3.0F, -28.0F, -3.0F, 6.0F, 6.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 24.0F, 0.0F));

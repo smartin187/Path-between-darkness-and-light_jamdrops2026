@@ -10,11 +10,7 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
-import net.mcreator.jamdrops.client.renderer.PretreLumineuxRenderer;
-import net.mcreator.jamdrops.client.renderer.PretreHealRenderer;
-import net.mcreator.jamdrops.client.renderer.PretreCaCRenderer;
-import net.mcreator.jamdrops.client.renderer.BosslumineuxRenderer;
-import net.mcreator.jamdrops.client.renderer.BossSombreRenderer;
+import net.mcreator.jamdrops.client.renderer.*;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class JamdropsModEntityRenderers {
@@ -28,5 +24,6 @@ public class JamdropsModEntityRenderers {
 		event.registerEntityRenderer(JamdropsModEntities.PRETRE_CA_C.get(), PretreCaCRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.PROJECTIL_OMBRE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(JamdropsModEntities.PRETRE_HEAL.get(), PretreHealRenderer::new);
+		event.registerEntityRenderer(JamdropsModEntities.GARDIEN_OMBRE.get(), GardienOmbreRenderer::new);
 	}
 }

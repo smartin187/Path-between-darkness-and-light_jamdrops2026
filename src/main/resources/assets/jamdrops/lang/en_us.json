@@ -35,5 +35,7 @@
   "item.jamdrops.pretre_ca_c_spawn_egg": "Gardien de lumière Spawn Egg",
   "entity.jamdrops.pretre_ca_c": "Gardien de lumière",
   "entity.jamdrops.pretre_heal": "Pretre Heal",
-  "item.jamdrops.pretre_heal_spawn_egg": "Pretre Heal Spawn Egg"
+  "item.jamdrops.pretre_heal_spawn_egg": "Pretre Heal Spawn Egg",
+  "item.jamdrops.gardien_ombre_spawn_egg": "Gardien d'obscurité Spawn Egg",
+  "entity.jamdrops.gardien_ombre": "Gardien d'obscurité"
 }
