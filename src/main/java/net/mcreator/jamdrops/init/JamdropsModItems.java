@@ -59,9 +59,9 @@ public class JamdropsModItems {
 		EPEE_OBSCURITE = REGISTRY.register("epee_obscurite", EpeeObscuriteItem::new);
 		PRETRE_CA_C_SPAWN_EGG = REGISTRY.register("pretre_ca_c_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_CA_C, -1, -10027213, new Item.Properties()));
 		PRETRE_HEAL_SPAWN_EGG = REGISTRY.register("pretre_heal_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_HEAL, -1, -65536, new Item.Properties()));
-		GARDIEN_OMBRE_SPAWN_EGG = REGISTRY.register("gardien_ombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.GARDIEN_OMBRE, -16777216, -10027213, new Item.Properties()));
+		GARDIEN_OMBRE_SPAWN_EGG = REGISTRY.register("gardien_ombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.GARDIEN_OMBRE, -16777216, -16737895, new Item.Properties()));
 		PRETRE_SOMBRE_SPAWN_EGG = REGISTRY.register("pretre_sombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_SOMBRE, -16777216, -6684724, new Item.Properties()));
-		PRETRE_SOMBRE_SUPPORT_SPAWN_EGG = REGISTRY.register("pretre_sombre_support_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_SOMBRE_SUPPORT, -1, -65536, new Item.Properties()));
+		PRETRE_SOMBRE_SUPPORT_SPAWN_EGG = REGISTRY.register("pretre_sombre_support_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_SOMBRE_SUPPORT, -16777216, -65536, new Item.Properties()));
 	}
 
 	// Start of user code block custom items

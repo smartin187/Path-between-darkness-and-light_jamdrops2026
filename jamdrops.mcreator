@@ -979,9 +979,9 @@
       "registry_name": "pretre_sombre_support",
       "metadata": {
         "files": [
+          "src/main/resources/assets/jamdrops/models/item/pretre_sombre_support_spawn_egg.json",
           "src/main/java/net/mcreator/jamdrops/entity/PretreSombreSupportEntity.java",
-          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreSombreSupportRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_sombre_support_spawn_egg.json"
+          "src/main/java/net/mcreator/jamdrops/client/renderer/PretreSombreSupportRenderer.java"
         ]
       },
       "path": "~/Pretre/Ombre"
@@ -1008,6 +1008,19 @@
         ]
       },
       "path": "~/Pretre/Ombre"
+    },
+    {
+      "name": "CraftPretreSombreSupport",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pretre_sombre_support",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamdrops/recipe/craft_pretre_sombre_support.json"
+        ]
+      },
+      "path": "~/Craft/Ombre"
     }
   ],
   "variable_elements": [
@@ -1157,14 +1170,14 @@
     "files": [
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModBlocks.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
-      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
+      "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
       "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java"
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java"
     ]
   },
   "foldersRoot": {

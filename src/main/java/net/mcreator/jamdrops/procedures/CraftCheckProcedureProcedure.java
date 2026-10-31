@@ -175,7 +175,7 @@ public class CraftCheckProcedureProcedure {
 						_player.displayClientMessage(Component.literal("Vous n'avez pas le niveau de lumiere necessaire"), false);
 				}
 			}
-			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite < -20) {
+			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite > -20) {
 				if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.EPEE_OBSCURITE.get()))) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(JamdropsModItems.EPEE_OBSCURITE.get());
@@ -202,7 +202,7 @@ public class CraftCheckProcedureProcedure {
 						_player.displayClientMessage(Component.literal("Vous n'avez pas le niveau de lumiere necessaire"), false);
 				}
 			}
-			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite < -40) {
+			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite > -40) {
 				if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.GARDIEN_OMBRE_SPAWN_EGG.get()))) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(JamdropsModItems.GARDIEN_OMBRE_SPAWN_EGG.get());
@@ -228,9 +228,9 @@ public class CraftCheckProcedureProcedure {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal("Vous n'avez pas le niveau d\"obscurit\u00E9 necessaire"), false);
 				}
-				if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.PRETRE_SOMBRE_SPAWN_EGG.get()))) {
+				if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.GARDIEN_OMBRE_SPAWN_EGG.get()))) {
 					if (entity instanceof Player _player) {
-						ItemStack _stktoremove = new ItemStack(JamdropsModItems.PRETRE_SOMBRE_SPAWN_EGG.get());
+						ItemStack _stktoremove = new ItemStack(JamdropsModItems.GARDIEN_OMBRE_SPAWN_EGG.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
 					if (entity instanceof Player _player) {
@@ -253,8 +253,33 @@ public class CraftCheckProcedureProcedure {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal("Vous n'avez pas le niveau d\"obscurit\u00E9 necessaire"), false);
 				}
+				if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.PRETRE_SOMBRE_SUPPORT_SPAWN_EGG.get()))) {
+					if (entity instanceof Player _player) {
+						ItemStack _stktoremove = new ItemStack(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
+						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+					}
+					if (entity instanceof Player _player) {
+						ItemStack _setstack = new ItemStack(JamdropsModItems.GEMME_SOMBRE.get()).copy();
+						_setstack.setCount(3);
+						ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+					}
+					if (entity instanceof Player _player) {
+						ItemStack _setstack = new ItemStack(Items.ROTTEN_FLESH).copy();
+						_setstack.setCount(1);
+						ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+					}
+					if (world instanceof Level _level) {
+						if (!_level.isClientSide()) {
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.villager.no")), SoundSource.NEUTRAL, 1, 1);
+						} else {
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.villager.no")), SoundSource.NEUTRAL, 1, 1, false);
+						}
+					}
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("Vous n'avez pas le niveau d\"obscurit\u00E9 necessaire"), false);
+				}
 			}
-			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite < -55) {
+			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite > -55) {
 				if (hasEntityInInventory(entity, new ItemStack(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get()))) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(JamdropsModItems.BOSS_SOMBRE_SPAWN_EGG.get());
