@@ -2,13 +2,13 @@
   "_fv": 89,
   "_type": "structure",
   "definition": {
-    "structure": "templedelombre",
+    "structure": "temple_ombre_finale",
     "projection": "rigid",
     "ignoredBlocks": [
       "Blocks.STRUCTURE_BLOCK"
     ],
-    "spacing": 10,
-    "separation": 5,
+    "spacing": 21,
+    "separation": 20,
     "restrictionBiomes": [
       "badlands",
       "bamboo_jungle",

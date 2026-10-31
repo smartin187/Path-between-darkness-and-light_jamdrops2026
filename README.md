@@ -133,6 +133,15 @@ Ce temple est une grande tour en bois, avec des blocs de lumière au sommet. Il 
 
 ![temple de lumière](./ReadmeData/tour_lumière.png)
 
+#### Temple d'obscurité
+
+Ce temple est une piramide en blocs d'obscurité. Il y a 3 étages :
+- Le premier étage est un grand espace sombre. A vous de découvrir ce qu'il cache
+- Le second étage est la chambre du boss d'obscurité. Il fait très sombre là aussi. Vous devrait le combattre dans cette piece.
+- Le troisième étage est le sommet de la pyramide. Malheureusement, il est abandonné depuis fort longtemps, il n'y a donc pas d'escalier ou échelle pour y monter. A vous de trouver un moyen d'y accéder !
+
+![Temple d'obscurité](./ReadmeData/temple_ombre.png)
+
 ### Les blocs
 
 Ce mod ajoute de nouveaux blocs (ainsi que des escaliers, des dalles et des murets).
@@ -168,7 +177,7 @@ Ce mod ajoute beaucoup de nouveaux items. Il y a les [gemmes](#les-gemmes), les 
 
 > Cette épée est sombre et mystérieuse !
 
-Avec elle, vous gagnez un effet de force tant que l'épée est dans votre main.
+Vous aurait l'effet de force lors que vous frappez un adversaire avec l'épée.
 
 ##### Crafting
 
