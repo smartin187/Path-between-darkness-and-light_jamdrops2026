@@ -36,6 +36,7 @@ public class JamdropsModItems {
 	public static final DeferredItem<Item> EPEE_OBSCURITE;
 	public static final DeferredItem<Item> PRETRE_CA_C_SPAWN_EGG;
 	public static final DeferredItem<Item> PRETRE_HEAL_SPAWN_EGG;
+	public static final DeferredItem<Item> GARDIEN_OMBRE_SPAWN_EGG;
 	static {
 		BOSSLUMINEUX_SPAWN_EGG = REGISTRY.register("bosslumineux_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSSLUMINEUX, -1, -103, new Item.Properties()));
 		BOSS_SOMBRE_SPAWN_EGG = REGISTRY.register("boss_sombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.BOSS_SOMBRE, -10092442, -16777216, new Item.Properties()));
@@ -56,6 +57,7 @@ public class JamdropsModItems {
 		EPEE_OBSCURITE = REGISTRY.register("epee_obscurite", EpeeObscuriteItem::new);
 		PRETRE_CA_C_SPAWN_EGG = REGISTRY.register("pretre_ca_c_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_CA_C, -1, -10027213, new Item.Properties()));
 		PRETRE_HEAL_SPAWN_EGG = REGISTRY.register("pretre_heal_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.PRETRE_HEAL, -1, -65536, new Item.Properties()));
+		GARDIEN_OMBRE_SPAWN_EGG = REGISTRY.register("gardien_ombre_spawn_egg", () -> new DeferredSpawnEggItem(JamdropsModEntities.GARDIEN_OMBRE, -1, -10027213, new Item.Properties()));
 	}
 
 	// Start of user code block custom items

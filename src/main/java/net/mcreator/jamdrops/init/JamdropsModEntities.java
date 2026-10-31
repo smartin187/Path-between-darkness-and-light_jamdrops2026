@@ -47,6 +47,10 @@ public class JamdropsModEntities {
 			EntityType.Builder.<PretreHealEntity>of(PretreHealEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<GardienOmbreEntity>> GARDIEN_OMBRE = register("gardien_ombre",
+			EntityType.Builder.<GardienOmbreEntity>of(GardienOmbreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -61,6 +65,7 @@ public class JamdropsModEntities {
 		PretreLumineuxEntity.init(event);
 		PretreCaCEntity.init(event);
 		PretreHealEntity.init(event);
+		GardienOmbreEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -70,5 +75,6 @@ public class JamdropsModEntities {
 		event.put(PRETRE_LUMINEUX.get(), PretreLumineuxEntity.createAttributes().build());
 		event.put(PRETRE_CA_C.get(), PretreCaCEntity.createAttributes().build());
 		event.put(PRETRE_HEAL.get(), PretreHealEntity.createAttributes().build());
+		event.put(GARDIEN_OMBRE.get(), GardienOmbreEntity.createAttributes().build());
 	}
 }
