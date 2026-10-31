@@ -910,9 +910,9 @@
       "registry_name": "gardien_ombre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/jamdrops/models/item/gardien_ombre_spawn_egg.json",
+          "src/main/java/net/mcreator/jamdrops/entity/GardienOmbreEntity.java",
           "src/main/java/net/mcreator/jamdrops/client/renderer/GardienOmbreRenderer.java",
-          "src/main/java/net/mcreator/jamdrops/entity/GardienOmbreEntity.java"
+          "src/main/resources/assets/jamdrops/models/item/gardien_ombre_spawn_egg.json"
         ]
       },
       "path": "~/Pretre/Ombre"
@@ -926,8 +926,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamdrops/client/renderer/PretreSombreRenderer.java",
-          "src/main/resources/assets/jamdrops/models/item/pretre_sombre_spawn_egg.json",
-          "src/main/java/net/mcreator/jamdrops/entity/PretreSombreEntity.java"
+          "src/main/java/net/mcreator/jamdrops/entity/PretreSombreEntity.java",
+          "src/main/resources/assets/jamdrops/models/item/pretre_sombre_spawn_egg.json"
         ]
       },
       "path": "~/Pretre/Ombre"
@@ -970,8 +970,8 @@
         ]
       },
       "path": "~/Craft/Ombre"
-     },
-     {
+    },
+    {
       "name": "PretreSombreSupport",
       "type": "livingentity",
       "compiles": true,
@@ -1292,7 +1292,7 @@
   "workspaceSettings": {
     "modid": "jamdrops",
     "modName": "Path between darkness and light",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Mod pour le concours Jam Drops 2026 sur le thème Bloom and Gloom - l\u0027ombre et la lumière (crée avec MCreator)",
     "author": "MCreator, Drizzt478, gardienleviathan, smartin187, killer24-Git, PouletFlamboyant",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/path-between-darkness-and-light/preview",
