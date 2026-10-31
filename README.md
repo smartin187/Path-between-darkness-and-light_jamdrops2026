@@ -144,7 +144,7 @@ Ce temple est une grande tour en bois, avec des blocs de lumière au sommet. Il 
 #### Temple d'obscurité
 
 Ce temple est une piramide en blocs d'obscurité. Il y a 3 étages :
-- Le premier étage est un grand espace sombre. A vous de découvrir ce qu'il cache
+- Le premier étage est un grand espace sombre. A vous de découvrir ce qu'il cache, mais nous vous affirmont qu'il y a des mobs d'obscurité.
 - Le second étage est la chambre du boss d'obscurité. Il fait très sombre là aussi. Vous devrait le combattre dans cette piece.
 - Le troisième étage est le sommet de la pyramide. Malheureusement, il est abandonné depuis fort longtemps, il n'y a donc pas d'escalier ou échelle pour y monter. A vous de trouver un moyen d'y accéder !
 
