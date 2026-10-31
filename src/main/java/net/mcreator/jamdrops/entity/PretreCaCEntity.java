@@ -33,15 +33,18 @@ public class PretreCaCEntity extends Monster {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, BossSombreEntity.class, false, false));
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, PretreSombreSupportEntity.class, false, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, GardienOmbreEntity.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PretreSombreEntity.class, false, false));
+		this.goalSelector.addGoal(6, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected boolean canPerformAttack(LivingEntity entity) {
 				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
 			}
 		});
-		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(7, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(9, new RandomLookAroundGoal(this));
 	}
 
 	@Override
