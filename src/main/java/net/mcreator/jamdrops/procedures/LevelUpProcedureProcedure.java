@@ -149,6 +149,35 @@ public class LevelUpProcedureProcedure {
 					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_epee_ombre")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
 			}
 		}
+		if (!hasEntityRecipe(entity, ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance"))) {
+			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite == -40) {
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.awardRecipesByKey(Collections.singletonList(ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance")));
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.awardRecipesByKey(Collections.singletonList(ResourceLocation.parse("jamdrops:craft_pretre_sombre_cac")));
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							("title " + (entity.getDisplayName().getString() + "" + " title {\"text\":\"Chevalier de l'obscurit\u00E9\",\"color\":\"gray\"}")));
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							("title " + (entity.getDisplayName().getString() + "" + " subtitle \"Vous pouvez crafter les mobs de l'obcurit\u00E9\"")));
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.bell.resonate")), SoundSource.NEUTRAL, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.bell.resonate")), SoundSource.NEUTRAL, 1, 1, false);
+					}
+				}
+			}
+		}
+		if (hasEntityRecipe(entity, ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance"))) {
+			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite > -40) {
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_pretre_ombre_distance")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.server.getRecipeManager().byKey(ResourceLocation.parse("jamdrops:craft_pretre_sombre_cac")).ifPresent(_rec -> _serverPlayer.resetRecipes(Collections.singleton(_rec)));
+			}
+		}
 		if (!hasEntityRecipe(entity, ResourceLocation.parse("jamdrops:craft_boss_obscu"))) {
 			if (entity.getData(JamdropsModVariables.PLAYER_VARIABLES).luminosite == -55) {
 				if (entity instanceof ServerPlayer _serverPlayer)
