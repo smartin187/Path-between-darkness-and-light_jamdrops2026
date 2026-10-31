@@ -41,6 +41,7 @@ public class JamdropsModTabs {
 				tabData.accept(JamdropsModItems.PRETRE_HEAL_SPAWN_EGG.get());
 				tabData.accept(JamdropsModItems.GARDIEN_OMBRE_SPAWN_EGG.get());
 				tabData.accept(JamdropsModItems.PRETRE_SOMBRE_SPAWN_EGG.get());
+				tabData.accept(JamdropsModItems.PRETRE_SOMBRE_SUPPORT_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -53,6 +54,7 @@ public class JamdropsModTabs {
 			tabData.accept(JamdropsModItems.PRETRE_HEAL_SPAWN_EGG.get());
 			tabData.accept(JamdropsModItems.GARDIEN_OMBRE_SPAWN_EGG.get());
 			tabData.accept(JamdropsModItems.PRETRE_SOMBRE_SPAWN_EGG.get());
+			tabData.accept(JamdropsModItems.PRETRE_SOMBRE_SUPPORT_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(JamdropsModItems.EPEE_LUMIERE.get());
 			tabData.accept(JamdropsModItems.EPEE_OBSCURITE.get());
