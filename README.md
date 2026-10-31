@@ -206,9 +206,9 @@ Avec elle, vous gagnez plusieurs effets tant que l'épée est dans votre main :
 
 ## Télécharger
 
-Le mod est disponible sur Modrinth :
+Le mod est disponible sur CurseForge :
 
-**[Page Modrinth](https://modrinth.com/project/path-between-darkness-and-light)**
+**[Page CurseForge](https://www.curseforge.com/minecraft/mc-mods/path-between-darkness-and-light/preview)**
 
 Nous mettons aussi à disposition les releases sur GitHub, pour les versions bêta et en test :
 
