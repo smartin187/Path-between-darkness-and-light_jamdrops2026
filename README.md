@@ -15,7 +15,7 @@
 
 Ce mod a été créé par l'équipe _Path between darkness and light_, en utilisant MCreator, pour le concours [Jam Drops 2026](https://jamdrops.lairhisson.fr/), _Bloom and Gloom_.
 
-## Regarder la vidéo de présentation
+## [Regarder la vidéo de présentation](ReadmeData/vidéo_presentation.mp4)
 
 <video width="640" height="360" controls>
   <source src="ReadmeData/vidéo_presentation.mp4" type="video/mp4">
