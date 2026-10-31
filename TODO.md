@@ -18,8 +18,6 @@ Lors qu'une tâche est assignée, le nom du contributeur doit être mise en déb
 - Bottes d'ombre / lumière
 - _A faire si on a le temps_ Dimension en deux parties, en bas les ténèbre et en haut les nuages / paradis. Avec des mob pour chaque partie (zombie des ténèbre / enges) + boss pour chaque partie. Portail ? + Une dimension où l'on peut accéder si un a le niveau max lumière ou obscurité.
 - Epée: Epée d'obscurité: d'autre effet ?
-- [Drizzt478 & killer24-Git] Structures -> construire les structures avec les boss dedans
-    - [smartin187] Manoir / temple de l'ombre avec un le boss de l'ombre -> une tour aussi ?
 - Pour les mob: Corriger problème avec les annimation des jambes : les jambes des mob sortent de leur corps lors ce qu'il marchent.
 - Prêtre de lumière: Mettre un items qu'il dropera ? Que doit dropper le prêtre / gardien de lumière ?
 - Optimisation possible : pour les procédure pour bloquer le joueur d'obtenir les oeuf de lumière / obscurité sans niveau max, il y a deux `si` imbriqué, possible de mettre un `and` pour plus de rapidité ?
