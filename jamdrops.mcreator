@@ -1035,14 +1035,14 @@
     "files": [
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModBlocks.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModItems.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
       "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntityRenderers.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModEntities.java",
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java",
       "src/main/java/net/mcreator/jamdrops/JamdropsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/jamdrops/network/JamdropsModVariables.java",
-      "src/main/java/net/mcreator/jamdrops/init/JamdropsModModels.java"
+      "src/main/java/net/mcreator/jamdrops/init/JamdropsModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -1151,7 +1151,7 @@
     "version": "1.3.0",
     "description": "Mod pour le concours Jam Drops 2026 sur le thème Bloom and Gloom - l\u0027ombre et la lumière (crée avec MCreator)",
     "author": "MCreator, Drizzt478, gardienleviathan, smartin187, killer24-Git, PouletFlamboyant",
-    "websiteURL": "https://modrinth.com/project/path-between-darkness-and-light",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/path-between-darkness-and-light/preview",
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "logo",
